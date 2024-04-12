@@ -1,1 +1,1 @@
-basics of git
+Intern training activities
