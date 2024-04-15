@@ -1,0 +1,11 @@
+C:\Users\VC\Desktop\Genspark_training\Day_5\MultipleClass\EmployeeTrackerSolution\ReferenceForEmployeeTracker\bin\Debug\net6.0\ReferenceForEmployeeTracker.deps.json
+C:\Users\VC\Desktop\Genspark_training\Day_5\MultipleClass\EmployeeTrackerSolution\ReferenceForEmployeeTracker\bin\Debug\net6.0\ReferenceForEmployeeTracker.dll
+C:\Users\VC\Desktop\Genspark_training\Day_5\MultipleClass\EmployeeTrackerSolution\ReferenceForEmployeeTracker\bin\Debug\net6.0\ReferenceForEmployeeTracker.pdb
+C:\Users\VC\Desktop\Genspark_training\Day_5\MultipleClass\EmployeeTrackerSolution\ReferenceForEmployeeTracker\obj\Debug\net6.0\ReferenceForEmployeeTracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VC\Desktop\Genspark_training\Day_5\MultipleClass\EmployeeTrackerSolution\ReferenceForEmployeeTracker\obj\Debug\net6.0\ReferenceForEmployeeTracker.AssemblyInfoInputs.cache
+C:\Users\VC\Desktop\Genspark_training\Day_5\MultipleClass\EmployeeTrackerSolution\ReferenceForEmployeeTracker\obj\Debug\net6.0\ReferenceForEmployeeTracker.AssemblyInfo.cs
+C:\Users\VC\Desktop\Genspark_training\Day_5\MultipleClass\EmployeeTrackerSolution\ReferenceForEmployeeTracker\obj\Debug\net6.0\ReferenceForEmployeeTracker.csproj.CoreCompileInputs.cache
+C:\Users\VC\Desktop\Genspark_training\Day_5\MultipleClass\EmployeeTrackerSolution\ReferenceForEmployeeTracker\obj\Debug\net6.0\ReferenceForEmployeeTracker.dll
+C:\Users\VC\Desktop\Genspark_training\Day_5\MultipleClass\EmployeeTrackerSolution\ReferenceForEmployeeTracker\obj\Debug\net6.0\refint\ReferenceForEmployeeTracker.dll
+C:\Users\VC\Desktop\Genspark_training\Day_5\MultipleClass\EmployeeTrackerSolution\ReferenceForEmployeeTracker\obj\Debug\net6.0\ReferenceForEmployeeTracker.pdb
+C:\Users\VC\Desktop\Genspark_training\Day_5\MultipleClass\EmployeeTrackerSolution\ReferenceForEmployeeTracker\obj\Debug\net6.0\ref\ReferenceForEmployeeTracker.dll
