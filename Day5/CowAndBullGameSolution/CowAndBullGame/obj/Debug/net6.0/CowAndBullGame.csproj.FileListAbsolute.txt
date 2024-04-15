@@ -1,0 +1,14 @@
+C:\Users\VC\source\repos\CowAndBullGameSolution\CowAndBullGame\bin\Debug\net6.0\CowAndBullGame.exe
+C:\Users\VC\source\repos\CowAndBullGameSolution\CowAndBullGame\bin\Debug\net6.0\CowAndBullGame.deps.json
+C:\Users\VC\source\repos\CowAndBullGameSolution\CowAndBullGame\bin\Debug\net6.0\CowAndBullGame.runtimeconfig.json
+C:\Users\VC\source\repos\CowAndBullGameSolution\CowAndBullGame\bin\Debug\net6.0\CowAndBullGame.dll
+C:\Users\VC\source\repos\CowAndBullGameSolution\CowAndBullGame\bin\Debug\net6.0\CowAndBullGame.pdb
+C:\Users\VC\source\repos\CowAndBullGameSolution\CowAndBullGame\obj\Debug\net6.0\CowAndBullGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VC\source\repos\CowAndBullGameSolution\CowAndBullGame\obj\Debug\net6.0\CowAndBullGame.AssemblyInfoInputs.cache
+C:\Users\VC\source\repos\CowAndBullGameSolution\CowAndBullGame\obj\Debug\net6.0\CowAndBullGame.AssemblyInfo.cs
+C:\Users\VC\source\repos\CowAndBullGameSolution\CowAndBullGame\obj\Debug\net6.0\CowAndBullGame.csproj.CoreCompileInputs.cache
+C:\Users\VC\source\repos\CowAndBullGameSolution\CowAndBullGame\obj\Debug\net6.0\CowAndBullGame.dll
+C:\Users\VC\source\repos\CowAndBullGameSolution\CowAndBullGame\obj\Debug\net6.0\refint\CowAndBullGame.dll
+C:\Users\VC\source\repos\CowAndBullGameSolution\CowAndBullGame\obj\Debug\net6.0\CowAndBullGame.pdb
+C:\Users\VC\source\repos\CowAndBullGameSolution\CowAndBullGame\obj\Debug\net6.0\CowAndBullGame.genruntimeconfig.cache
+C:\Users\VC\source\repos\CowAndBullGameSolution\CowAndBullGame\obj\Debug\net6.0\ref\CowAndBullGame.dll
