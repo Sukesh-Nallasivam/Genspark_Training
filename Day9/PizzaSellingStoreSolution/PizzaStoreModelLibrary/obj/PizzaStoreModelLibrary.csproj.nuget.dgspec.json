@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\VC\\Desktop\\Genspark_training\\Day_9\\PizzaSellingStoreSolution\\PizzaStoreModelLibrary\\PizzaStoreModelLibrary.csproj": {}
+    "C:\\Users\\VC\\Desktop\\New folder\\git_push\\Genspark_Training\\Day9\\PizzaSellingStoreSolution\\PizzaStoreModelLibrary\\PizzaStoreModelLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\VC\\Desktop\\Genspark_training\\Day_9\\PizzaSellingStoreSolution\\PizzaStoreModelLibrary\\PizzaStoreModelLibrary.csproj": {
+    "C:\\Users\\VC\\Desktop\\New folder\\git_push\\Genspark_Training\\Day9\\PizzaSellingStoreSolution\\PizzaStoreModelLibrary\\PizzaStoreModelLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VC\\Desktop\\Genspark_training\\Day_9\\PizzaSellingStoreSolution\\PizzaStoreModelLibrary\\PizzaStoreModelLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\VC\\Desktop\\New folder\\git_push\\Genspark_Training\\Day9\\PizzaSellingStoreSolution\\PizzaStoreModelLibrary\\PizzaStoreModelLibrary.csproj",
         "projectName": "PizzaStoreModelLibrary",
-        "projectPath": "C:\\Users\\VC\\Desktop\\Genspark_training\\Day_9\\PizzaSellingStoreSolution\\PizzaStoreModelLibrary\\PizzaStoreModelLibrary.csproj",
+        "projectPath": "C:\\Users\\VC\\Desktop\\New folder\\git_push\\Genspark_Training\\Day9\\PizzaSellingStoreSolution\\PizzaStoreModelLibrary\\PizzaStoreModelLibrary.csproj",
         "packagesPath": "C:\\Users\\VC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VC\\Desktop\\Genspark_training\\Day_9\\PizzaSellingStoreSolution\\PizzaStoreModelLibrary\\obj\\",
+        "outputPath": "C:\\Users\\VC\\Desktop\\New folder\\git_push\\Genspark_Training\\Day9\\PizzaSellingStoreSolution\\PizzaStoreModelLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,20 +1,20 @@
 ﻿using PizzaStoreModelLibrary;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace PizzaStoreBLLLibrary
 {
     public class OrderService : IOrderService
     {
         private readonly IMenuService _menuService;
-        private List<Order> _cart;
-        //private List<Order> orders;
-
+        private Dictionary<int, Order> _cart;
+        private int _orderIdCounter = 100; 
 
         public OrderService(IMenuService menuService)
         {
             _menuService = menuService;
-            _cart = new List<Order>();
+            _cart = new Dictionary<int, Order>();
         }
 
         public void PlaceOrder()
@@ -23,36 +23,37 @@ namespace PizzaStoreBLLLibrary
             if (_cart.Count == 0)
             {
                 Console.WriteLine("Cart is empty. Please add pizzas before placing an order.");
+               
             }
 
-            // Gather customer details
             Console.Write("Enter your name: ");
-            string customerName = Console.ReadLine();
-            Console.Write("Enter your contact information: ");
+            string customerName = Console.ReadLine() ?? String.Empty;
+
+            Console.Write("Enter your contact information either email/mobile: ");
             string contactInfo = Console.ReadLine();
             Console.Write("Do you want delivery? (Y/N): ");
             bool isDelivery = Console.ReadLine().ToUpper() == "Y";
             string deliveryAddress = isDelivery ? GetDeliveryAddress() : "";
             SelectPizza();
-            decimal totalAmount = CalculateTotalAmount();
+            decimal totalAmount = CalculateTotalAmount(isDelivery);
 
-            // Process payment
+           
             bool paymentSuccess = paymentService.ProcessPayment(totalAmount);
 
             if (paymentSuccess)
             {
                 Order order = new Order
                 {
+                    Id = GenerateOrderId(),
                     CustomerName = customerName,
                     ContactInformation = contactInfo,
                     DeliveryAddress = deliveryAddress,
                     IsDeliveryNeededOrPickup = isDelivery,
-                    OrderedItems = new List<Pizza>(_cart.SelectMany(o => o.OrderedItems))
+                    OrderedItems = new List<Pizza>(_cart.SelectMany(o => o.Value.OrderedItems))
                 };
-
+                _cart.Add(order.Id, order);
                 PrintOrderDetails(order);
-
-                
+                totalAmount = 0;
             }
             else
             {
@@ -66,11 +67,11 @@ namespace PizzaStoreBLLLibrary
             return Console.ReadLine();
         }
 
-        private decimal CalculateTotalAmount()
+        private decimal CalculateTotalAmount(bool isDelivery)
         {
             decimal totalAmount = 0;
 
-            foreach (var order in _cart)
+            foreach (var order in _cart.Values)
             {
                 foreach (var pizza in order.OrderedItems)
                 {
@@ -80,6 +81,10 @@ namespace PizzaStoreBLLLibrary
                     }
                 }
             }
+            if(isDelivery)
+            {
+                totalAmount += 150;
+            }
 
             return totalAmount;
         }
@@ -87,6 +92,7 @@ namespace PizzaStoreBLLLibrary
         private void PrintOrderDetails(Order order)
         {
             Console.WriteLine("Order Details:");
+            Console.WriteLine($"YOUR ORDER ID: {order.Id}");
             Console.WriteLine($"Customer Name: {order.CustomerName}");
             Console.WriteLine($"Contact Information: {order.ContactInformation}");
             Console.WriteLine($"Delivery Address: {order.DeliveryAddress}");
@@ -96,13 +102,18 @@ namespace PizzaStoreBLLLibrary
             {
                 Console.WriteLine($"- {pizza.Name}");
             }
-
             Console.WriteLine("Order placed successfully.");
+        }
+
+        private int GenerateOrderId()
+        {
+            return ++_orderIdCounter;
         }
 
         public void AddToCart(Order order)
         {
-            _cart.Add(order);
+            int orderId = GenerateOrderId();
+            _cart.Add(orderId, order);
             Console.WriteLine("Pizza added to cart.");
         }
 
@@ -115,44 +126,66 @@ namespace PizzaStoreBLLLibrary
                 Console.WriteLine($"{pizza.Id}. {pizza.Name}");
             }
 
-            Console.Write("Select a pizza (enter its ID): ");
-            int pizzaId = int.Parse(Console.ReadLine());
-
-            Pizza selectedPizza = menu.Find(p => p.Id == pizzaId);
-            if (selectedPizza == null)
+            while (true)
             {
-                Console.WriteLine("Invalid pizza selection.");
-                return;
+                Console.Write("Select a pizza (enter its ID) or enter 0 to finish: ");
+                int pizzaId = int.Parse(Console.ReadLine());
+
+                if (pizzaId == 0)
+                    break;
+
+                Pizza selectedPizza = menu.Find(p => p.Id == pizzaId);
+                if (selectedPizza == null)
+                {
+                    Console.WriteLine("Invalid pizza selection.");
+                    continue;
+                }
+
+                Console.WriteLine("Available Sizes:");
+                int i = 1;
+                foreach (var size in selectedPizza.Prices.Keys)
+                {
+                    Console.WriteLine($"{i}\t:\t{size}");
+                    i++;
+                }
+
+                Console.Write("Select a size: ");
+                string selectedSize = Console.ReadLine().ToUpper();
+
+                double price = selectedPizza.Prices[selectedSize];
+                Console.WriteLine($"Price for {selectedSize} size of {selectedPizza.Name}: ${price}");
+
+                // Add the selected pizza to the cart
+                Order order = new Order
+                {
+                    OrderedItems = new List<Pizza> { selectedPizza }
+                };
+                AddToCart(order);
             }
-
-            Console.WriteLine("Available Sizes:");
-            int i = 1;
-            foreach (var size in selectedPizza.Prices.Keys)
-            {
-                Console.WriteLine($"{i}\t:\t{size}");
-            }
-
-            Console.Write("Select a size: ");
-            string selectedSize = Console.ReadLine().ToUpper();
-
-            double price = selectedPizza.Prices[selectedSize];
-            Console.WriteLine($"Price for {selectedSize} size of {selectedPizza.Name}: ${price}");
-
-            // Add the selected pizza to the cart
-            Order order = new Order
-            {
-                OrderedItems = new List<Pizza> { selectedPizza }
-            };
-            AddToCart(order);
         }
+
         public void ViewOrders()
         {
             Console.WriteLine("Orders:");
-            foreach (var order in _cart)
+            if (_cart.Count == 0)
             {
-                Console.WriteLine($"Customer: {order.CustomerName}, Total Cost: {order.OrderedItems}");
+                Console.WriteLine("No orders found in the cart.");
+                return;
+            }
+
+            foreach (var order in _cart.Values)
+            {
+                Console.WriteLine($"Order ID: {order.Id}");
+                Console.WriteLine($"Customer: {order.CustomerName}");
+                Console.WriteLine("Ordered Items:");
+                foreach (var pizza in order.OrderedItems)
+                {
+                    Console.WriteLine($"- {pizza.Name}");
+                }
+                Console.WriteLine("------------------");
             }
         }
+
         public void ClearOrders()
         {
             _cart.Clear();

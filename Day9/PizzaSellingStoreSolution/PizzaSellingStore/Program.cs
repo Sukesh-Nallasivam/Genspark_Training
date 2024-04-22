@@ -32,23 +32,23 @@ namespace PizzaSellingStore
                 switch (choice)
                 {
                     case 1:
-                        // Place order
+                        
                         program.PlaceOrder(orderService);
                         break;
                     case 2:
-                        // View menu
+                        
                         program.ViewMenu(menuService);
                         break;
                     case 3:
-                        // Process payment
+                        
                         program.ProcessPayment(paymentService);
                         break;
                     case 4:
-                        // Provide feedback
+                        
                         program.ProvideFeedback(feedbackService);
                         break;
                     case 5:
-                        // Generate report
+                        
                         program.GenerateReport(reportService);
                         break;
                     case 6:

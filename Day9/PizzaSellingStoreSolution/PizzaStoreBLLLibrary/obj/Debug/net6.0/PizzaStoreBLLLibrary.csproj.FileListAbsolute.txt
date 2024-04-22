@@ -15,3 +15,21 @@ C:\Users\VC\Desktop\Genspark_training\Day_9\PizzaSellingStoreSolution\PizzaStore
 C:\Users\VC\Desktop\Genspark_training\Day_9\PizzaSellingStoreSolution\PizzaStoreBLLLibrary\obj\Debug\net6.0\refint\PizzaStoreBLLLibrary.dll
 C:\Users\VC\Desktop\Genspark_training\Day_9\PizzaSellingStoreSolution\PizzaStoreBLLLibrary\obj\Debug\net6.0\PizzaStoreBLLLibrary.pdb
 C:\Users\VC\Desktop\Genspark_training\Day_9\PizzaSellingStoreSolution\PizzaStoreBLLLibrary\obj\Debug\net6.0\ref\PizzaStoreBLLLibrary.dll
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day9\PizzaSellingStoreSolution\PizzaStoreBLLLibrary\bin\Debug\net6.0\PizzaStoreBLLLibrary.deps.json
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day9\PizzaSellingStoreSolution\PizzaStoreBLLLibrary\bin\Debug\net6.0\PizzaStoreBLLLibrary.dll
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day9\PizzaSellingStoreSolution\PizzaStoreBLLLibrary\bin\Debug\net6.0\PizzaStoreBLLLibrary.pdb
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day9\PizzaSellingStoreSolution\PizzaStoreBLLLibrary\bin\Debug\net6.0\PizzaStoreDALLibrary.dll
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day9\PizzaSellingStoreSolution\PizzaStoreBLLLibrary\bin\Debug\net6.0\PizzaStoreModelLibrary.dll
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day9\PizzaSellingStoreSolution\PizzaStoreBLLLibrary\bin\Debug\net6.0\PizzaStoreDALLibrary.pdb
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day9\PizzaSellingStoreSolution\PizzaStoreBLLLibrary\bin\Debug\net6.0\PizzaStoreModelLibrary.pdb
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day9\PizzaSellingStoreSolution\PizzaStoreBLLLibrary\obj\Debug\net6.0\PizzaStoreBLLLibrary.csproj.AssemblyReference.cache
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day9\PizzaSellingStoreSolution\PizzaStoreBLLLibrary\obj\Debug\net6.0\PizzaStoreBLLLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day9\PizzaSellingStoreSolution\PizzaStoreBLLLibrary\obj\Debug\net6.0\PizzaStoreBLLLibrary.AssemblyInfoInputs.cache
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day9\PizzaSellingStoreSolution\PizzaStoreBLLLibrary\obj\Debug\net6.0\PizzaStoreBLLLibrary.AssemblyInfo.cs
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day9\PizzaSellingStoreSolution\PizzaStoreBLLLibrary\obj\Debug\net6.0\PizzaStoreBLLLibrary.csproj.CoreCompileInputs.cache
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day9\PizzaSellingStoreSolution\PizzaStoreBLLLibrary\obj\Debug\net6.0\PizzaStoreBLLLibrary.sourcelink.json
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day9\PizzaSellingStoreSolution\PizzaStoreBLLLibrary\obj\Debug\net6.0\PizzaSto.37BB5DCA.Up2Date
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day9\PizzaSellingStoreSolution\PizzaStoreBLLLibrary\obj\Debug\net6.0\PizzaStoreBLLLibrary.dll
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day9\PizzaSellingStoreSolution\PizzaStoreBLLLibrary\obj\Debug\net6.0\refint\PizzaStoreBLLLibrary.dll
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day9\PizzaSellingStoreSolution\PizzaStoreBLLLibrary\obj\Debug\net6.0\PizzaStoreBLLLibrary.pdb
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day9\PizzaSellingStoreSolution\PizzaStoreBLLLibrary\obj\Debug\net6.0\ref\PizzaStoreBLLLibrary.dll
