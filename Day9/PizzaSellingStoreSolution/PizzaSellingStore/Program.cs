@@ -8,6 +8,7 @@ namespace PizzaSellingStore
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Welcome to Pizza Store");
             IMenuService menuService = new MenuService();
             OrderService orderService = new OrderService(menuService);
             IPaymentService paymentService = new PaymentService();
@@ -25,7 +26,8 @@ namespace PizzaSellingStore
                 Console.WriteLine("4. Provide Feedback");
                 Console.WriteLine("5. Generate Report");
                 Console.WriteLine("6. View Orders");
-                Console.WriteLine("7. Exit");
+                Console.WriteLine("7. Clear Orders");
+                Console.WriteLine("8. Exit");
                 Console.Write("Enter your choice: ");
                 int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -55,6 +57,9 @@ namespace PizzaSellingStore
                         program.ViewOrders(orderService);
                         break;
                     case 7:
+                        program.ClearOrders(orderService);
+                        break;
+                    case 8:
                         Environment.Exit(0);
                         break;
                     default:
@@ -94,6 +99,10 @@ namespace PizzaSellingStore
         void ViewOrders(OrderService orderService)
         {
             orderService.ViewOrders();
+        }
+        void ClearOrders(OrderService orderService)
+        {
+            orderService.ClearOrders(); 
         }
     }
 }

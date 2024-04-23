@@ -1,0 +1,35 @@
+C:\Users\VC\Desktop\Genspark_training\Day_10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\bin\Debug\net6.0\ClinicBLLLibrary.deps.json
+C:\Users\VC\Desktop\Genspark_training\Day_10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\bin\Debug\net6.0\ClinicBLLLibrary.dll
+C:\Users\VC\Desktop\Genspark_training\Day_10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\bin\Debug\net6.0\ClinicBLLLibrary.pdb
+C:\Users\VC\Desktop\Genspark_training\Day_10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\bin\Debug\net6.0\ClinicDALLibrary.dll
+C:\Users\VC\Desktop\Genspark_training\Day_10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\bin\Debug\net6.0\ClinicModelLibrary.dll
+C:\Users\VC\Desktop\Genspark_training\Day_10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\bin\Debug\net6.0\ClinicModelLibrary.pdb
+C:\Users\VC\Desktop\Genspark_training\Day_10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\bin\Debug\net6.0\ClinicDALLibrary.pdb
+C:\Users\VC\Desktop\Genspark_training\Day_10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\obj\Debug\net6.0\ClinicBLLLibrary.csproj.AssemblyReference.cache
+C:\Users\VC\Desktop\Genspark_training\Day_10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\obj\Debug\net6.0\ClinicBLLLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VC\Desktop\Genspark_training\Day_10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\obj\Debug\net6.0\ClinicBLLLibrary.AssemblyInfoInputs.cache
+C:\Users\VC\Desktop\Genspark_training\Day_10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\obj\Debug\net6.0\ClinicBLLLibrary.AssemblyInfo.cs
+C:\Users\VC\Desktop\Genspark_training\Day_10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\obj\Debug\net6.0\ClinicBLLLibrary.csproj.CoreCompileInputs.cache
+C:\Users\VC\Desktop\Genspark_training\Day_10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\obj\Debug\net6.0\ClinicBL.04AED5D1.Up2Date
+C:\Users\VC\Desktop\Genspark_training\Day_10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\obj\Debug\net6.0\ClinicBLLLibrary.dll
+C:\Users\VC\Desktop\Genspark_training\Day_10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\obj\Debug\net6.0\refint\ClinicBLLLibrary.dll
+C:\Users\VC\Desktop\Genspark_training\Day_10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\obj\Debug\net6.0\ClinicBLLLibrary.pdb
+C:\Users\VC\Desktop\Genspark_training\Day_10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\obj\Debug\net6.0\ref\ClinicBLLLibrary.dll
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\bin\Debug\net6.0\ClinicBLLLibrary.deps.json
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\bin\Debug\net6.0\ClinicBLLLibrary.dll
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\bin\Debug\net6.0\ClinicBLLLibrary.pdb
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\bin\Debug\net6.0\ClinicDALLibrary.dll
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\bin\Debug\net6.0\ClinicModelLibrary.dll
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\bin\Debug\net6.0\ClinicModelLibrary.pdb
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\bin\Debug\net6.0\ClinicDALLibrary.pdb
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\obj\Debug\net6.0\ClinicBLLLibrary.csproj.AssemblyReference.cache
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\obj\Debug\net6.0\ClinicBLLLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\obj\Debug\net6.0\ClinicBLLLibrary.AssemblyInfoInputs.cache
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\obj\Debug\net6.0\ClinicBLLLibrary.AssemblyInfo.cs
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\obj\Debug\net6.0\ClinicBLLLibrary.csproj.CoreCompileInputs.cache
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\obj\Debug\net6.0\ClinicBLLLibrary.sourcelink.json
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\obj\Debug\net6.0\ClinicBL.04AED5D1.Up2Date
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\obj\Debug\net6.0\ClinicBLLLibrary.dll
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\obj\Debug\net6.0\refint\ClinicBLLLibrary.dll
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\obj\Debug\net6.0\ClinicBLLLibrary.pdb
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\obj\Debug\net6.0\ref\ClinicBLLLibrary.dll

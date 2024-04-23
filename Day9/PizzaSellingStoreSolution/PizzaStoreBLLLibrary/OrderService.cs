@@ -16,7 +16,10 @@ namespace PizzaStoreBLLLibrary
             _menuService = menuService;
             _cart = new Dictionary<int, Order>();
         }
-
+        Order order = new Order
+        {
+            OrderedItems = new List<Pizza>()
+        };
         public void PlaceOrder()
         {
             IPaymentService paymentService = new PaymentService();
@@ -35,7 +38,7 @@ namespace PizzaStoreBLLLibrary
             bool isDelivery = Console.ReadLine().ToUpper() == "Y";
             string deliveryAddress = isDelivery ? GetDeliveryAddress() : "";
             SelectPizza();
-            decimal totalAmount = CalculateTotalAmount(isDelivery);
+            decimal totalAmount = CalculateTotalAmount(order,isDelivery);
 
            
             bool paymentSuccess = paymentService.ProcessPayment(totalAmount);
@@ -67,21 +70,17 @@ namespace PizzaStoreBLLLibrary
             return Console.ReadLine();
         }
 
-        private decimal CalculateTotalAmount(bool isDelivery)
+        private decimal CalculateTotalAmount(Order currentOrder, bool isDelivery)
         {
             decimal totalAmount = 0;
 
-            foreach (var order in _cart.Values)
+            foreach (var pizza in currentOrder.OrderedItems)
             {
-                foreach (var pizza in order.OrderedItems)
-                {
-                    foreach (var price in pizza.Prices.Values)
-                    {
-                        totalAmount += (decimal)price;
-                    }
-                }
+                totalAmount += (decimal)pizza.Prices.GetValueOrDefault("SMALL");
+
             }
-            if(isDelivery)
+
+            if (isDelivery)
             {
                 totalAmount += 150;
             }
@@ -125,7 +124,7 @@ namespace PizzaStoreBLLLibrary
             {
                 Console.WriteLine($"{pizza.Id}. {pizza.Name}");
             }
-
+            double price = 0;
             while (true)
             {
                 Console.Write("Select a pizza (enter its ID) or enter 0 to finish: ");
@@ -152,17 +151,16 @@ namespace PizzaStoreBLLLibrary
                 Console.Write("Select a size: ");
                 string selectedSize = Console.ReadLine().ToUpper();
 
-                double price = selectedPizza.Prices[selectedSize];
+                price+= selectedPizza.Prices[selectedSize];
                 Console.WriteLine($"Price for {selectedSize} size of {selectedPizza.Name}: ${price}");
 
-                // Add the selected pizza to the cart
-                Order order = new Order
-                {
-                    OrderedItems = new List<Pizza> { selectedPizza }
-                };
-                AddToCart(order);
+                order.OrderedItems.Add(selectedPizza);
             }
+            AddToCart(order);
+
+            price = 0;
         }
+
 
         public void ViewOrders()
         {
