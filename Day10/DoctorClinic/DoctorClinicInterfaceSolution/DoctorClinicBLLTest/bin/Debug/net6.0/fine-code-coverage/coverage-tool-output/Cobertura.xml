@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.320474777448071" branch-rate="0.275" lines-covered="108" lines-valid="337" branches-covered="11" branches-valid="40" complexity="98" version="0" timestamp="1713914381">
+<coverage line-rate="0.440340909090909" branch-rate="0.375" lines-covered="155" lines-valid="352" branches-covered="15" branches-valid="40" complexity="100" version="0" timestamp="1713958838">
   <sources>
     <source>C:\Users\VC\</source>
   </sources>
   <packages>
-    <package name="ClinicBLLLibrary" line-rate="0.18018018018018" branch-rate="1" complexity="25">
+    <package name="ClinicBLLLibrary" line-rate="0.243243243243243" branch-rate="1" complexity="25">
       <classes>
-        <class name="ClinicBLLLibrary.AppointmentService" filename="C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\AppoinmentService.cs" line-rate="0" branch-rate="1" complexity="5">
+        <class name="ClinicBLLLibrary.AppointmentService" filename="C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\AppoinmentService.cs" line-rate="0.225806451612903" branch-rate="1" complexity="5">
           <methods>
             <method name="AddAppointment" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -45,27 +45,27 @@
                 <line number="57" hits="0" branch="false" />
               </lines>
             </method>
-            <method name="GetAppointmentById" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+            <method name="GetAppointmentById" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="60" hits="0" branch="false" />
-                <line number="61" hits="0" branch="false" />
-                <line number="62" hits="0" branch="false" />
+                <line number="60" hits="2" branch="false" />
+                <line number="61" hits="2" branch="false" />
+                <line number="62" hits="2" branch="false" />
               </lines>
             </method>
-            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="15" hits="0" branch="false" />
-                <line number="16" hits="0" branch="false" />
-                <line number="17" hits="0" branch="false" />
-                <line number="19" hits="0" branch="false" />
+                <line number="15" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="15" hits="0" branch="false" />
-            <line number="16" hits="0" branch="false" />
-            <line number="17" hits="0" branch="false" />
-            <line number="19" hits="0" branch="false" />
+            <line number="15" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
             <line number="22" hits="0" branch="false" />
             <line number="25" hits="0" branch="false" />
             <line number="26" hits="0" branch="false" />
@@ -90,9 +90,9 @@
             <line number="54" hits="0" branch="false" />
             <line number="55" hits="0" branch="false" />
             <line number="57" hits="0" branch="false" />
-            <line number="60" hits="0" branch="false" />
-            <line number="61" hits="0" branch="false" />
-            <line number="62" hits="0" branch="false" />
+            <line number="60" hits="2" branch="false" />
+            <line number="61" hits="2" branch="false" />
+            <line number="62" hits="2" branch="false" />
           </lines>
         </class>
         <class name="ClinicBLLLibrary.AppointmentServiceException" filename="C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\ServiceException.cs" line-rate="0" branch-rate="1" complexity="3">
@@ -367,36 +367,36 @@
         </class>
       </classes>
     </package>
-    <package name="ClinicDALLibrary" line-rate="0.342657342657343" branch-rate="0.275" complexity="44">
+    <package name="ClinicDALLibrary" line-rate="0.48951048951049" branch-rate="0.375" complexity="44">
       <classes>
-        <class name="ClinicDALLibrary.AppointmentRepositoryClass" filename="C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicRepositoryDAL\AppointmentRepositoryClass.cs" line-rate="0" branch-rate="0" complexity="13">
+        <class name="ClinicDALLibrary.AppointmentRepositoryClass" filename="C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicRepositoryDAL\AppointmentRepositoryClass.cs" line-rate="0.446808510638298" branch-rate="0.333333333333333" complexity="13">
           <methods>
-            <method name="GenerateAppointmentId" signature="()" line-rate="0" branch-rate="0" complexity="2">
+            <method name="GenerateAppointmentId" signature="()" line-rate="1" branch-rate="1" complexity="2">
               <lines>
-                <line number="20" hits="0" branch="false" />
-                <line number="21" hits="0" branch="true" condition-coverage="0% (0/2)" />
-                <line number="22" hits="0" branch="false" />
-                <line number="23" hits="0" branch="false" />
-                <line number="25" hits="0" branch="false" />
-                <line number="26" hits="0" branch="false" />
-                <line number="27" hits="0" branch="false" />
+                <line number="20" hits="2" branch="false" />
+                <line number="21" hits="2" branch="true" condition-coverage="100% (2/2)" />
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="27" hits="2" branch="false" />
               </lines>
             </method>
-            <method name="Add" signature="(...)" line-rate="0" branch-rate="0" complexity="2">
+            <method name="Add" signature="(...)" line-rate="0.538461538461538" branch-rate="0.5" complexity="2">
               <lines>
-                <line number="43" hits="0" branch="false" />
-                <line number="45" hits="0" branch="false" />
-                <line number="46" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="43" hits="2" branch="false" />
+                <line number="45" hits="2" branch="false" />
+                <line number="46" hits="2" branch="true" condition-coverage="50% (1/2)" />
                 <line number="47" hits="0" branch="false" />
                 <line number="48" hits="0" branch="false" />
-                <line number="51" hits="0" branch="false" />
-                <line number="52" hits="0" branch="false" />
-                <line number="53" hits="0" branch="false" />
+                <line number="51" hits="2" branch="false" />
+                <line number="52" hits="2" branch="false" />
+                <line number="53" hits="2" branch="false" />
                 <line number="55" hits="0" branch="false" />
                 <line number="56" hits="0" branch="false" />
                 <line number="57" hits="0" branch="false" />
                 <line number="58" hits="0" branch="false" />
-                <line number="61" hits="0" branch="false" />
+                <line number="61" hits="2" branch="false" />
               </lines>
             </method>
             <method name="Delete" signature="(...)" line-rate="0" branch-rate="0" complexity="2">
@@ -411,11 +411,11 @@
                 <line number="72" hits="0" branch="false" />
               </lines>
             </method>
-            <method name="Get" signature="(...)" line-rate="0" branch-rate="0" complexity="2">
+            <method name="Get" signature="(...)" line-rate="1" branch-rate="0.5" complexity="2">
               <lines>
-                <line number="75" hits="0" branch="false" />
-                <line number="76" hits="0" branch="true" condition-coverage="0% (0/2)" />
-                <line number="77" hits="0" branch="false" />
+                <line number="75" hits="2" branch="false" />
+                <line number="76" hits="2" branch="true" condition-coverage="50% (1/2)" />
+                <line number="77" hits="2" branch="false" />
               </lines>
             </method>
             <method name="GetAll" signature="()" line-rate="0" branch-rate="0" complexity="2">
@@ -438,40 +438,40 @@
                 <line number="94" hits="0" branch="false" />
               </lines>
             </method>
-            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="15" hits="0" branch="false" />
-                <line number="16" hits="0" branch="false" />
-                <line number="17" hits="0" branch="false" />
-                <line number="18" hits="0" branch="false" />
+                <line number="15" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="15" hits="0" branch="false" />
-            <line number="16" hits="0" branch="false" />
-            <line number="17" hits="0" branch="false" />
-            <line number="18" hits="0" branch="false" />
-            <line number="20" hits="0" branch="false" />
-            <line number="21" hits="0" branch="true" condition-coverage="0% (0/2)" />
-            <line number="22" hits="0" branch="false" />
-            <line number="23" hits="0" branch="false" />
-            <line number="25" hits="0" branch="false" />
-            <line number="26" hits="0" branch="false" />
-            <line number="27" hits="0" branch="false" />
-            <line number="43" hits="0" branch="false" />
-            <line number="45" hits="0" branch="false" />
-            <line number="46" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="15" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="20" hits="2" branch="false" />
+            <line number="21" hits="2" branch="true" condition-coverage="100% (2/2)" />
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="2" branch="false" />
+            <line number="43" hits="2" branch="false" />
+            <line number="45" hits="2" branch="false" />
+            <line number="46" hits="2" branch="true" condition-coverage="50% (1/2)" />
             <line number="47" hits="0" branch="false" />
             <line number="48" hits="0" branch="false" />
-            <line number="51" hits="0" branch="false" />
-            <line number="52" hits="0" branch="false" />
-            <line number="53" hits="0" branch="false" />
+            <line number="51" hits="2" branch="false" />
+            <line number="52" hits="2" branch="false" />
+            <line number="53" hits="2" branch="false" />
             <line number="55" hits="0" branch="false" />
             <line number="56" hits="0" branch="false" />
             <line number="57" hits="0" branch="false" />
             <line number="58" hits="0" branch="false" />
-            <line number="61" hits="0" branch="false" />
+            <line number="61" hits="2" branch="false" />
             <line number="64" hits="0" branch="false" />
             <line number="65" hits="0" branch="true" condition-coverage="0% (0/2)" />
             <line number="66" hits="0" branch="false" />
@@ -480,9 +480,9 @@
             <line number="69" hits="0" branch="false" />
             <line number="71" hits="0" branch="false" />
             <line number="72" hits="0" branch="false" />
-            <line number="75" hits="0" branch="false" />
-            <line number="76" hits="0" branch="true" condition-coverage="0% (0/2)" />
-            <line number="77" hits="0" branch="false" />
+            <line number="75" hits="2" branch="false" />
+            <line number="76" hits="2" branch="true" condition-coverage="50% (1/2)" />
+            <line number="77" hits="2" branch="false" />
             <line number="80" hits="0" branch="false" />
             <line number="81" hits="0" branch="true" condition-coverage="0% (0/2)" />
             <line number="82" hits="0" branch="false" />
@@ -767,13 +767,13 @@
         </class>
       </classes>
     </package>
-    <package name="ClinicModelLibrary" line-rate="0.240740740740741" branch-rate="1" complexity="24">
+    <package name="ClinicModelLibrary" line-rate="0.351851851851852" branch-rate="1" complexity="24">
       <classes>
-        <class name="ClinicModelLibrary.Appointment" filename="C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicModelLibrary\Appointment.cs" line-rate="0" branch-rate="1" complexity="10">
+        <class name="ClinicModelLibrary.Appointment" filename="C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicModelLibrary\Appointment.cs" line-rate="0.272727272727273" branch-rate="1" complexity="10">
           <methods>
-            <method name="get_AppointmentId" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_AppointmentId" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="0" branch="false" />
+                <line number="11" hits="4" branch="false" />
               </lines>
             </method>
             <method name="get_PatientId" signature="()" line-rate="0" branch-rate="1" complexity="1">
@@ -781,14 +781,14 @@
                 <line number="12" hits="0" branch="false" />
               </lines>
             </method>
-            <method name="get_Name" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="0" branch="false" />
+                <line number="13" hits="3" branch="false" />
               </lines>
             </method>
-            <method name="get_PatientContact" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_PatientContact" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="14" hits="0" branch="false" />
+                <line number="14" hits="2" branch="false" />
               </lines>
             </method>
             <method name="get_DctorId" signature="()" line-rate="0" branch-rate="1" complexity="1">
@@ -826,19 +826,19 @@
                 <line number="40" hits="0" branch="false" />
               </lines>
             </method>
-            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="42" hits="0" branch="false" />
-                <line number="43" hits="0" branch="false" />
-                <line number="44" hits="0" branch="false" />
+                <line number="42" hits="2" branch="false" />
+                <line number="43" hits="2" branch="false" />
+                <line number="44" hits="2" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="11" hits="0" branch="false" />
+            <line number="11" hits="4" branch="false" />
             <line number="12" hits="0" branch="false" />
-            <line number="13" hits="0" branch="false" />
-            <line number="14" hits="0" branch="false" />
+            <line number="13" hits="3" branch="false" />
+            <line number="14" hits="2" branch="false" />
             <line number="15" hits="0" branch="false" />
             <line number="16" hits="0" branch="false" />
             <line number="17" hits="0" branch="false" />
@@ -854,9 +854,9 @@
             <line number="38" hits="0" branch="false" />
             <line number="39" hits="0" branch="false" />
             <line number="40" hits="0" branch="false" />
-            <line number="42" hits="0" branch="false" />
-            <line number="43" hits="0" branch="false" />
-            <line number="44" hits="0" branch="false" />
+            <line number="42" hits="2" branch="false" />
+            <line number="43" hits="2" branch="false" />
+            <line number="44" hits="2" branch="false" />
           </lines>
         </class>
         <class name="ClinicModelLibrary.Doctor" filename="C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicModelLibrary\Doctor.cs" line-rate="0.4375" branch-rate="1" complexity="7">
@@ -993,7 +993,7 @@
         </class>
       </classes>
     </package>
-    <package name="DoctorClinicBLLTest" line-rate="0.896551724137931" branch-rate="1" complexity="5">
+    <package name="DoctorClinicBLLTest" line-rate="0.886363636363636" branch-rate="1" complexity="7">
       <classes>
         <class name="AutoGeneratedProgram" filename="C:\Users\VC\.nuget\packages\microsoft.net.test.sdk\17.5.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
@@ -1005,6 +1005,48 @@
           </methods>
           <lines>
             <line number="4" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="DoctorClinicBLLTest.TestingAppointmentBLL" filename="C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day10\DoctorClinic\DoctorClinicInterfaceSolution\DoctorClinicBLLTest\AppointmentTest.cs" line-rate="0.857142857142857" branch-rate="1" complexity="2">
+          <methods>
+            <method name="TestingAppointmentService_SetUp" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="20" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+                <line number="22" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="TestingPatientService_Test" signature="()" line-rate="0.666666666666667" branch-rate="1" complexity="1">
+              <lines>
+                <line number="26" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+                <line number="32" hits="0" branch="false" />
+                <line number="33" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="32" hits="0" branch="false" />
+            <line number="33" hits="0" branch="false" />
           </lines>
         </class>
         <class name="DoctorClinicBLLTest.TestingDoctorClinicBLL" filename="C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day10\DoctorClinic\DoctorClinicInterfaceSolution\DoctorClinicBLLTest\DoctorTest.cs" line-rate="1" branch-rate="1" complexity="2">
@@ -1049,7 +1091,7 @@
             <line number="32" hits="1" branch="false" />
           </lines>
         </class>
-        <class name="DoctorClinicBLLTest.TestingPatientClinicBLL" filename="C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day10\DoctorClinic\DoctorClinicInterfaceSolution\DoctorClinicBLLTest\PatientTest.cs" line-rate="0.857142857142857" branch-rate="1" complexity="2">
+        <class name="DoctorClinicBLLTest.TestingPatientClinicBLL" filename="C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day10\DoctorClinic\DoctorClinicInterfaceSolution\DoctorClinicBLLTest\PatientTest.cs" line-rate="0.866666666666667" branch-rate="1" complexity="2">
           <methods>
             <method name="TestingDoctorService_SetUp" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -1063,14 +1105,15 @@
                 <line number="22" hits="1" branch="false" />
               </lines>
             </method>
-            <method name="TestingPatientService_Test" signature="()" line-rate="0.666666666666667" branch-rate="1" complexity="1">
+            <method name="TestingPatientService_Test" signature="()" line-rate="0.714285714285714" branch-rate="1" complexity="1">
               <lines>
                 <line number="26" hits="1" branch="false" />
-                <line number="28" hits="1" branch="false" />
                 <line number="29" hits="1" branch="false" />
                 <line number="31" hits="1" branch="false" />
-                <line number="32" hits="0" branch="false" />
-                <line number="33" hits="0" branch="false" />
+                <line number="32" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="0" branch="false" />
+                <line number="42" hits="0" branch="false" />
               </lines>
             </method>
           </methods>
@@ -1084,11 +1127,12 @@
             <line number="21" hits="1" branch="false" />
             <line number="22" hits="1" branch="false" />
             <line number="26" hits="1" branch="false" />
-            <line number="28" hits="1" branch="false" />
             <line number="29" hits="1" branch="false" />
             <line number="31" hits="1" branch="false" />
-            <line number="32" hits="0" branch="false" />
-            <line number="33" hits="0" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="0" branch="false" />
+            <line number="42" hits="0" branch="false" />
           </lines>
         </class>
       </classes>

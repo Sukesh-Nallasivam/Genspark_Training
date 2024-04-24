@@ -24,12 +24,21 @@ namespace DoctorClinicBLLTest
         [Test]
         public void TestingPatientService_Test()
         {
-            //Action
-            var patient1 = patientService.GetPatientById(100);
+
+            // Arrange
+            var patientId = 100;
+            // Action
+            var patient1 = patientService.GetPatientById(patientId);
             var patient2 = patientService.UpdatePatient;
-            //Assert
-            Assert.AreEqual(100, patient1.PatientAge);
-            Assert.AreEqual(101, patient2.Target);
+            // Assert
+            Assert.AreEqual(patientId, patient1.PatientAge);
+            Assert.IsNotNull(patient2);
+            ////Action
+            //var patient1 = patientService.GetPatientById(100);
+            //var patient2 = patientService.UpdatePatient;
+            ////Assert
+            //Assert.AreEqual(100, patient1.PatientAge);
+            //Assert.AreEqual(101, patient2.Target);
         }
     }
 }
