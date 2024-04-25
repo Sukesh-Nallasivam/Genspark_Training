@@ -1,0 +1,24 @@
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day11\ShoppingPlatformSolution\ShoppingModelLibrary\bin\Debug\net6.0\ShoppingModelLibrary.deps.json
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day11\ShoppingPlatformSolution\ShoppingModelLibrary\bin\Debug\net6.0\ShoppingModelLibrary.dll
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day11\ShoppingPlatformSolution\ShoppingModelLibrary\bin\Debug\net6.0\ShoppingModelLibrary.pdb
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day11\ShoppingPlatformSolution\ShoppingModelLibrary\obj\Debug\net6.0\ShoppingModelLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day11\ShoppingPlatformSolution\ShoppingModelLibrary\obj\Debug\net6.0\ShoppingModelLibrary.AssemblyInfoInputs.cache
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day11\ShoppingPlatformSolution\ShoppingModelLibrary\obj\Debug\net6.0\ShoppingModelLibrary.AssemblyInfo.cs
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day11\ShoppingPlatformSolution\ShoppingModelLibrary\obj\Debug\net6.0\ShoppingModelLibrary.csproj.CoreCompileInputs.cache
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day11\ShoppingPlatformSolution\ShoppingModelLibrary\obj\Debug\net6.0\ShoppingModelLibrary.sourcelink.json
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day11\ShoppingPlatformSolution\ShoppingModelLibrary\obj\Debug\net6.0\ShoppingModelLibrary.dll
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day11\ShoppingPlatformSolution\ShoppingModelLibrary\obj\Debug\net6.0\refint\ShoppingModelLibrary.dll
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day11\ShoppingPlatformSolution\ShoppingModelLibrary\obj\Debug\net6.0\ShoppingModelLibrary.pdb
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day11\ShoppingPlatformSolution\ShoppingModelLibrary\obj\Debug\net6.0\ref\ShoppingModelLibrary.dll
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingModelLibrary\bin\Debug\net6.0\ShoppingModelLibrary.deps.json
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingModelLibrary\bin\Debug\net6.0\ShoppingModelLibrary.dll
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingModelLibrary\bin\Debug\net6.0\ShoppingModelLibrary.pdb
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingModelLibrary\obj\Debug\net6.0\ShoppingModelLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingModelLibrary\obj\Debug\net6.0\ShoppingModelLibrary.AssemblyInfoInputs.cache
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingModelLibrary\obj\Debug\net6.0\ShoppingModelLibrary.AssemblyInfo.cs
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingModelLibrary\obj\Debug\net6.0\ShoppingModelLibrary.csproj.CoreCompileInputs.cache
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingModelLibrary\obj\Debug\net6.0\ShoppingModelLibrary.sourcelink.json
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingModelLibrary\obj\Debug\net6.0\ShoppingModelLibrary.dll
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingModelLibrary\obj\Debug\net6.0\refint\ShoppingModelLibrary.dll
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingModelLibrary\obj\Debug\net6.0\ShoppingModelLibrary.pdb
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingModelLibrary\obj\Debug\net6.0\ref\ShoppingModelLibrary.dll
