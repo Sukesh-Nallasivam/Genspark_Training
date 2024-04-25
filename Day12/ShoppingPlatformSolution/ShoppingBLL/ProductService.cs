@@ -11,9 +11,29 @@ namespace ShoppingBLL
             repositoryClass = new ProductRepositoryClass();
         }
         List<Product> products = new List<Product>();
+        int ProductId;
+        int GenerateProductId()
+        {
+            if(ProductId == 0)
+            {
+                return ProductId = 001;
+            }
+            return ++ProductId;
+        }
         public string AddProduct(Product product)
         {
-            throw new NotImplementedException();
+            try
+            {
+                product.ProductId = GenerateProductId();
+                repositoryClass.Add(product);
+                return "Added Successfully";
+            }
+            catch (Exception ex)
+            {
+                ProductId -= 1;
+                return $"Cannot be added. {ex.Message}";
+            }
+            
         }
 
         public Product GetAllProduct()

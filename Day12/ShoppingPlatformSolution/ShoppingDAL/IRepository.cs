@@ -9,7 +9,7 @@ namespace ShoppingDAL
     public interface IRepository<K,T> where T : class
     {
         Dictionary<object,T> GetAll();
-        T Add(T item);
+        void Add(T item);
         T Update(K key);
         T Delete(T item);
         T Get(K key);

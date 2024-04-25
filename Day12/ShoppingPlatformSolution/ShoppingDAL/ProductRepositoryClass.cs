@@ -1,11 +1,18 @@
 ﻿using ShoppingModelLibrary;
+using System.Collections;
+
 namespace ShoppingDAL
 {
     public class ProductRepositoryClass : IRepository<int, Product>
     {
-        public Product Add(Product item)
+        private readonly ArrayList ProductList;
+        public ProductRepositoryClass()
         {
-            throw new NotImplementedException();
+            ProductList = new ArrayList();
+        }
+        public void Add(Product item)
+        {
+            ProductList.Add(item);
         }
 
         public Product Delete(Product item)
