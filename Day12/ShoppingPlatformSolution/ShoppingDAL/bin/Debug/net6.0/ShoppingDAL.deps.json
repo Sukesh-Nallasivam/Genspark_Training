@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "ShoppingDAL/1.0.0": {
+        "dependencies": {
+          "ShoppingModelLibrary": "1.0.0"
+        },
         "runtime": {
           "ShoppingDAL.dll": {}
+        }
+      },
+      "ShoppingModelLibrary/1.0.0": {
+        "runtime": {
+          "ShoppingModelLibrary.dll": {}
         }
       }
     }
   },
   "libraries": {
     "ShoppingDAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ShoppingModelLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

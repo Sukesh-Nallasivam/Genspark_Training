@@ -10,7 +10,7 @@ namespace ShoppingDAL
     {
         Dictionary<object,T> GetAll();
         void Add(T item);
-        T Update(K key);
+        bool Update(T item);
         T Delete(T item);
         T Get(K key);
 

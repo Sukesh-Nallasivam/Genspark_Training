@@ -17,10 +17,19 @@
       },
       "ShoppingBLL/1.0.0": {
         "dependencies": {
+          "ShoppingDAL": "1.0.0",
           "ShoppingModelLibrary": "1.0.0"
         },
         "runtime": {
           "ShoppingBLL.dll": {}
+        }
+      },
+      "ShoppingDAL/1.0.0": {
+        "dependencies": {
+          "ShoppingModelLibrary": "1.0.0"
+        },
+        "runtime": {
+          "ShoppingDAL.dll": {}
         }
       },
       "ShoppingModelLibrary/1.0.0": {
@@ -37,6 +46,11 @@
       "sha512": ""
     },
     "ShoppingBLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ShoppingDAL/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

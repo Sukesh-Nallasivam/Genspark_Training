@@ -12,8 +12,8 @@ namespace ShoppingBLL
         Product GetProductByCategories(string category);
         string AddProduct (Product product);
         Product GetProductByName(string name);
-        Product UpdateProduct (Product product);
+        bool UpdateProduct (Product product);
         string RemoveProduct(Product product);
-        Product GetAllProduct();
+        Dictionary<object,Product> GetAllProduct();
     }
 }

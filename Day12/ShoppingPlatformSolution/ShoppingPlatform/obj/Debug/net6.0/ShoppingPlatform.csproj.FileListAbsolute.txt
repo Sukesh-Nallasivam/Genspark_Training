@@ -34,3 +34,5 @@ C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolutio
 C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingPlatform\bin\Debug\net6.0\ShoppingModelLibrary.pdb
 C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingPlatform\obj\Debug\net6.0\ShoppingPlatform.csproj.AssemblyReference.cache
 C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingPlatform\obj\Debug\net6.0\Shopping.84B146D0.Up2Date
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingPlatform\bin\Debug\net6.0\ShoppingDAL.dll
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingPlatform\bin\Debug\net6.0\ShoppingDAL.pdb

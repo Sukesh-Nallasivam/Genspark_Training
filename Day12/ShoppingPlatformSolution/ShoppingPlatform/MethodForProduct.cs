@@ -12,8 +12,7 @@ namespace ShoppingPlatform
     public class MethodForProduct
     {
         
-        ProductService productService = new ProductService();
-        Product item = new Product();
+        readonly ProductService productService = new();
         public void ChoiceSelection()
         {
             int choice;
@@ -62,7 +61,7 @@ namespace ShoppingPlatform
         }
         public void AddProductUI()
         {
-
+            Product item = new();
             Console.WriteLine("You're Adding Product");
             Console.WriteLine("Enter Product Name");
             string ProductName = Console.ReadLine()?.ToUpper() ?? string.Empty;
@@ -87,6 +86,7 @@ namespace ShoppingPlatform
         }
         public void UpdateProductUI()
         {
+            Product item = new();
             Console.WriteLine("You're Updating a Product");
             Console.WriteLine("Enter Product Name");
             string ProductName = Console.ReadLine()?.ToUpper() ?? string.Empty;
@@ -139,7 +139,7 @@ namespace ShoppingPlatform
         }
         public void GetProductsByCategoryUI()
         {
-            Console.WriteLine("Enter product ID to Find");
+            Console.WriteLine("Enter product Category to Find");
             string Category = Console.ReadLine()?.ToUpper() ?? string.Empty;
             Product DuplicateVerification = productService.GetProductByCategories(Category);
             if (DuplicateVerification == null)
@@ -151,7 +151,21 @@ namespace ShoppingPlatform
         }
         public void GetAllProductsUI()
         {
-            productService.GetAllProduct();
+            Dictionary<object, Product> allProducts = productService.GetAllProduct();
+            if (allProducts != null && allProducts.Count > 0)
+            {
+                Console.WriteLine("All Products:");
+                foreach (var products in allProducts)
+                {
+                    Product product = products.Value;
+                    productService.PrintDetails(product);
+                }
+            }
+            else
+            {
+                Console.WriteLine("No products found.");
+            }
         }
+
     }
 }

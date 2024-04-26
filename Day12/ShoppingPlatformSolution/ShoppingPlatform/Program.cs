@@ -28,15 +28,20 @@ namespace ShoppingPlatform
                 }
             } while (choice > 0);
         }
+        static int GetResultFromServer()
+        {
+            return new Random().Next();
+        }
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome AllKart:>)");
-            
+            int Num= GetResultFromServer();
+            //Console.WriteLine($"This is random { Num}");
             ChoiceSelection();
         }
         static void MethodForProduct()
         {
-            MethodForProduct product = new MethodForProduct();
+            MethodForProduct product = new();
             product.ChoiceSelection();
         }
     }

@@ -10,3 +10,19 @@ C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day11\ShoppingPlatform
 C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day11\ShoppingPlatformSolution\ShoppingDAL\obj\Debug\net6.0\refint\ShoppingDAL.dll
 C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day11\ShoppingPlatformSolution\ShoppingDAL\obj\Debug\net6.0\ShoppingDAL.pdb
 C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day11\ShoppingPlatformSolution\ShoppingDAL\obj\Debug\net6.0\ref\ShoppingDAL.dll
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingDAL\bin\Debug\net6.0\ShoppingDAL.deps.json
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingDAL\bin\Debug\net6.0\ShoppingDAL.dll
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingDAL\bin\Debug\net6.0\ShoppingDAL.pdb
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingDAL\bin\Debug\net6.0\ShoppingModelLibrary.dll
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingDAL\bin\Debug\net6.0\ShoppingModelLibrary.pdb
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingDAL\obj\Debug\net6.0\ShoppingDAL.csproj.AssemblyReference.cache
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingDAL\obj\Debug\net6.0\ShoppingDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingDAL\obj\Debug\net6.0\ShoppingDAL.AssemblyInfoInputs.cache
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingDAL\obj\Debug\net6.0\ShoppingDAL.AssemblyInfo.cs
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingDAL\obj\Debug\net6.0\ShoppingDAL.csproj.CoreCompileInputs.cache
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingDAL\obj\Debug\net6.0\ShoppingDAL.sourcelink.json
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingDAL\obj\Debug\net6.0\Shopping.1370C759.Up2Date
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingDAL\obj\Debug\net6.0\ShoppingDAL.dll
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingDAL\obj\Debug\net6.0\refint\ShoppingDAL.dll
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingDAL\obj\Debug\net6.0\ShoppingDAL.pdb
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingDAL\obj\Debug\net6.0\ref\ShoppingDAL.dll

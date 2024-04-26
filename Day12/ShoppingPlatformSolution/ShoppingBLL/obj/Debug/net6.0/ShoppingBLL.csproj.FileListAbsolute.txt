@@ -26,3 +26,5 @@ C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolutio
 C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingBLL\obj\Debug\net6.0\refint\ShoppingBLL.dll
 C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingBLL\obj\Debug\net6.0\ShoppingBLL.pdb
 C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingBLL\obj\Debug\net6.0\ref\ShoppingBLL.dll
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingBLL\bin\Debug\net6.0\ShoppingDAL.dll
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingBLL\bin\Debug\net6.0\ShoppingDAL.pdb
