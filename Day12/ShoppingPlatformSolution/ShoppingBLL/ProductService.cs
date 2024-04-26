@@ -1,5 +1,6 @@
 ﻿using ShoppingModelLibrary;
 using ShoppingDAL;
+using System.Xml.Linq;
 namespace ShoppingBLL
 {
     public class ProductService : IProduct
@@ -57,9 +58,9 @@ namespace ShoppingBLL
             return null;
         }
 
-        public Product GetProductByCategories(string category)
+        public Product? GetProductByCategories(string category)
         {
-            throw new NotImplementedException();
+            return repositoryClass.GetByName(category);
         }
 
         public Product? GetProductByName(string name)
@@ -69,7 +70,16 @@ namespace ShoppingBLL
 
         public string RemoveProduct(Product product)
         {
-            throw new NotImplementedException();
+            try
+            {
+                repositoryClass.Delete(product);
+                return "Deleted Successfully";
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Unable to delete");
+            }
+            return "Try Again";
         }
 
         public bool UpdateProduct(Product product)

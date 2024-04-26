@@ -1,6 +1,7 @@
 ﻿using ShoppingModelLibrary;
 using System.Collections;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
 namespace ShoppingDAL
 {
@@ -16,9 +17,17 @@ namespace ShoppingDAL
             ProductList.Add(item);
         }
 
-        public Product Delete(Product item)
+        public string Delete(Product item)
         {
-            throw new NotImplementedException();
+            try
+            {
+                ProductList.Remove(item);
+                return "Removed Successfully";
+            }
+            catch(Exception ex)
+            {
+                return ex.Message;
+            }
         }
 
         public Product Get(int key)
@@ -27,13 +36,13 @@ namespace ShoppingDAL
         }
         public Product? GetByName(string Name)
         {
-            Console.WriteLine("Product List:");
-            foreach (Product product in ProductList)
-            {
-                Console.WriteLine($"Name: {product.ProductName}, ID: {product.ProductId}, " +
-                                  $"Category: {product.ProductCategory}, Price: {product.ProductPrice}, " +
-                                  $"Availability: {product.ProductAvailability}");
-            }
+            //Console.WriteLine("Product List:");
+            //foreach (Product product in ProductList)
+            //{
+            //    Console.WriteLine($"Name: {product.ProductName}, ID: {product.ProductId}, " +
+            //                      $"Category: {product.ProductCategory}, Price: {product.ProductPrice}, " +
+            //                      $"Availability: {product.ProductAvailability}");
+            //}
             try
             {
                 var item = (from Product s in ProductList

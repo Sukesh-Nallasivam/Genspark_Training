@@ -11,7 +11,7 @@ namespace ShoppingDAL
         Dictionary<object,T> GetAll();
         void Add(T item);
         bool Update(T item);
-        T Delete(T item);
+        string Delete(T item);
         T Get(K key);
 
     }

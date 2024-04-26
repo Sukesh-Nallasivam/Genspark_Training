@@ -14,7 +14,7 @@ namespace ShoppingBLL
         void DeleteCustomer(int id);
         Customer GetCustomerInfoByName(string Name);
         Customer GetCustomerById(int id);
-
+        Cart GetDetailsOfCart(int CustomerId);
 
 
     }
