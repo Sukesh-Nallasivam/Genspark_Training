@@ -11,8 +11,8 @@ namespace ShoppingBLL
     internal interface ICustomer
     {
         void AddCustomer(Customer customer);
-        void DeleteCustomer(int id);
-        Customer GetCustomerInfoByName(string Name);
+        void DeleteCustomer(Customer customer);
+        void UpdateCustomer(Customer customer);
         Customer GetCustomerById(int id);
         Cart GetDetailsOfCart(int CustomerId);
 

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ShoppingBLL
 {
-    internal class CustomerClass : ICart, ICustomer
+    public class CustomerService : ICart, ICustomer
     {
         public void AddCustomer(Customer customer)
         {
@@ -19,7 +19,7 @@ namespace ShoppingBLL
             throw new NotImplementedException();
         }
 
-        public void DeleteCustomer(int id)
+        public void DeleteCustomer(Customer customer)
         {
             throw new NotImplementedException();
         }
@@ -39,7 +39,7 @@ namespace ShoppingBLL
             throw new NotImplementedException();
         }
 
-        public Customer GetCustomerInfoByName(string Name)
+        public Customer UpdateCustomer(Customer customer)
         {
             throw new NotImplementedException();
         }
