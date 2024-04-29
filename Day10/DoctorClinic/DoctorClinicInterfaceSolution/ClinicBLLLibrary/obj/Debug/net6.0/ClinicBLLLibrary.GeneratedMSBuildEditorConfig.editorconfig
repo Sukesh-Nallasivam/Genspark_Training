@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ClinicBLLLibrary
-build_property.ProjectDir = C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\
+build_property.ProjectDir = C:\Users\vc\Desktop\Backup\New folder\git_push\Genspark_Training\Day10\DoctorClinic\DoctorClinicInterfaceSolution\ClinicBLLLibrary\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

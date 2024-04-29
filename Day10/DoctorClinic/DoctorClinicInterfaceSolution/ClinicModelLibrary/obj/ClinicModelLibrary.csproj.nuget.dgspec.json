@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\VC\\Desktop\\New folder\\git_push\\Genspark_Training\\Day10\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicModelLibrary\\ClinicModelLibrary.csproj": {}
+    "C:\\Users\\vc\\Desktop\\Backup\\New folder\\git_push\\Genspark_Training\\Day10\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicModelLibrary\\ClinicModelLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\VC\\Desktop\\New folder\\git_push\\Genspark_Training\\Day10\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicModelLibrary\\ClinicModelLibrary.csproj": {
+    "C:\\Users\\vc\\Desktop\\Backup\\New folder\\git_push\\Genspark_Training\\Day10\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicModelLibrary\\ClinicModelLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VC\\Desktop\\New folder\\git_push\\Genspark_Training\\Day10\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicModelLibrary\\ClinicModelLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\vc\\Desktop\\Backup\\New folder\\git_push\\Genspark_Training\\Day10\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicModelLibrary\\ClinicModelLibrary.csproj",
         "projectName": "ClinicModelLibrary",
-        "projectPath": "C:\\Users\\VC\\Desktop\\New folder\\git_push\\Genspark_Training\\Day10\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicModelLibrary\\ClinicModelLibrary.csproj",
-        "packagesPath": "C:\\Users\\VC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VC\\Desktop\\New folder\\git_push\\Genspark_Training\\Day10\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicModelLibrary\\obj\\",
+        "projectPath": "C:\\Users\\vc\\Desktop\\Backup\\New folder\\git_push\\Genspark_Training\\Day10\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicModelLibrary\\ClinicModelLibrary.csproj",
+        "packagesPath": "C:\\Users\\vc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vc\\Desktop\\Backup\\New folder\\git_push\\Genspark_Training\\Day10\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicModelLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\VC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
