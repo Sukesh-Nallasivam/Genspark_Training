@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day12\\ShoppingPlatformSolution\\ShoppingPlatformUnitTest\\ShoppingPlatformUnitTest.csproj": {}
+    "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day13\\ShoppingPlatformSolution\\ShoppingPlatformUnitTest\\ShoppingPlatformUnitTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day12\\ShoppingPlatformSolution\\ShoppingPlatformUnitTest\\ShoppingPlatformUnitTest.csproj": {
+    "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day13\\ShoppingPlatformSolution\\ShoppingPlatformUnitTest\\ShoppingPlatformUnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day12\\ShoppingPlatformSolution\\ShoppingPlatformUnitTest\\ShoppingPlatformUnitTest.csproj",
+        "projectUniqueName": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day13\\ShoppingPlatformSolution\\ShoppingPlatformUnitTest\\ShoppingPlatformUnitTest.csproj",
         "projectName": "ShoppingPlatformUnitTest",
-        "projectPath": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day12\\ShoppingPlatformSolution\\ShoppingPlatformUnitTest\\ShoppingPlatformUnitTest.csproj",
+        "projectPath": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day13\\ShoppingPlatformSolution\\ShoppingPlatformUnitTest\\ShoppingPlatformUnitTest.csproj",
         "packagesPath": "C:\\Users\\vc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day12\\ShoppingPlatformSolution\\ShoppingPlatformUnitTest\\obj\\",
+        "outputPath": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day13\\ShoppingPlatformSolution\\ShoppingPlatformUnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,6 +1,7 @@
 ﻿using ShoppingModelLibrary;
 using ShoppingDAL;
 using System.Xml.Linq;
+
 namespace ShoppingBLL
 {
     public class ProductService : IProduct
@@ -35,27 +36,6 @@ namespace ShoppingBLL
                 return $"Cannot be added. {ex.Message}";
             }
             
-        }
-
-        public Dictionary<object, Product> GetAllProduct()
-        {
-            try
-            {
-                var allProducts = repositoryClass.GetAll();
-                if (allProducts != null)
-                {
-                    return allProducts;
-                }
-                else
-                {
-                    Console.WriteLine("No products found.");
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"An error occurred while retrieving all products: {ex.Message}");
-            }
-            return null;
         }
 
         public Product? GetProductByCategories(string category)
@@ -121,22 +101,18 @@ namespace ShoppingBLL
                 Console.WriteLine("Out of stock");
             }
         }
-        //public void PrintDetails(Product product)
-        //{
-        //    // Define the format for each column
-        //    string format = "|{0,-15}|{1,-5}|{2,-10}|{3,-15}|{4,-14}|";
 
-        //    // Print the header row
-        //    Console.WriteLine("+" + new string('-', 15) + "+" + new string('-', 5) + "+" + new string('-', 10) + "+" + new string('-', 15) + "+" + new string('-', 14) + "+");
-        //    Console.WriteLine(string.Format(format, "Name", "Id", "Price", "Category", "Availability"));
-        //    Console.WriteLine("+" + new string('-', 15) + "+" + new string('-', 5) + "+" + new string('-', 10) + "+" + new string('-', 15) + "+" + new string('-', 14) + "+");
-
-        //    // Print the product details
-        //    Console.WriteLine(string.Format(format, product.ProductName, product.ProductId, product.ProductPrice, product.ProductCategory, (product.ProductAvailability > 0 ? product.ProductAvailability.ToString() : "Out of stock")));
-
-        //    // Print the bottom border
-        //    Console.WriteLine("+" + new string('-', 15) + "+" + new string('-', 5) + "+" + new string('-', 10) + "+" + new string('-', 15) + "+" + new string('-', 14) + "+");
-        //}
-
+        public async Task<Dictionary<object, Product>> GetAllProductAsync()
+        {
+            try
+            {
+                return await repositoryClass.GetAllAsync();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred while retrieving all products asynchronously: {ex.Message}");
+                return null;
+            }
+        }
     }
 }

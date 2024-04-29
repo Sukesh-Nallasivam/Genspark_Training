@@ -3,6 +3,7 @@ using System.Collections;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
+
 namespace ShoppingDAL
 {
     public class ProductRepositoryClass : IRepository<int, Product>
@@ -101,6 +102,19 @@ namespace ShoppingDAL
                 Console.WriteLine($"An error occurred while updating the product: {ex.Message}");
                 return false; // Return false to indicate failure
             }
+        }
+
+        public async Task<Dictionary<object, Product>> GetAllAsync()
+        {
+            return await Task.Run(() =>
+            {
+                var dictionary = new Dictionary<object, Product>();
+                foreach (Product product in ProductList)
+                {
+                    dictionary.Add((object)product.ProductId, product);
+                }
+                return dictionary;
+            });
         }
 
     }

@@ -1,19 +1,16 @@
-﻿using ShoppingBLL;
-using ShoppingModelLibrary;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Metadata.Ecma335;
-using System.Text;
 using System.Threading.Tasks;
+using ShoppingBLL;
+using ShoppingModelLibrary;
 
 namespace ShoppingPlatform
 {
     public class MethodForProduct
     {
-        
         readonly ProductService productService = new();
-        public void ChoiceSelection()
+
+        public async Task ChoiceSelection()
         {
             int choice;
             do
@@ -24,7 +21,7 @@ namespace ShoppingPlatform
                 Console.WriteLine("3.Delete Products");
                 Console.WriteLine("4.Get Products by Name");
                 Console.WriteLine("5.Get Products by their Category");
-                Console.WriteLine("6.Get All Prducts");
+                Console.WriteLine("6.Get All Products");
                 Console.WriteLine("0.Go Back To Main Menu");
                 choice = Convert.ToInt32(Console.ReadLine());
                 switch (choice)
@@ -33,39 +30,37 @@ namespace ShoppingPlatform
                         Console.WriteLine("Moving To Main Menu");
                         break;
                     case 1:
-                        AddProductUI();
+                        await AddProductUI();
                         break;
                     case 2:
-                        UpdateProductUI();
+                        await UpdateProductUI();
                         break;
                     case 3:
-                        RemoveProductUI();
+                        await RemoveProductUI();
                         break;
                     case 4:
-                        GetProductsByNameUI();
+                        await GetProductsByNameUI();
                         break;
                     case 5:
-                        GetProductsByCategoryUI();
+                        await GetProductsByCategoryUI();
                         break;
                     case 6:
-                        GetAllProductsUI();
+                        await GetAllProductsUI();
                         break;
-                    //case 7:
-                    //    program.MethodForProduct();
-                    //    break;
                     default:
-                        Console.WriteLine("Ooops!!! Wrong Selection.  Please Select Opton as follows");
+                        Console.WriteLine("Ooops!!! Wrong Selection.  Please Select Option as follows");
                         break;
                 }
             } while (choice != 0);
         }
-        public void AddProductUI()
+
+        public async Task AddProductUI()
         {
             Product item = new();
             Console.WriteLine("You're Adding Product");
             Console.WriteLine("Enter Product Name");
             string ProductName = Console.ReadLine()?.ToUpper() ?? string.Empty;
-            Product DuplicateVerification = productService.GetProductByName(ProductName);
+            Product DuplicateVerification = await productService.GetProductByNameAsync(ProductName);
             if (DuplicateVerification != null)
             {
                 Console.WriteLine("Product already exists");
@@ -82,19 +77,19 @@ namespace ShoppingPlatform
             item.ProductAvailability = ProductAvailability;
             item.ProductCategory = ProductCategory;
             item.ProductPrice = ProductPrice;
-            productService.AddProduct(item);
+            await productService.AddProductAsync(item); // Await the asynchronous method
         }
-        public void UpdateProductUI()
+
+        public async Task UpdateProductUI()
         {
             Product item = new();
             Console.WriteLine("You're Updating a Product");
             Console.WriteLine("Enter Product Name");
             string ProductName = Console.ReadLine()?.ToUpper() ?? string.Empty;
-            Product DuplicateVerification = productService.GetProductByName(ProductName);
+            Product DuplicateVerification = await productService.GetProductByNameAsync(ProductName);
             if (DuplicateVerification == null)
             {
                 Console.WriteLine("Product not exists...............Try Again");
-                //productService.PrintDetails(DuplicateVerification);
                 return;
             }
             Console.WriteLine($"Product {DuplicateVerification.ProductName} exists with ID as {DuplicateVerification.ProductId}");
@@ -111,25 +106,27 @@ namespace ShoppingPlatform
             item.ProductAvailability = ProductAvailability;
             item.ProductCategory = ProductCategory;
             item.ProductPrice = ProductPrice;
-            productService.UpdateProduct(item);
+            await productService.UpdateProductAsync(item); // Await the asynchronous method
         }
-        public void RemoveProductUI()
+
+        public async Task RemoveProductUI()
         {
             Console.WriteLine("Enter product name to Remove");
-            string Name=Console.ReadLine()?.ToUpper() ?? string.Empty;
-            Product DuplicateVerification = productService.GetProductByName(Name);
-            if(DuplicateVerification == null)
+            string Name = Console.ReadLine()?.ToUpper() ?? string.Empty;
+            Product DuplicateVerification = await productService.GetProductByNameAsync(Name);
+            if (DuplicateVerification == null)
             {
                 Console.WriteLine("Product Not found");
                 return;
             }
-            productService.RemoveProduct(DuplicateVerification);
+            await productService.RemoveProductAsync(DuplicateVerification); // Await the asynchronous method
         }
-        public void GetProductsByNameUI()
+
+        public async Task GetProductsByNameUI()
         {
             Console.WriteLine("Enter product name to Find");
             string Name = Console.ReadLine()?.ToUpper() ?? string.Empty;
-            Product DuplicateVerification = productService.GetProductByName(Name);
+            Product DuplicateVerification = await productService.GetProductByNameAsync(Name);
             if (DuplicateVerification == null)
             {
                 Console.WriteLine("Product Not found");
@@ -137,11 +134,12 @@ namespace ShoppingPlatform
             }
             productService.PrintDetails(DuplicateVerification);
         }
-        public void GetProductsByCategoryUI()
+
+        public async Task GetProductsByCategoryUI()
         {
             Console.WriteLine("Enter product Category to Find");
             string Category = Console.ReadLine()?.ToUpper() ?? string.Empty;
-            Product DuplicateVerification = productService.GetProductByCategories(Category);
+            Product DuplicateVerification = await productService.GetProductByCategoriesAsync(Category);
             if (DuplicateVerification == null)
             {
                 Console.WriteLine("Product Not found");
@@ -149,9 +147,10 @@ namespace ShoppingPlatform
             }
             productService.PrintDetails(DuplicateVerification);
         }
-        public void GetAllProductsUI()
+
+        public async Task GetAllProductsUI()
         {
-            Dictionary<object, Product> allProducts = productService.GetAllProduct();
+            Dictionary<object, Product> allProducts = await productService.GetAllProductAsync();
             if (allProducts != null && allProducts.Count > 0)
             {
                 Console.WriteLine("All Products:");
@@ -166,6 +165,5 @@ namespace ShoppingPlatform
                 Console.WriteLine("No products found.");
             }
         }
-
     }
 }

@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ShoppingDAL
-build_property.ProjectDir = C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day12\ShoppingPlatformSolution\ShoppingDAL\
+build_property.ProjectDir = C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day13\ShoppingPlatformSolution\ShoppingDAL\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
