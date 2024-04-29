@@ -8,5 +8,8 @@ namespace ShoppingModelLibrary
 {
     internal class CartItem
     {
+        public int CustomerId { get; set; }
+        public string CustomerName { get; set; }=String.Empty;
+        public Dictionary<string, int>? ProductAndCount { get; set; }
     }
 }

@@ -35,7 +35,8 @@ namespace ShoppingPlatform
         public void GetProduct()
         {
             ProductService productService = new ProductService();
-            
+            productService.GetAllProduct();
+            customerService.AddItemsToCart();
         }
     }
 }

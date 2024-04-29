@@ -1,0 +1,15 @@
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day11\ShoppingPlatformSolution\ShoppingPlatform\bin\Debug\net6.0\ShoppingPlatform.exe
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day11\ShoppingPlatformSolution\ShoppingPlatform\bin\Debug\net6.0\ShoppingPlatform.deps.json
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day11\ShoppingPlatformSolution\ShoppingPlatform\bin\Debug\net6.0\ShoppingPlatform.runtimeconfig.json
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day11\ShoppingPlatformSolution\ShoppingPlatform\bin\Debug\net6.0\ShoppingPlatform.dll
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day11\ShoppingPlatformSolution\ShoppingPlatform\bin\Debug\net6.0\ShoppingPlatform.pdb
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day11\ShoppingPlatformSolution\ShoppingPlatform\obj\Debug\net6.0\ShoppingPlatform.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day11\ShoppingPlatformSolution\ShoppingPlatform\obj\Debug\net6.0\ShoppingPlatform.AssemblyInfoInputs.cache
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day11\ShoppingPlatformSolution\ShoppingPlatform\obj\Debug\net6.0\ShoppingPlatform.AssemblyInfo.cs
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day11\ShoppingPlatformSolution\ShoppingPlatform\obj\Debug\net6.0\ShoppingPlatform.csproj.CoreCompileInputs.cache
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day11\ShoppingPlatformSolution\ShoppingPlatform\obj\Debug\net6.0\ShoppingPlatform.sourcelink.json
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day11\ShoppingPlatformSolution\ShoppingPlatform\obj\Debug\net6.0\ShoppingPlatform.dll
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day11\ShoppingPlatformSolution\ShoppingPlatform\obj\Debug\net6.0\refint\ShoppingPlatform.dll
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day11\ShoppingPlatformSolution\ShoppingPlatform\obj\Debug\net6.0\ShoppingPlatform.pdb
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day11\ShoppingPlatformSolution\ShoppingPlatform\obj\Debug\net6.0\ShoppingPlatform.genruntimeconfig.cache
+C:\Users\VC\Desktop\New folder\git_push\Genspark_Training\Day11\ShoppingPlatformSolution\ShoppingPlatform\obj\Debug\net6.0\ref\ShoppingPlatform.dll

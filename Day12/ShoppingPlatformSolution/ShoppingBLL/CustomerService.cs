@@ -16,7 +16,7 @@ namespace ShoppingBLL
 
         public void AddItemsToCart()
         {
-            throw new NotImplementedException();
+            
         }
 
         public void DeleteCustomer(Customer customer)
@@ -39,7 +39,7 @@ namespace ShoppingBLL
             throw new NotImplementedException();
         }
 
-        public Customer UpdateCustomer(Customer customer)
+        public void UpdateCustomer(Customer customer)
         {
             throw new NotImplementedException();
         }

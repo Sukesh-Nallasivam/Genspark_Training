@@ -1,9 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\VC\\Desktop\\Genspark_training\\Day_11\\ShoppingPlatformSolution\\",
+  "WorkspaceRootPath": "C:\\Users\\VC\\Desktop\\New folder\\git_push\\Genspark_Training\\Day11\\ShoppingPlatformSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{04CE2907-0C67-4057-904F-20E7E7BB012D}|ShoppingPlatform\\ShoppingPlatform.csproj|c:\\users\\vc\\desktop\\genspark_training\\day_11\\shoppingplatformsolution\\shoppingplatform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A90CC949-F52B-4B8A-9C51-D40A70CEEF81}|ShoppingDAL\\ShoppingDAL.csproj|c:\\users\\vc\\desktop\\new folder\\git_push\\genspark_training\\day11\\shoppingplatformsolution\\shoppingdal\\productrepositoryclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90CC949-F52B-4B8A-9C51-D40A70CEEF81}|ShoppingDAL\\ShoppingDAL.csproj|solutionrelative:shoppingdal\\productrepositoryclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90CC949-F52B-4B8A-9C51-D40A70CEEF81}|ShoppingDAL\\ShoppingDAL.csproj|c:\\users\\vc\\desktop\\new folder\\git_push\\genspark_training\\day11\\shoppingplatformsolution\\shoppingdal\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90CC949-F52B-4B8A-9C51-D40A70CEEF81}|ShoppingDAL\\ShoppingDAL.csproj|solutionrelative:shoppingdal\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D80EF93-DEB2-4DDA-A9B9-6E2AAB18226A}|ShoppingBLL\\ShoppingBLL.csproj|c:\\users\\vc\\desktop\\new folder\\git_push\\genspark_training\\day11\\shoppingplatformsolution\\shoppingbll\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D80EF93-DEB2-4DDA-A9B9-6E2AAB18226A}|ShoppingBLL\\ShoppingBLL.csproj|solutionrelative:shoppingbll\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1A1CC98-592D-4190-B5A5-93660909B3D1}|ShoppingPlatformUnitTest\\ShoppingPlatformUnitTest.csproj|c:\\users\\vc\\desktop\\new folder\\git_push\\genspark_training\\day11\\shoppingplatformsolution\\shoppingplatformunittest\\productblltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1A1CC98-592D-4190-B5A5-93660909B3D1}|ShoppingPlatformUnitTest\\ShoppingPlatformUnitTest.csproj|solutionrelative:shoppingplatformunittest\\productblltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D80EF93-DEB2-4DDA-A9B9-6E2AAB18226A}|ShoppingBLL\\ShoppingBLL.csproj|c:\\users\\vc\\desktop\\new folder\\git_push\\genspark_training\\day11\\shoppingplatformsolution\\shoppingbll\\iproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D80EF93-DEB2-4DDA-A9B9-6E2AAB18226A}|ShoppingBLL\\ShoppingBLL.csproj|solutionrelative:shoppingbll\\iproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799B82BD-86E5-4900-9437-2E85766B097B}|ShoppingModelLibrary\\ShoppingModelLibrary.csproj|c:\\users\\vc\\desktop\\new folder\\git_push\\genspark_training\\day11\\shoppingplatformsolution\\shoppingmodellibrary\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799B82BD-86E5-4900-9437-2E85766B097B}|ShoppingModelLibrary\\ShoppingModelLibrary.csproj|solutionrelative:shoppingmodellibrary\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D80EF93-DEB2-4DDA-A9B9-6E2AAB18226A}|ShoppingBLL\\ShoppingBLL.csproj|c:\\users\\vc\\desktop\\new folder\\git_push\\genspark_training\\day11\\shoppingplatformsolution\\shoppingbll\\shoppingbll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5D80EF93-DEB2-4DDA-A9B9-6E2AAB18226A}|ShoppingBLL\\ShoppingBLL.csproj|solutionrelative:shoppingbll\\shoppingbll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799B82BD-86E5-4900-9437-2E85766B097B}|ShoppingModelLibrary\\ShoppingModelLibrary.csproj|c:\\users\\vc\\desktop\\new folder\\git_push\\genspark_training\\day11\\shoppingplatformsolution\\shoppingmodellibrary\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799B82BD-86E5-4900-9437-2E85766B097B}|ShoppingModelLibrary\\ShoppingModelLibrary.csproj|solutionrelative:shoppingmodellibrary\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799B82BD-86E5-4900-9437-2E85766B097B}|ShoppingModelLibrary\\ShoppingModelLibrary.csproj|c:\\users\\vc\\desktop\\new folder\\git_push\\genspark_training\\day11\\shoppingplatformsolution\\shoppingmodellibrary\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799B82BD-86E5-4900-9437-2E85766B097B}|ShoppingModelLibrary\\ShoppingModelLibrary.csproj|solutionrelative:shoppingmodellibrary\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799B82BD-86E5-4900-9437-2E85766B097B}|ShoppingModelLibrary\\ShoppingModelLibrary.csproj|c:\\users\\vc\\desktop\\new folder\\git_push\\genspark_training\\day11\\shoppingplatformsolution\\shoppingmodellibrary\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799B82BD-86E5-4900-9437-2E85766B097B}|ShoppingModelLibrary\\ShoppingModelLibrary.csproj|solutionrelative:shoppingmodellibrary\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04CE2907-0C67-4057-904F-20E7E7BB012D}|ShoppingPlatform\\ShoppingPlatform.csproj|c:\\users\\vc\\desktop\\new folder\\git_push\\genspark_training\\day11\\shoppingplatformsolution\\shoppingplatform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04CE2907-0C67-4057-904F-20E7E7BB012D}|ShoppingPlatform\\ShoppingPlatform.csproj|solutionrelative:shoppingplatform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,20 +54,149 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductBLLTest.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\New folder\\git_push\\Genspark_Training\\Day11\\ShoppingPlatformSolution\\ShoppingPlatformUnitTest\\ProductBLLTest.cs",
+              "RelativeDocumentMoniker": "ShoppingPlatformUnitTest\\ProductBLLTest.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\New folder\\git_push\\Genspark_Training\\Day11\\ShoppingPlatformSolution\\ShoppingPlatformUnitTest\\ProductBLLTest.cs",
+              "RelativeToolTip": "ShoppingPlatformUnitTest\\ProductBLLTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T09:52:44.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ShoppingBLL",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\New folder\\git_push\\Genspark_Training\\Day11\\ShoppingPlatformSolution\\ShoppingBLL\\ShoppingBLL.csproj",
+              "RelativeDocumentMoniker": "ShoppingBLL\\ShoppingBLL.csproj",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\New folder\\git_push\\Genspark_Training\\Day11\\ShoppingPlatformSolution\\ShoppingBLL\\ShoppingBLL.csproj",
+              "RelativeToolTip": "ShoppingBLL\\ShoppingBLL.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-24T09:28:57.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\New folder\\git_push\\Genspark_Training\\Day11\\ShoppingPlatformSolution\\ShoppingDAL\\IRepository.cs",
+              "RelativeDocumentMoniker": "ShoppingDAL\\IRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\New folder\\git_push\\Genspark_Training\\Day11\\ShoppingPlatformSolution\\ShoppingDAL\\IRepository.cs",
+              "RelativeToolTip": "ShoppingDAL\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T09:33:52.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IProduct.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\New folder\\git_push\\Genspark_Training\\Day11\\ShoppingPlatformSolution\\ShoppingBLL\\IProduct.cs",
+              "RelativeDocumentMoniker": "ShoppingBLL\\IProduct.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\New folder\\git_push\\Genspark_Training\\Day11\\ShoppingPlatformSolution\\ShoppingBLL\\IProduct.cs",
+              "RelativeToolTip": "ShoppingBLL\\IProduct.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T09:32:53.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ProductRepositoryClass.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\New folder\\git_push\\Genspark_Training\\Day11\\ShoppingPlatformSolution\\ShoppingDAL\\ProductRepositoryClass.cs",
+              "RelativeDocumentMoniker": "ShoppingDAL\\ProductRepositoryClass.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\New folder\\git_push\\Genspark_Training\\Day11\\ShoppingPlatformSolution\\ShoppingDAL\\ProductRepositoryClass.cs",
+              "RelativeToolTip": "ShoppingDAL\\ProductRepositoryClass.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T08:28:59.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\New folder\\git_push\\Genspark_Training\\Day11\\ShoppingPlatformSolution\\ShoppingBLL\\ProductService.cs",
+              "RelativeDocumentMoniker": "ShoppingBLL\\ProductService.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\New folder\\git_push\\Genspark_Training\\Day11\\ShoppingPlatformSolution\\ShoppingBLL\\ProductService.cs",
+              "RelativeToolTip": "ShoppingBLL\\ProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T08:28:34.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\New folder\\git_push\\Genspark_Training\\Day11\\ShoppingPlatformSolution\\ShoppingModelLibrary\\Product.cs",
+              "RelativeDocumentMoniker": "ShoppingModelLibrary\\Product.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\New folder\\git_push\\Genspark_Training\\Day11\\ShoppingPlatformSolution\\ShoppingModelLibrary\\Product.cs",
+              "RelativeToolTip": "ShoppingModelLibrary\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T06:20:42.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\New folder\\git_push\\Genspark_Training\\Day11\\ShoppingPlatformSolution\\ShoppingModelLibrary\\CartItem.cs",
+              "RelativeDocumentMoniker": "ShoppingModelLibrary\\CartItem.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\New folder\\git_push\\Genspark_Training\\Day11\\ShoppingPlatformSolution\\ShoppingModelLibrary\\CartItem.cs",
+              "RelativeToolTip": "ShoppingModelLibrary\\CartItem.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAiwAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T06:20:20.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\New folder\\git_push\\Genspark_Training\\Day11\\ShoppingPlatformSolution\\ShoppingModelLibrary\\Customer.cs",
+              "RelativeDocumentMoniker": "ShoppingModelLibrary\\Customer.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\New folder\\git_push\\Genspark_Training\\Day11\\ShoppingPlatformSolution\\ShoppingModelLibrary\\Customer.cs",
+              "RelativeToolTip": "ShoppingModelLibrary\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T06:19:04.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\New folder\\git_push\\Genspark_Training\\Day11\\ShoppingPlatformSolution\\ShoppingModelLibrary\\Cart.cs",
+              "RelativeDocumentMoniker": "ShoppingModelLibrary\\Cart.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\New folder\\git_push\\Genspark_Training\\Day11\\ShoppingPlatformSolution\\ShoppingModelLibrary\\Cart.cs",
+              "RelativeToolTip": "ShoppingModelLibrary\\Cart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T06:18:32.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Genspark_training\\Day_11\\ShoppingPlatformSolution\\ShoppingPlatform\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\New folder\\git_push\\Genspark_Training\\Day11\\ShoppingPlatformSolution\\ShoppingPlatform\\Program.cs",
               "RelativeDocumentMoniker": "ShoppingPlatform\\Program.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\Genspark_training\\Day_11\\ShoppingPlatformSolution\\ShoppingPlatform\\Program.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\New folder\\git_push\\Genspark_Training\\Day11\\ShoppingPlatformSolution\\ShoppingPlatform\\Program.cs",
               "RelativeToolTip": "ShoppingPlatform\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T06:17:31.107Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-24T06:17:31.107Z"
             }
           ]
         }
