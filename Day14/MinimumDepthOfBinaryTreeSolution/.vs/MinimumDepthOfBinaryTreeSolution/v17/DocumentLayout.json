@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day14\\MinimumDepthOfBinaryTreeSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54936A4A-5D3C-46DA-AA93-7886B1FDB932}|BinaryTreeTest\\BinaryTreeTest.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day14\\minimumdepthofbinarytreesolution\\binarytreetest\\binarytreetestcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54936A4A-5D3C-46DA-AA93-7886B1FDB932}|BinaryTreeTest\\BinaryTreeTest.csproj|solutionrelative:binarytreetest\\binarytreetestcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF89422-AA59-4F9A-8F88-5C6403F1F1BF}|MinimumDepthOfBinaryTree\\MinimumDepthOfBinaryTree.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day14\\minimumdepthofbinarytreesolution\\minimumdepthofbinarytree\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF89422-AA59-4F9A-8F88-5C6403F1F1BF}|MinimumDepthOfBinaryTree\\MinimumDepthOfBinaryTree.csproj|solutionrelative:minimumdepthofbinarytree\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BinaryTreeTestCase.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day14\\MinimumDepthOfBinaryTreeSolution\\BinaryTreeTest\\BinaryTreeTestCase.cs",
+              "RelativeDocumentMoniker": "BinaryTreeTest\\BinaryTreeTestCase.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day14\\MinimumDepthOfBinaryTreeSolution\\BinaryTreeTest\\BinaryTreeTestCase.cs",
+              "RelativeToolTip": "BinaryTreeTest\\BinaryTreeTestCase.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T11:27:32.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day14\\MinimumDepthOfBinaryTreeSolution\\MinimumDepthOfBinaryTree\\Program.cs",
+              "RelativeDocumentMoniker": "MinimumDepthOfBinaryTree\\Program.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day14\\MinimumDepthOfBinaryTreeSolution\\MinimumDepthOfBinaryTree\\Program.cs",
+              "RelativeToolTip": "MinimumDepthOfBinaryTree\\Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBEAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T08:52:12.717Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
