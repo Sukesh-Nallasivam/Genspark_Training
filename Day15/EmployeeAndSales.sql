@@ -148,3 +148,20 @@ values
 (1, 'Camel Saddle', 'Recreation');
 
 select * from Sales
+
+select * from Department
+UPDATE Department
+Set ManagerId = 
+    Case DepartmentName
+        When 'Management' Then 1
+        When 'Books' Then 4
+        When 'Clothes' Then 4
+        When 'Equipment' Then 3
+        When 'Furniture' Then 3
+        When 'Navigation' Then 3
+        When 'Recreation' Then 4
+        When 'Accounting' Then 5
+        When 'Purchasing' Then 7
+        When 'Personnel' Then 9
+        When 'Marketing' Then 5
+    End;
