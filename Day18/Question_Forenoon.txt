@@ -1,0 +1,1 @@
+a shop want to record the stock available and billed in a shop, customer data has to minimum.one product could be supplied by multiple supplier.a single supplier can supply many products.
