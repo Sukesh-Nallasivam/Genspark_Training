@@ -51,6 +51,14 @@ join titles t on t.pub_id=e.pub_id
 join sales s on s.title_id=t.title_id
 end
 
+
+alter procedure GetEmployeeName
+as
+begin
+select e.fname,t.title,t.price,s.qty,(t.price*s.qty) as Cost from employee e
+join titles t on t.pub_id=e.pub_id
+join sales s on s.title_id=t.title_id
+end
 exec GetEmployeeName
 
 alter procedure GetEmployeeName
@@ -63,8 +71,23 @@ join sales s on s.title_id=t.title_id
 where e.fname=@firstname
 end
 
+
+alter procedure GetEmployeeName
+@firstname varchar(30)
+as
+begin
+select e.fname,t.title,t.price,sum(s.qty) as Quantity,(t.price*sum(s.qty)) as Cost from employee e
+join titles t on t.pub_id=e.pub_id
+join sales s on s.title_id=t.title_id
+where e.fname=@firstname
+group by e.fname, t.title, t.price;
+end
+
 exec GetEmployeeName 'peter'
 
+
+select * from employee where fname = 'paul'
+select * from titles where pub_id = 0877
 
 --3) Create a query that will print all names from authors and employees
 
@@ -80,7 +103,8 @@ select employee.fname+' '+employee.lname from employee
 with GetOrderDetails_CTE (Title,PublisherName,AuthorName,Quantity,TotalPrice)
 as
 (
-select t.title as Title,p.pub_name as PublisherName,a.au_fname+' '+a.au_lname as AuthorName,s.qty as Quantity,s.qty*t.price as TotalPrice from titles t
+select t.title as Title,p.pub_name as PublisherName,a.au_fname+' '+a.au_lname as AuthorName,
+s.qty as Quantity,s.qty*t.price as TotalPrice from titles t
 join sales s on s.title_id=t.title_id
 join publishers p on t.pub_id=p.pub_id
 join titleauthor ta on ta.title_id=t.title_id
