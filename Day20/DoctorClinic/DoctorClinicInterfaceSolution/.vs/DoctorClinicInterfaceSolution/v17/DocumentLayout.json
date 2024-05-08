@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day20\\DoctorClinic\\DoctorClinicInterfaceSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4E9351C4-6E2B-4C34-BC5A-9800F2A1057A}|ClinicRepositoryDAL\\ClinicDALLibrary.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day20\\doctorclinic\\doctorclinicinterfacesolution\\clinicrepositorydal\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E9351C4-6E2B-4C34-BC5A-9800F2A1057A}|ClinicRepositoryDAL\\ClinicDALLibrary.csproj|solutionrelative:clinicrepositorydal\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E9351C4-6E2B-4C34-BC5A-9800F2A1057A}|ClinicRepositoryDAL\\ClinicDALLibrary.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day20\\doctorclinic\\doctorclinicinterfacesolution\\clinicrepositorydal\\patientrepositoryclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E9351C4-6E2B-4C34-BC5A-9800F2A1057A}|ClinicRepositoryDAL\\ClinicDALLibrary.csproj|solutionrelative:clinicrepositorydal\\patientrepositoryclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E9351C4-6E2B-4C34-BC5A-9800F2A1057A}|ClinicRepositoryDAL\\ClinicDALLibrary.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day20\\doctorclinic\\doctorclinicinterfacesolution\\clinicrepositorydal\\doctorrepositoryclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E9351C4-6E2B-4C34-BC5A-9800F2A1057A}|ClinicRepositoryDAL\\ClinicDALLibrary.csproj|solutionrelative:clinicrepositorydal\\doctorrepositoryclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E9351C4-6E2B-4C34-BC5A-9800F2A1057A}|ClinicRepositoryDAL\\ClinicDALLibrary.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day20\\doctorclinic\\doctorclinicinterfacesolution\\clinicrepositorydal\\appointmentrepositoryclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E9351C4-6E2B-4C34-BC5A-9800F2A1057A}|ClinicRepositoryDAL\\ClinicDALLibrary.csproj|solutionrelative:clinicrepositorydal\\appointmentrepositoryclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E9351C4-6E2B-4C34-BC5A-9800F2A1057A}|ClinicRepositoryDAL\\ClinicDALLibrary.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day20\\doctorclinic\\doctorclinicinterfacesolution\\clinicrepositorydal\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E9351C4-6E2B-4C34-BC5A-9800F2A1057A}|ClinicRepositoryDAL\\ClinicDALLibrary.csproj|solutionrelative:clinicrepositorydal\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day20\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicRepositoryDAL\\Models\\DoctorClinicDBContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ClinicRepositoryDAL\\Models\\DoctorClinicDBContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E9351C4-6E2B-4C34-BC5A-9800F2A1057A}|ClinicRepositoryDAL\\ClinicDALLibrary.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day20\\doctorclinic\\doctorclinicinterfacesolution\\clinicrepositorydal\\clinicdallibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4E9351C4-6E2B-4C34-BC5A-9800F2A1057A}|ClinicRepositoryDAL\\ClinicDALLibrary.csproj|solutionrelative:clinicrepositorydal\\clinicdallibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E8C0E0C-50B5-4620-92FC-488E601B5A7E}|ClinicModelLibrary\\ClinicModelLibrary.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day20\\doctorclinic\\doctorclinicinterfacesolution\\clinicmodellibrary\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E8C0E0C-50B5-4620-92FC-488E601B5A7E}|ClinicModelLibrary\\ClinicModelLibrary.csproj|solutionrelative:clinicmodellibrary\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E8C0E0C-50B5-4620-92FC-488E601B5A7E}|ClinicModelLibrary\\ClinicModelLibrary.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day20\\doctorclinic\\doctorclinicinterfacesolution\\clinicmodellibrary\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E8C0E0C-50B5-4620-92FC-488E601B5A7E}|ClinicModelLibrary\\ClinicModelLibrary.csproj|solutionrelative:clinicmodellibrary\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E8C0E0C-50B5-4620-92FC-488E601B5A7E}|ClinicModelLibrary\\ClinicModelLibrary.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day20\\doctorclinic\\doctorclinicinterfacesolution\\clinicmodellibrary\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E8C0E0C-50B5-4620-92FC-488E601B5A7E}|ClinicModelLibrary\\ClinicModelLibrary.csproj|solutionrelative:clinicmodellibrary\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E8C0E0C-50B5-4620-92FC-488E601B5A7E}|ClinicModelLibrary\\ClinicModelLibrary.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day20\\doctorclinic\\doctorclinicinterfacesolution\\clinicmodellibrary\\clinicmodellibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0E8C0E0C-50B5-4620-92FC-488E601B5A7E}|ClinicModelLibrary\\ClinicModelLibrary.csproj|solutionrelative:clinicmodellibrary\\clinicmodellibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E8C0E0C-50B5-4620-92FC-488E601B5A7E}|ClinicModelLibrary\\ClinicModelLibrary.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day20\\doctorclinic\\doctorclinicinterfacesolution\\clinicmodellibrary\\imodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E8C0E0C-50B5-4620-92FC-488E601B5A7E}|ClinicModelLibrary\\ClinicModelLibrary.csproj|solutionrelative:clinicmodellibrary\\imodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day20\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicRepositoryDAL\\IRepository.cs",
+              "RelativeDocumentMoniker": "ClinicRepositoryDAL\\IRepository.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day20\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicRepositoryDAL\\IRepository.cs",
+              "RelativeToolTip": "ClinicRepositoryDAL\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T17:30:45.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PatientRepositoryClass.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day20\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicRepositoryDAL\\PatientRepositoryClass.cs",
+              "RelativeDocumentMoniker": "ClinicRepositoryDAL\\PatientRepositoryClass.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day20\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicRepositoryDAL\\PatientRepositoryClass.cs",
+              "RelativeToolTip": "ClinicRepositoryDAL\\PatientRepositoryClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T17:30:30.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DoctorRepositoryClass.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day20\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicRepositoryDAL\\DoctorRepositoryClass.cs",
+              "RelativeDocumentMoniker": "ClinicRepositoryDAL\\DoctorRepositoryClass.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day20\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicRepositoryDAL\\DoctorRepositoryClass.cs",
+              "RelativeToolTip": "ClinicRepositoryDAL\\DoctorRepositoryClass.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T17:30:11.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day20\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicRepositoryDAL\\Models\\Appointment.cs",
+              "RelativeDocumentMoniker": "ClinicRepositoryDAL\\Models\\Appointment.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day20\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicRepositoryDAL\\Models\\Appointment.cs",
+              "RelativeToolTip": "ClinicRepositoryDAL\\Models\\Appointment.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA0wBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T17:24:42.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DoctorClinicDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day20\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicRepositoryDAL\\Models\\DoctorClinicDBContext.cs",
+              "RelativeDocumentMoniker": "ClinicRepositoryDAL\\Models\\DoctorClinicDBContext.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day20\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicRepositoryDAL\\Models\\DoctorClinicDBContext.cs",
+              "RelativeToolTip": "ClinicRepositoryDAL\\Models\\DoctorClinicDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T17:15:28.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClinicModelLibrary",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day20\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicModelLibrary\\ClinicModelLibrary.csproj",
+              "RelativeDocumentMoniker": "ClinicModelLibrary\\ClinicModelLibrary.csproj",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day20\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicModelLibrary\\ClinicModelLibrary.csproj",
+              "RelativeToolTip": "ClinicModelLibrary\\ClinicModelLibrary.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-08T11:16:57.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day20\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicModelLibrary\\Patient.cs",
+              "RelativeDocumentMoniker": "ClinicModelLibrary\\Patient.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day20\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicModelLibrary\\Patient.cs",
+              "RelativeToolTip": "ClinicModelLibrary\\Patient.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T11:10:08.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClinicDALLibrary",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day20\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicRepositoryDAL\\ClinicDALLibrary.csproj",
+              "RelativeDocumentMoniker": "ClinicRepositoryDAL\\ClinicDALLibrary.csproj",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day20\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicRepositoryDAL\\ClinicDALLibrary.csproj",
+              "RelativeToolTip": "ClinicRepositoryDAL\\ClinicDALLibrary.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-08T10:38:13.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day20\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicModelLibrary\\Doctor.cs",
+              "RelativeDocumentMoniker": "ClinicModelLibrary\\Doctor.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day20\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicModelLibrary\\Doctor.cs",
+              "RelativeToolTip": "ClinicModelLibrary\\Doctor.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T10:44:23.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day20\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicModelLibrary\\Appointment.cs",
+              "RelativeDocumentMoniker": "ClinicModelLibrary\\Appointment.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day20\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicModelLibrary\\Appointment.cs",
+              "RelativeToolTip": "ClinicModelLibrary\\Appointment.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T10:44:25.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppointmentRepositoryClass.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day20\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicRepositoryDAL\\AppointmentRepositoryClass.cs",
+              "RelativeDocumentMoniker": "ClinicRepositoryDAL\\AppointmentRepositoryClass.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day20\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicRepositoryDAL\\AppointmentRepositoryClass.cs",
+              "RelativeToolTip": "ClinicRepositoryDAL\\AppointmentRepositoryClass.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAA1wEUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T11:17:03.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IModel.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day20\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicModelLibrary\\IModel.cs",
+              "RelativeDocumentMoniker": "ClinicModelLibrary\\IModel.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day20\\DoctorClinic\\DoctorClinicInterfaceSolution\\ClinicModelLibrary\\IModel.cs",
+              "RelativeToolTip": "ClinicModelLibrary\\IModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T10:44:16.337Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day20\DoctorClinic\DoctorClinicInterfaceSolution\ClinicModelLibrary\bin\Debug\net6.0\ClinicModelLibrary.deps.json
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day20\DoctorClinic\DoctorClinicInterfaceSolution\ClinicModelLibrary\bin\Debug\net6.0\ClinicModelLibrary.runtimeconfig.json
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day20\DoctorClinic\DoctorClinicInterfaceSolution\ClinicModelLibrary\bin\Debug\net6.0\ClinicModelLibrary.dll
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day20\DoctorClinic\DoctorClinicInterfaceSolution\ClinicModelLibrary\bin\Debug\net6.0\ClinicModelLibrary.pdb
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day20\DoctorClinic\DoctorClinicInterfaceSolution\ClinicModelLibrary\obj\Debug\net6.0\ClinicModelLibrary.csproj.AssemblyReference.cache
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day20\DoctorClinic\DoctorClinicInterfaceSolution\ClinicModelLibrary\obj\Debug\net6.0\ClinicModelLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day20\DoctorClinic\DoctorClinicInterfaceSolution\ClinicModelLibrary\obj\Debug\net6.0\ClinicModelLibrary.AssemblyInfoInputs.cache
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day20\DoctorClinic\DoctorClinicInterfaceSolution\ClinicModelLibrary\obj\Debug\net6.0\ClinicModelLibrary.AssemblyInfo.cs
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day20\DoctorClinic\DoctorClinicInterfaceSolution\ClinicModelLibrary\obj\Debug\net6.0\ClinicModelLibrary.csproj.CoreCompileInputs.cache
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day20\DoctorClinic\DoctorClinicInterfaceSolution\ClinicModelLibrary\obj\Debug\net6.0\ClinicModelLibrary.sourcelink.json
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day20\DoctorClinic\DoctorClinicInterfaceSolution\ClinicModelLibrary\obj\Debug\net6.0\ClinicModelLibrary.dll
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day20\DoctorClinic\DoctorClinicInterfaceSolution\ClinicModelLibrary\obj\Debug\net6.0\refint\ClinicModelLibrary.dll
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day20\DoctorClinic\DoctorClinicInterfaceSolution\ClinicModelLibrary\obj\Debug\net6.0\ClinicModelLibrary.pdb
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day20\DoctorClinic\DoctorClinicInterfaceSolution\ClinicModelLibrary\obj\Debug\net6.0\ClinicModelLibrary.genruntimeconfig.cache
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day20\DoctorClinic\DoctorClinicInterfaceSolution\ClinicModelLibrary\obj\Debug\net6.0\ref\ClinicModelLibrary.dll
