@@ -8,7 +8,7 @@ namespace DataBaseDay20
         static void Main(string[] args)
         {
             Console.WriteLine("Attempting to connect to the database...");
-            string connectionString = "Data Source=DESKTOP-7UH0GM7\\SQLEXPRESS;Initial Catalog=dbEmployeeTracker;Integrated Security=True;";
+            string connectionString = "Data Source=.\\SQLEXPRESS;Initial Catalog=dbEmployeeTracker;Integrated Security=True;";
             try
             {
                 using (SqlConnection connection = new SqlConnection(connectionString))
