@@ -1,0 +1,6 @@
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day22\RequestTrackerSolution\RequestTrackerAdminBLL\obj\Debug\net6.0\RequestTrackerBLLAdmin.csproj.AssemblyReference.cache
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day22\RequestTrackerSolution\RequestTrackerAdminBLL\obj\Debug\net6.0\RequestTrackerBLLAdmin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day22\RequestTrackerSolution\RequestTrackerAdminBLL\obj\Debug\net6.0\RequestTrackerBLLAdmin.AssemblyInfoInputs.cache
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day22\RequestTrackerSolution\RequestTrackerAdminBLL\obj\Debug\net6.0\RequestTrackerBLLAdmin.AssemblyInfo.cs
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day22\RequestTrackerSolution\RequestTrackerAdminBLL\obj\Debug\net6.0\RequestTrackerBLLAdmin.csproj.CoreCompileInputs.cache
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day22\RequestTrackerSolution\RequestTrackerAdminBLL\obj\Debug\net6.0\RequestTrackerBLLAdmin.sourcelink.json
