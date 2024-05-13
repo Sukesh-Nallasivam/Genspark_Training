@@ -34,5 +34,29 @@ namespace RequestTrackerDALLibrary
             return await _context.RequestSolutions
                 .FirstOrDefaultAsync(rs => rs.RequestId == requestId);
         }
+        public async Task<RequestSolution> GetSolutionById(int solutionId)
+        {
+            return await _context.RequestSolutions.FindAsync(solutionId);
+        }
+
+        public async Task<RequestSolution> UpdateSolution(RequestSolution updatedSolution)
+        {
+            var existingSolution = await _context.RequestSolutions.FindAsync(updatedSolution.SolutionId);
+
+            if (existingSolution == null)
+            {
+                throw new ArgumentException("Solution with the provided ID not found.", nameof(updatedSolution.SolutionId));
+            }
+
+            // Update existing solution properties
+            existingSolution.SolutionDescription = updatedSolution.SolutionDescription;
+            existingSolution.SolvedBy = updatedSolution.SolvedBy;
+            existingSolution.ResponseDetails = updatedSolution.ResponseDetails;
+
+            // Save changes to the database
+            await _context.SaveChangesAsync();
+
+            return existingSolution;
+        }
     }
 }

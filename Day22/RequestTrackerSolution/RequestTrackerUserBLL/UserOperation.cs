@@ -7,12 +7,16 @@ namespace RequestTrackerBLLUser
     {
         private readonly EmployeeRequestRepository _employeeRequestRepository;
         private readonly RequestSolutionRepository _requestSolutionRepository;
-        public UserOperation(RequestTrackerContext context)
+
+        public UserOperation()
         {
-            _employeeRequestRepository = new EmployeeRequestRepository(context);
-            _requestSolutionRepository = new RequestSolutionRepository(context, new EmployeeRepository(context), _employeeRequestRepository);
         }
 
+        public UserOperation(EmployeeRequestRepository employeeRequestRepository, RequestSolutionRepository requestSolutionRepository)
+        {
+            _employeeRequestRepository = employeeRequestRepository;
+            _requestSolutionRepository = requestSolutionRepository;
+        }
         public Task<string> GiveFeedback(string requestId, string feedbackDetails)
         {
             throw new NotImplementedException();

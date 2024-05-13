@@ -12,7 +12,18 @@ namespace RequestTrackerBLLAdmin
     {
         private readonly EmployeeRequestRepository _employeeRequestRepository;
         private readonly RequestSolutionRepository _requestSolutionRepository;
-        public Task<SolutionFeedback> GiveFeedback(string requestId, string feedbackDetails)
+
+        public AdminOperation()
+        {
+        }
+
+        public AdminOperation(EmployeeRequestRepository employeeRequestRepository, RequestSolutionRepository requestSolutionRepository)
+        {
+            _employeeRequestRepository = employeeRequestRepository ?? throw new ArgumentNullException(nameof(employeeRequestRepository));
+            _requestSolutionRepository = requestSolutionRepository ?? throw new ArgumentNullException(nameof(requestSolutionRepository));
+        }
+
+        public Task<SolutionFeedback> GiveFeedback(int RequestId, string feedbackDetails)
         {
             throw new NotImplementedException();
         }
@@ -39,7 +50,6 @@ namespace RequestTrackerBLLAdmin
             {
 
                 RequestMessage = RequestInput,
-                RequestDate = DateTime.Now,
                 RequestStatus = "Open",
                 RequestRaisedBy = employee.Id                         
 
@@ -48,9 +58,25 @@ namespace RequestTrackerBLLAdmin
 
         }
 
-        public Task<SolutionFeedback> RespondToSolution(string requestId, string responseDetails)
+        public async Task<SolutionFeedback> RespondToSolution(int solutionId, string responseDetails)
         {
-            throw new NotImplementedException();
+            var solution = await _requestSolutionRepository.GetSolutionById(solutionId);
+
+            if (solution == null)
+            {
+                throw new ArgumentException("Solution with the provided ID not found.", nameof(solutionId));
+            }
+
+            solution.SolutionDescription = responseDetails;
+
+            await _requestSolutionRepository.UpdateSolution(solution);
+
+            return new SolutionFeedback
+            {
+                SolutionId = solution.SolutionId,
+                Remarks = responseDetails,
+                FeedbackDate = DateTime.Now
+            };
         }
 
         public async Task<IEnumerable<Request>> ViewAllRequests()

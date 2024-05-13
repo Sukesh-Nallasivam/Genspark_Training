@@ -22,9 +22,9 @@ namespace RequestTrackerBLLAdmin
 
         public Task<IEnumerable<RequestSolution>> ViewAllSolutions();
 
-        public Task<SolutionFeedback> GiveFeedback(string requestId, string feedbackDetails);
+        public Task<SolutionFeedback> GiveFeedback(int requestId, string feedbackDetails);
 
-        public Task<SolutionFeedback> RespondToSolution(string requestId, string responseDetails);
+        public Task<SolutionFeedback> RespondToSolution(int solutionId, string responseDetails);
 
         public Task<RequestSolution> ProvideSolution(int requestId, string solutionDetails, Employee employee);
 

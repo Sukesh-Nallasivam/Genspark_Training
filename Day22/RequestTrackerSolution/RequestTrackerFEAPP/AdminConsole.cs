@@ -50,12 +50,15 @@ namespace RequestTrackerFEAPP
                     _adminOperations.ViewAllSolutions();
                     break;
                 case 4:
-                    Console.WriteLine("Sorry");
-                    //_adminOperations.GiveFeedback();
+                    
+                    _adminOperations.GiveFeedback();
                     break;
                 case 5:
-                    Console.WriteLine("Sorry");
-                    //_adminOperations.RespondToSolution();
+                    Console.WriteLine("Enter solution Id");
+                    int SolutionId=Convert.ToInt32(Console.ReadLine()); 
+                    Console.WriteLine("Give your response");
+                    string ResponseToSolution = Console.ReadLine() ?? String.Empty;
+                    _adminOperations.RespondToSolution(SolutionId,ResponseToSolution);
                     break;
                 case 6:
                     Console.WriteLine("Enter request Id");
@@ -65,8 +68,8 @@ namespace RequestTrackerFEAPP
                     _adminOperations.ProvideSolution(Selection,Solution,employee);
                     break;
                 case 7:
-                    Console.WriteLine("Sorry");
-                    //_adminOperations.MarkRequestAsClosed();
+                    
+                    _adminOperations.MarkRequestAsClosed();
                     break;
                 case 8:
                     _adminOperations.ViewFeedbacks();
