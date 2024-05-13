@@ -37,10 +37,12 @@ namespace RequestTrackerBLLAdmin
         {
             Request newRequest = new Request
             {
+
                 RequestMessage = RequestInput,
                 RequestDate = DateTime.Now,
                 RequestStatus = "Open",
-                RequestRaisedBy = employee.Id,
+                RequestRaisedBy = employee.Id                         
+
             };
             return _employeeRequestRepository.AddRequest(newRequest);
 

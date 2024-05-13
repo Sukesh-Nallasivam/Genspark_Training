@@ -21,7 +21,7 @@ namespace RequestTrackerModelLibrary
  
         public Employee RaisedByEmployee { get; set; }
 
-        public int RequestClosedBy { get; set; }
+        public int? RequestClosedBy { get; set; } = null;
 
     
         public Employee RequestClosedByEmployee { get; set; }

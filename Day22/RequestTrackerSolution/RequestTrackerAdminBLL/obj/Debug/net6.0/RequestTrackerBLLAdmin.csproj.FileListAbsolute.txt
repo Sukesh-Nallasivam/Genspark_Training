@@ -4,3 +4,15 @@ C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day22\RequestTrackerSolution\
 C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day22\RequestTrackerSolution\RequestTrackerAdminBLL\obj\Debug\net6.0\RequestTrackerBLLAdmin.AssemblyInfo.cs
 C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day22\RequestTrackerSolution\RequestTrackerAdminBLL\obj\Debug\net6.0\RequestTrackerBLLAdmin.csproj.CoreCompileInputs.cache
 C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day22\RequestTrackerSolution\RequestTrackerAdminBLL\obj\Debug\net6.0\RequestTrackerBLLAdmin.sourcelink.json
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day22\RequestTrackerSolution\RequestTrackerAdminBLL\bin\Debug\net6.0\RequestTrackerBLLAdmin.deps.json
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day22\RequestTrackerSolution\RequestTrackerAdminBLL\bin\Debug\net6.0\RequestTrackerBLLAdmin.dll
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day22\RequestTrackerSolution\RequestTrackerAdminBLL\bin\Debug\net6.0\RequestTrackerBLLAdmin.pdb
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day22\RequestTrackerSolution\RequestTrackerAdminBLL\bin\Debug\net6.0\RequestTrackerDALLibrary.dll
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day22\RequestTrackerSolution\RequestTrackerAdminBLL\bin\Debug\net6.0\RequestTrackerModelLibrary.dll
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day22\RequestTrackerSolution\RequestTrackerAdminBLL\bin\Debug\net6.0\RequestTrackerDALLibrary.pdb
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day22\RequestTrackerSolution\RequestTrackerAdminBLL\bin\Debug\net6.0\RequestTrackerModelLibrary.pdb
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day22\RequestTrackerSolution\RequestTrackerAdminBLL\obj\Debug\net6.0\RequestT.8829CF64.Up2Date
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day22\RequestTrackerSolution\RequestTrackerAdminBLL\obj\Debug\net6.0\RequestTrackerBLLAdmin.dll
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day22\RequestTrackerSolution\RequestTrackerAdminBLL\obj\Debug\net6.0\refint\RequestTrackerBLLAdmin.dll
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day22\RequestTrackerSolution\RequestTrackerAdminBLL\obj\Debug\net6.0\RequestTrackerBLLAdmin.pdb
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day22\RequestTrackerSolution\RequestTrackerAdminBLL\obj\Debug\net6.0\ref\RequestTrackerBLLAdmin.dll

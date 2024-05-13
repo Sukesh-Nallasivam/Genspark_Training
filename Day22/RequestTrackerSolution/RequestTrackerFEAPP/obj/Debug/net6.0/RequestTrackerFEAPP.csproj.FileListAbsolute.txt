@@ -130,3 +130,7 @@ C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day22\RequestTrackerSolution\
 C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day22\RequestTrackerSolution\RequestTrackerFEAPP\obj\Debug\net6.0\RequestTrackerFEAPP.pdb
 C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day22\RequestTrackerSolution\RequestTrackerFEAPP\obj\Debug\net6.0\RequestTrackerFEAPP.genruntimeconfig.cache
 C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day22\RequestTrackerSolution\RequestTrackerFEAPP\obj\Debug\net6.0\ref\RequestTrackerFEAPP.dll
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day22\RequestTrackerSolution\RequestTrackerFEAPP\bin\Debug\net6.0\RequestTrackerBLLAdmin.dll
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day22\RequestTrackerSolution\RequestTrackerFEAPP\bin\Debug\net6.0\RequestTrackerBLLUser.dll
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day22\RequestTrackerSolution\RequestTrackerFEAPP\bin\Debug\net6.0\RequestTrackerBLLAdmin.pdb
+C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day22\RequestTrackerSolution\RequestTrackerFEAPP\bin\Debug\net6.0\RequestTrackerBLLUser.pdb

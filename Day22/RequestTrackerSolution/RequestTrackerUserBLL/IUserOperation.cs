@@ -18,7 +18,7 @@ namespace RequestTrackerBLLUser
 
         Task<Request> RaiseRequest(Employee employee, String RequestInput);
         void ViewRequestStatus(int userId);
-        Task<IList<SolutionFeedback>> ViewSolutions(string requestId);
+        Task<IList<RequestSolution>> ViewSolutions(int userId);
         Task<string> GiveFeedback(string requestId, string feedbackDetails);
         Task<string> RespondToSolution(string requestId, string responseDetails);
     }

@@ -10,8 +10,8 @@ namespace RequestTrackerFEAPP
         private readonly UserOperation _userOperations;
 
         public UserConsole(Employee employee)
-        {
-            _userOperations = new UserOperation();
+        {   RequestTrackerContext context = new RequestTrackerContext();
+            _userOperations = new UserOperation(context);
             bool continueLoop = true;
             while (continueLoop)
             {
@@ -37,14 +37,15 @@ namespace RequestTrackerFEAPP
                         _userOperations.ViewRequestStatus(employee.Id);
                         break;
                     case 3:
-                        
-                        _userOperations.ViewSolutions();
+                        _userOperations.ViewSolutions(employee.Id);
                         break;
                     case 4:
-                        _userOperations.GiveFeedback();
+                        Console.WriteLine("Sorry");
+                        //_userOperations.GiveFeedback();
                         break;
                     case 5:
-                        _userOperations.RespondToSolution();
+                        Console.WriteLine("Sorry");
+                        //_userOperations.RespondToSolution();
                         break;
                     case 6:
                         continueLoop = false;

@@ -1,4 +1,5 @@
-﻿using RequestTrackerModelLibrary;
+﻿using Microsoft.EntityFrameworkCore;
+using RequestTrackerModelLibrary;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,6 +28,11 @@ namespace RequestTrackerDALLibrary
             await _context.SaveChangesAsync();
             await _employeeRequestRepository.UpdateStatus(NewRequestSolution.RequestId, "Solution(s) Added");
             return NewRequestSolution;
+        }
+        public async Task<RequestSolution> GetSolutionByRequestId(int requestId)
+        {
+            return await _context.RequestSolutions
+                .FirstOrDefaultAsync(rs => rs.RequestId == requestId);
         }
     }
 }

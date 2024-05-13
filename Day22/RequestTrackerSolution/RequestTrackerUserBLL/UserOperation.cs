@@ -7,21 +7,28 @@ namespace RequestTrackerBLLUser
     {
         private readonly EmployeeRequestRepository _employeeRequestRepository;
         private readonly RequestSolutionRepository _requestSolutionRepository;
+        public UserOperation(RequestTrackerContext context)
+        {
+            _employeeRequestRepository = new EmployeeRequestRepository(context);
+            _requestSolutionRepository = new RequestSolutionRepository(context, new EmployeeRepository(context), _employeeRequestRepository);
+        }
+
         public Task<string> GiveFeedback(string requestId, string feedbackDetails)
         {
             throw new NotImplementedException();
         }
 
-        public Task<Request> RaiseRequest(Employee employee, String RequestInput)
+        public async Task<Request> RaiseRequest(Employee employee, String RequestInput)
         {
             Request newRequest = new Request
             {
+                RequestNumber = 1,
                 RequestMessage = RequestInput,
                 RequestDate = DateTime.Now,
                 RequestStatus = "Open",
                 RequestRaisedBy = employee.Id,
             };
-            return _employeeRequestRepository.AddRequest(newRequest);
+            return await _employeeRequestRepository.AddRequest(newRequest);
 
         }
         public Task<string> RespondToSolution(string requestId, string responseDetails)
@@ -38,7 +45,7 @@ namespace RequestTrackerBLLUser
             foreach (var request in requests)
             {
                 Console.WriteLine($"Request ID: {request.RequestNumber},Request: {request.RequestMessage}, Status: {request.RequestStatus}");
-                if(request.RequestSolutions != null)
+                if (request.RequestSolutions != null)
                 {
                     Console.WriteLine($"Solution : {request.RequestSolutions}");
                 }
@@ -46,9 +53,28 @@ namespace RequestTrackerBLLUser
         }
 
 
-        public Task<IList<SolutionFeedback>> ViewSolutions(string requestId)
+        public async Task<IList<RequestSolution>> ViewSolutions(int userId)
         {
-            throw new NotImplementedException();
+            var requests = await _employeeRequestRepository.GetRequestsByEmployeeId(userId);
+            var solutions = new List<RequestSolution>();
+
+            foreach (var request in requests)
+            {
+                var solution = await _requestSolutionRepository.GetSolutionByRequestId(request.RequestNumber);
+                if (solution != null)
+                {
+                    solutions.Add(new RequestSolution
+                    {
+                        RequestId = request.RequestNumber,
+                        SolvedByEmployee = solution.SolvedByEmployee,
+                        SolutionDescription = solution.SolutionDescription
+                    });
+                    solutions.Add(solution);
+                }
+            }
+
+            return solutions;
         }
+
     }
 }

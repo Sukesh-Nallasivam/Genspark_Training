@@ -44,7 +44,7 @@ namespace RequestTrackerModelLibrary.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Employees", (string)null);
+                    b.ToTable("Employees");
 
                     b.HasData(
                         new
@@ -81,7 +81,7 @@ namespace RequestTrackerModelLibrary.Migrations
                     b.Property<DateTime?>("ClosedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("RequestClosedBy")
+                    b.Property<int?>("RequestClosedBy")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("RequestDate")
@@ -104,7 +104,7 @@ namespace RequestTrackerModelLibrary.Migrations
 
                     b.HasIndex("RequestRaisedBy");
 
-                    b.ToTable("Requests", (string)null);
+                    b.ToTable("Requests");
                 });
 
             modelBuilder.Entity("RequestTrackerModelLibrary.RequestSolution", b =>
@@ -140,7 +140,7 @@ namespace RequestTrackerModelLibrary.Migrations
 
                     b.HasIndex("SolvedBy");
 
-                    b.ToTable("RequestSolutions", (string)null);
+                    b.ToTable("RequestSolutions");
                 });
 
             modelBuilder.Entity("RequestTrackerModelLibrary.SolutionFeedback", b =>
@@ -172,7 +172,7 @@ namespace RequestTrackerModelLibrary.Migrations
 
                     b.HasIndex("SolutionId");
 
-                    b.ToTable("Feedbacks", (string)null);
+                    b.ToTable("Feedbacks");
                 });
 
             modelBuilder.Entity("RequestTrackerModelLibrary.Request", b =>
@@ -180,8 +180,7 @@ namespace RequestTrackerModelLibrary.Migrations
                     b.HasOne("RequestTrackerModelLibrary.Employee", "RequestClosedByEmployee")
                         .WithMany("RequestsClosed")
                         .HasForeignKey("RequestClosedBy")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.Restrict);
 
                     b.HasOne("RequestTrackerModelLibrary.Employee", "RaisedByEmployee")
                         .WithMany("RequestsRaised")
