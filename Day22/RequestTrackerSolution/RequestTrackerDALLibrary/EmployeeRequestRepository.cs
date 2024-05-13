@@ -17,6 +17,10 @@ namespace RequestTrackerDALLibrary
         {
             return await _context.Employees.Include(e => e.RequestsRaised).ToListAsync();
         }
+        public async Task<IEnumerable<Request>> GetAllRequests()
+        {
+            return await _context.Requests.ToListAsync();
+        }
         public async override Task<Employee> Get(int key)
         {
             var employee = _context.Employees.Include(e => e.RequestsRaised).SingleOrDefault(e => e.Id == key);
@@ -39,5 +43,11 @@ namespace RequestTrackerDALLibrary
             return request;
         }
 
+        public async Task<IEnumerable<Request>> GetRequestsByEmployeeId(int employeeId)
+        {
+            return await _context.Requests
+                .Where(r => r.RequestRaisedBy == employeeId)
+                .ToListAsync();
+        }
     }
 }

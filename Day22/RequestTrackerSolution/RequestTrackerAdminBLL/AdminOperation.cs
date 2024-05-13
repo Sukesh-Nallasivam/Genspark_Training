@@ -51,9 +51,10 @@ namespace RequestTrackerBLLAdmin
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<Request>> ViewAllRequests()
+        public async Task<IEnumerable<Request>> ViewAllRequests()
         {
-            _employeeRequestRepository.GetAllRequests();
+            return await _employeeRequestRepository.GetAllRequests();
+
         }
 
         public Task<IEnumerable<RequestSolution>> ViewAllSolutions()

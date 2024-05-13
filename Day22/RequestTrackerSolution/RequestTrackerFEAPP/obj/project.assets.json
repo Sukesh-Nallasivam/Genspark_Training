@@ -799,6 +799,20 @@
           "bin/placeholder/RequestTrackerBLLibrary.dll": {}
         }
       },
+      "RequestTrackerBLLUser/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "RequestTrackerDALLibrary": "1.0.0",
+          "RequestTrackerModelLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RequestTrackerBLLUser.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RequestTrackerBLLUser.dll": {}
+        }
+      },
       "RequestTrackerDALLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2031,6 +2045,11 @@
       "path": "../RequestTrackerBLLibrary/RequestTrackerBLLibrary.csproj",
       "msbuildProject": "../RequestTrackerBLLibrary/RequestTrackerBLLibrary.csproj"
     },
+    "RequestTrackerBLLUser/1.0.0": {
+      "type": "project",
+      "path": "../RequestTrackerUserBLL/RequestTrackerBLLUser.csproj",
+      "msbuildProject": "../RequestTrackerUserBLL/RequestTrackerBLLUser.csproj"
+    },
     "RequestTrackerDALLibrary/1.0.0": {
       "type": "project",
       "path": "../RequestTrackerDALLibrary/RequestTrackerDALLibrary.csproj",
@@ -2046,6 +2065,7 @@
     "net6.0": [
       "Microsoft.EntityFrameworkCore.Design >= 6.0.29",
       "RequestTrackerBLLAdmin >= 1.0.0",
+      "RequestTrackerBLLUser >= 1.0.0",
       "RequestTrackerBLLibrary >= 1.0.0"
     ]
   },
@@ -2086,6 +2106,9 @@
             },
             "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day22\\RequestTrackerSolution\\RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj": {
               "projectPath": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day22\\RequestTrackerSolution\\RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj"
+            },
+            "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day22\\RequestTrackerSolution\\RequestTrackerUserBLL\\RequestTrackerBLLUser.csproj": {
+              "projectPath": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day22\\RequestTrackerSolution\\RequestTrackerUserBLL\\RequestTrackerBLLUser.csproj"
             }
           }
         }

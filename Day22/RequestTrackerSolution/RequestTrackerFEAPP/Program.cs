@@ -33,6 +33,7 @@ namespace RequestTrackerFEAPP
                 if (result)
                 {
                     await Console.Out.WriteLineAsync("Login Success");
+                    UserConsole UserInstance = new UserConsole(employee);
                 }
                 else
                 {

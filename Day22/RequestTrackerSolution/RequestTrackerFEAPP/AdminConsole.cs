@@ -58,7 +58,9 @@ namespace RequestTrackerFEAPP
                 case 6:
                     Console.WriteLine("Enter request Id");
                     int Selection = SelectRequest();
-                    _adminOperations.ProvideSolution();
+                    Console.WriteLine("Enter your solution");
+                    string Solution = Console.ReadLine() ?? String.Empty;
+                    _adminOperations.ProvideSolution(Selection,Solution,employee);
                     break;
                 case 7:
                     _adminOperations.MarkRequestAsClosed();
@@ -73,13 +75,33 @@ namespace RequestTrackerFEAPP
         }
         public int SelectRequest()
         {
-            Request DisplayRequests = new Request();
-            IDictionary<int,String> RequestList = new Dictionary<int,String>();
-            foreach requestListeach in RequestList.Values)
-            {
+            var allRequestsTask = _adminOperations.ViewAllRequests();
+            var allRequests = allRequestsTask.Result;
+            var requestList = allRequests.ToList();
 
+            Console.WriteLine("Select a request:");
+            foreach (var request in requestList)
+            {
+                Console.WriteLine($"{request.RequestNumber}. {request.RequestMessage}");
             }
-            return Selection;
+
+            Console.Write("Enter the request ID: ");
+            int selection = Convert.ToInt32(Console.ReadLine());
+
+            Request selectedRequest = requestList.FirstOrDefault(r => r.RequestNumber == selection);
+            if (selectedRequest != null)
+            {
+                Console.WriteLine($"Selected Request ID: {selectedRequest.RequestNumber}");
+                Console.WriteLine($"Request: {selectedRequest.RequestMessage}");
+            }
+            else
+            {
+                Console.WriteLine($"Request with ID {selection} not found.");
+            }
+
+            return selection;
         }
+
+
     }
 }

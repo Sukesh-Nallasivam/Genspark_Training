@@ -17,6 +17,7 @@
   <ItemGroup>
     <ProjectReference Include="..\RequestTrackerAdminBLL\RequestTrackerBLLAdmin.csproj" />
     <ProjectReference Include="..\RequestTrackerBLLibrary\RequestTrackerBLLibrary.csproj" />
+    <ProjectReference Include="..\RequestTrackerUserBLL\RequestTrackerBLLUser.csproj" />
   </ItemGroup>
 
 </Project>
