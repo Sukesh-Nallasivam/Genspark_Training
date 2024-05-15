@@ -1,0 +1,254 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day25\\PizzaStoreSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B826F3A5-EF98-43A2-AE94-B9D843155CD4}|PizzaStore\\PizzaStore.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day25\\pizzastoresolution\\pizzastore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B826F3A5-EF98-43A2-AE94-B9D843155CD4}|PizzaStore\\PizzaStore.csproj|solutionrelative:pizzastore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B826F3A5-EF98-43A2-AE94-B9D843155CD4}|PizzaStore\\PizzaStore.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day25\\pizzastoresolution\\pizzastore\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B826F3A5-EF98-43A2-AE94-B9D843155CD4}|PizzaStore\\PizzaStore.csproj|solutionrelative:pizzastore\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B826F3A5-EF98-43A2-AE94-B9D843155CD4}|PizzaStore\\PizzaStore.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day25\\pizzastoresolution\\pizzastore\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B826F3A5-EF98-43A2-AE94-B9D843155CD4}|PizzaStore\\PizzaStore.csproj|solutionrelative:pizzastore\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B826F3A5-EF98-43A2-AE94-B9D843155CD4}|PizzaStore\\PizzaStore.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day25\\pizzastoresolution\\pizzastore\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B826F3A5-EF98-43A2-AE94-B9D843155CD4}|PizzaStore\\PizzaStore.csproj|solutionrelative:pizzastore\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B826F3A5-EF98-43A2-AE94-B9D843155CD4}|PizzaStore\\PizzaStore.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day25\\pizzastoresolution\\pizzastore\\interfaces\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B826F3A5-EF98-43A2-AE94-B9D843155CD4}|PizzaStore\\PizzaStore.csproj|solutionrelative:pizzastore\\interfaces\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B826F3A5-EF98-43A2-AE94-B9D843155CD4}|PizzaStore\\PizzaStore.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day25\\pizzastoresolution\\pizzastore\\repositories\\pizzarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B826F3A5-EF98-43A2-AE94-B9D843155CD4}|PizzaStore\\PizzaStore.csproj|solutionrelative:pizzastore\\repositories\\pizzarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B826F3A5-EF98-43A2-AE94-B9D843155CD4}|PizzaStore\\PizzaStore.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day25\\pizzastoresolution\\pizzastore\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B826F3A5-EF98-43A2-AE94-B9D843155CD4}|PizzaStore\\PizzaStore.csproj|solutionrelative:pizzastore\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B826F3A5-EF98-43A2-AE94-B9D843155CD4}|PizzaStore\\PizzaStore.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day25\\pizzastoresolution\\pizzastore\\models\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B826F3A5-EF98-43A2-AE94-B9D843155CD4}|PizzaStore\\PizzaStore.csproj|solutionrelative:pizzastore\\models\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B826F3A5-EF98-43A2-AE94-B9D843155CD4}|PizzaStore\\PizzaStore.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day25\\pizzastoresolution\\pizzastore\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B826F3A5-EF98-43A2-AE94-B9D843155CD4}|PizzaStore\\PizzaStore.csproj|solutionrelative:pizzastore\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B826F3A5-EF98-43A2-AE94-B9D843155CD4}|PizzaStore\\PizzaStore.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day25\\pizzastoresolution\\pizzastore\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B826F3A5-EF98-43A2-AE94-B9D843155CD4}|PizzaStore\\PizzaStore.csproj|solutionrelative:pizzastore\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B826F3A5-EF98-43A2-AE94-B9D843155CD4}|PizzaStore\\PizzaStore.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day25\\pizzastoresolution\\pizzastore\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B826F3A5-EF98-43A2-AE94-B9D843155CD4}|PizzaStore\\PizzaStore.csproj|solutionrelative:pizzastore\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B826F3A5-EF98-43A2-AE94-B9D843155CD4}|PizzaStore\\PizzaStore.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day25\\pizzastoresolution\\pizzastore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B826F3A5-EF98-43A2-AE94-B9D843155CD4}|PizzaStore\\PizzaStore.csproj|solutionrelative:pizzastore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B826F3A5-EF98-43A2-AE94-B9D843155CD4}|PizzaStore\\PizzaStore.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day25\\pizzastoresolution\\pizzastore\\contexts\\pizzastoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B826F3A5-EF98-43A2-AE94-B9D843155CD4}|PizzaStore\\PizzaStore.csproj|solutionrelative:pizzastore\\contexts\\pizzastoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B826F3A5-EF98-43A2-AE94-B9D843155CD4}|PizzaStore\\PizzaStore.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day25\\pizzastoresolution\\pizzastore\\pizzastore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B826F3A5-EF98-43A2-AE94-B9D843155CD4}|PizzaStore\\PizzaStore.csproj|solutionrelative:pizzastore\\pizzastore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day25\\PizzaStoreSolution\\PizzaStore\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "PizzaStore\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day25\\PizzaStoreSolution\\PizzaStore\\appsettings.Development.json",
+              "RelativeToolTip": "PizzaStore\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-15T16:39:02.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day25\\PizzaStoreSolution\\PizzaStore\\Services\\LoginService.cs",
+              "RelativeDocumentMoniker": "PizzaStore\\Services\\LoginService.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day25\\PizzaStoreSolution\\PizzaStore\\Services\\LoginService.cs",
+              "RelativeToolTip": "PizzaStore\\Services\\LoginService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T16:38:23.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day25\\PizzaStoreSolution\\PizzaStore\\Interfaces\\ICustomerService.cs",
+              "RelativeDocumentMoniker": "PizzaStore\\Interfaces\\ICustomerService.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day25\\PizzaStoreSolution\\PizzaStore\\Interfaces\\ICustomerService.cs",
+              "RelativeToolTip": "PizzaStore\\Interfaces\\ICustomerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T16:36:34.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day25\\PizzaStoreSolution\\PizzaStore\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "PizzaStore\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day25\\PizzaStoreSolution\\PizzaStore\\Models\\Customer.cs",
+              "RelativeToolTip": "PizzaStore\\Models\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T16:23:56.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Pizza.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day25\\PizzaStoreSolution\\PizzaStore\\Models\\Pizza.cs",
+              "RelativeDocumentMoniker": "PizzaStore\\Models\\Pizza.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day25\\PizzaStoreSolution\\PizzaStore\\Models\\Pizza.cs",
+              "RelativeToolTip": "PizzaStore\\Models\\Pizza.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T11:54:33.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PizzaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day25\\PizzaStoreSolution\\PizzaStore\\Repositories\\PizzaRepository.cs",
+              "RelativeDocumentMoniker": "PizzaStore\\Repositories\\PizzaRepository.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day25\\PizzaStoreSolution\\PizzaStore\\Repositories\\PizzaRepository.cs",
+              "RelativeToolTip": "PizzaStore\\Repositories\\PizzaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T11:53:06.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day25\\PizzaStoreSolution\\PizzaStore\\Program.cs",
+              "RelativeDocumentMoniker": "PizzaStore\\Program.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day25\\PizzaStoreSolution\\PizzaStore\\Program.cs",
+              "RelativeToolTip": "PizzaStore\\Program.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAIwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T11:45:13.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day25\\PizzaStoreSolution\\PizzaStore\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "PizzaStore\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day25\\PizzaStoreSolution\\PizzaStore\\Properties\\launchSettings.json",
+              "RelativeToolTip": "PizzaStore\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-15T15:21:51.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day25\\PizzaStoreSolution\\PizzaStore\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "PizzaStore\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day25\\PizzaStoreSolution\\PizzaStore\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "PizzaStore\\Interfaces\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T11:49:02.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day25\\PizzaStoreSolution\\PizzaStore\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "PizzaStore\\Services\\CustomerService.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day25\\PizzaStoreSolution\\PizzaStore\\Services\\CustomerService.cs",
+              "RelativeToolTip": "PizzaStore\\Services\\CustomerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T11:47:30.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day25\\PizzaStoreSolution\\PizzaStore\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "PizzaStore\\Services\\AdminService.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day25\\PizzaStoreSolution\\PizzaStore\\Services\\AdminService.cs",
+              "RelativeToolTip": "PizzaStore\\Services\\AdminService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T11:47:13.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PizzaStoreDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day25\\PizzaStoreSolution\\PizzaStore\\Contexts\\PizzaStoreDBContext.cs",
+              "RelativeDocumentMoniker": "PizzaStore\\Contexts\\PizzaStoreDBContext.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day25\\PizzaStoreSolution\\PizzaStore\\Contexts\\PizzaStoreDBContext.cs",
+              "RelativeToolTip": "PizzaStore\\Contexts\\PizzaStoreDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T11:44:58.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day25\\PizzaStoreSolution\\PizzaStore\\appsettings.json",
+              "RelativeDocumentMoniker": "PizzaStore\\appsettings.json",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day25\\PizzaStoreSolution\\PizzaStore\\appsettings.json",
+              "RelativeToolTip": "PizzaStore\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-15T11:43:36.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PizzaStore.csproj",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day25\\PizzaStoreSolution\\PizzaStore\\PizzaStore.csproj",
+              "RelativeDocumentMoniker": "PizzaStore\\PizzaStore.csproj",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day25\\PizzaStoreSolution\\PizzaStore\\PizzaStore.csproj",
+              "RelativeToolTip": "PizzaStore\\PizzaStore.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-15T11:40:58.894Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
