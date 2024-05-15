@@ -32,7 +32,10 @@ namespace DoctorClinicAPI.Services
             var doctors = await _repository.Get();
             return doctors.Where(d => d.Speciality == speciality);
         }
-
+        public async Task<Doctor> GetDoctorById(int doctorId)
+        {
+            return await _repository.Get(doctorId);
+        }
         public async Task<Doctor> UpdateDoctorExperience(int doctorId, int experience)
         {
             var doctor = await _repository.Get(doctorId);

@@ -14,5 +14,6 @@ namespace DoctorClinicAPI.Interfaces
         public Task<Doctor> UpdateDoctorExperience(int DoctorId,int Experience);
         public Task<IEnumerable<Doctor>> GetDoctorsBySpeciality(string Speciality);
         public Task<Doctor> DeleteDoctor(int DoctorId);
+        public Task<Doctor> GetDoctorById(int DoctorId);
     }
 }

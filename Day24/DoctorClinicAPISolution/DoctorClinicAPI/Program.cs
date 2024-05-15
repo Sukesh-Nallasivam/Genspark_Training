@@ -3,6 +3,7 @@ using DoctorClinicAPI.Interfaces;
 using DoctorClinicAPI.Models;
 using DoctorClinicAPI.Repositories;
 using DoctorClinicAPI.Services;
+using Microsoft.EntityFrameworkCore;
 
 namespace DoctorClinicAPI
 {
@@ -19,7 +20,8 @@ namespace DoctorClinicAPI
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            builder.Services.AddDbContext<DoctorClinicContext>();
+            builder.Services.AddDbContext<DoctorClinicContext>(
+                options=>options.UseSqlServer(builder.Configuration.GetConnectionString("defaultConnection")));
 
             builder.Services.AddScoped<IRepository<int,Doctor>,DoctorRepository>();
 
