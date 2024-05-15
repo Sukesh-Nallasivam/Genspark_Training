@@ -1,6 +1,7 @@
 ﻿using DoctorClinicAPI.Interfaces;
 using DoctorClinicAPI.Models;
 using DoctorClinicAPI.Repositories;
+using DoctorClinicAPI.Exceptions;
 
 namespace DoctorClinicAPI.Services
 {

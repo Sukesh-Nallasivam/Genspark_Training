@@ -1,6 +1,6 @@
 ﻿using System.Runtime.Serialization;
 
-namespace DoctorClinicAPI.Repositories
+namespace DoctorClinicAPI.Exceptions
 {
     [Serializable]
     internal class NoDoctorExcemption : Exception
@@ -19,6 +19,10 @@ namespace DoctorClinicAPI.Repositories
 
         protected NoDoctorExcemption(SerializationInfo info, StreamingContext context) : base(info, context)
         {
+        }
+        public override string ToString()
+        {
+            return "Warning: No doctor is available in the clinic.";
         }
     }
 }

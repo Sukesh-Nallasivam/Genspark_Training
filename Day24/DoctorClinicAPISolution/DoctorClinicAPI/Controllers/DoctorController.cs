@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using DoctorClinicAPI.Interfaces;
 using DoctorClinicAPI.Models;
 using Microsoft.AspNetCore.Mvc;
+using DoctorClinicAPI.Exceptions;
 
 namespace DoctorClinicAPI.Controllers
 {
@@ -31,7 +32,7 @@ namespace DoctorClinicAPI.Controllers
             var doctor = await _doctorService.GetDoctorById(id);
             if (doctor == null)
             {
-                return NotFound();
+                return NotFound($"No doctor found for id:{id}");
             }
             return Ok(doctor);
         }
@@ -67,12 +68,36 @@ namespace DoctorClinicAPI.Controllers
         [HttpGet("Speciality/{speciality}")]
         public async Task<ActionResult<IEnumerable<Doctor>>> GetDoctorsBySpeciality(string speciality)
         {
-            var doctors = await _doctorService.GetDoctorsBySpeciality(speciality);
-            if (doctors == null)
+            //var doctors = await _doctorService.GetDoctorsBySpeciality(speciality);
+            //if (doctors == null)
+            //{
+            //    return NotFound();
+            //}
+            //return Ok(doctors);
+            try
             {
-                return NotFound();
+                if (string.IsNullOrEmpty(speciality))
+                {
+                    throw new MissingSpecialtyException(404);
+                }
+
+                var doctors = await _doctorService.GetDoctorsBySpeciality(speciality);
+                if (doctors == null || !doctors.Any())
+                {
+                    return NotFound($"No doctors found for the specified:{speciality}.");
+                }
+
+                return Ok(doctors);
             }
-            return Ok(doctors);
+            catch (MissingSpecialtyException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                // Handle other exceptions if necessary
+                return StatusCode(500, "An error occurred while processing your request.");
+            }
         }
 
         [HttpDelete("{id}")]
@@ -83,7 +108,7 @@ namespace DoctorClinicAPI.Controllers
                 var deletedDoctor = await _doctorService.DeleteDoctor(id);
                 if (deletedDoctor == null)
                 {
-                    return NotFound();
+                    return NotFound($"No doctor with ID {id}");
                 }
                 return Ok(deletedDoctor);
             }
@@ -91,6 +116,8 @@ namespace DoctorClinicAPI.Controllers
             {
                 return BadRequest(ex.Message);
             }
+
+            return Ok("Doctor deleted successfully.");
         }
     }
 }

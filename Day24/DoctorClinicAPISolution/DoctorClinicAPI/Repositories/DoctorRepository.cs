@@ -2,6 +2,7 @@
 using DoctorClinicAPI.Interfaces;
 using DoctorClinicAPI.Models;
 using Microsoft.EntityFrameworkCore;
+using DoctorClinicAPI.Exceptions;
 
 namespace DoctorClinicAPI.Repositories
 {
