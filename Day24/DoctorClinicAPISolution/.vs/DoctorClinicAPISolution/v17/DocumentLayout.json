@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day24\\DoctorClinicAPISolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1B0F92D7-96E8-48C9-AB79-885B1276266F}|DoctorClinicAPI\\DoctorClinicAPI.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day24\\doctorclinicapisolution\\doctorclinicapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B0F92D7-96E8-48C9-AB79-885B1276266F}|DoctorClinicAPI\\DoctorClinicAPI.csproj|solutionrelative:doctorclinicapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B0F92D7-96E8-48C9-AB79-885B1276266F}|DoctorClinicAPI\\DoctorClinicAPI.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day24\\doctorclinicapisolution\\doctorclinicapi\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B0F92D7-96E8-48C9-AB79-885B1276266F}|DoctorClinicAPI\\DoctorClinicAPI.csproj|solutionrelative:doctorclinicapi\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B0F92D7-96E8-48C9-AB79-885B1276266F}|DoctorClinicAPI\\DoctorClinicAPI.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day24\\doctorclinicapisolution\\doctorclinicapi\\interfaces\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B0F92D7-96E8-48C9-AB79-885B1276266F}|DoctorClinicAPI\\DoctorClinicAPI.csproj|solutionrelative:doctorclinicapi\\interfaces\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B0F92D7-96E8-48C9-AB79-885B1276266F}|DoctorClinicAPI\\DoctorClinicAPI.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day24\\doctorclinicapisolution\\doctorclinicapi\\repositories\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B0F92D7-96E8-48C9-AB79-885B1276266F}|DoctorClinicAPI\\DoctorClinicAPI.csproj|solutionrelative:doctorclinicapi\\repositories\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B0F92D7-96E8-48C9-AB79-885B1276266F}|DoctorClinicAPI\\DoctorClinicAPI.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day24\\doctorclinicapisolution\\doctorclinicapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1B0F92D7-96E8-48C9-AB79-885B1276266F}|DoctorClinicAPI\\DoctorClinicAPI.csproj|solutionrelative:doctorclinicapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B0F92D7-96E8-48C9-AB79-885B1276266F}|DoctorClinicAPI\\DoctorClinicAPI.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day24\\doctorclinicapisolution\\doctorclinicapi\\context\\doctorcliniccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B0F92D7-96E8-48C9-AB79-885B1276266F}|DoctorClinicAPI\\DoctorClinicAPI.csproj|solutionrelative:doctorclinicapi\\context\\doctorcliniccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B0F92D7-96E8-48C9-AB79-885B1276266F}|DoctorClinicAPI\\DoctorClinicAPI.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day24\\doctorclinicapisolution\\doctorclinicapi\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B0F92D7-96E8-48C9-AB79-885B1276266F}|DoctorClinicAPI\\DoctorClinicAPI.csproj|solutionrelative:doctorclinicapi\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B0F92D7-96E8-48C9-AB79-885B1276266F}|DoctorClinicAPI\\DoctorClinicAPI.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day24\\doctorclinicapisolution\\doctorclinicapi\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B0F92D7-96E8-48C9-AB79-885B1276266F}|DoctorClinicAPI\\DoctorClinicAPI.csproj|solutionrelative:doctorclinicapi\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B0F92D7-96E8-48C9-AB79-885B1276266F}|DoctorClinicAPI\\DoctorClinicAPI.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day24\\doctorclinicapisolution\\doctorclinicapi\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B0F92D7-96E8-48C9-AB79-885B1276266F}|DoctorClinicAPI\\DoctorClinicAPI.csproj|solutionrelative:doctorclinicapi\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B0F92D7-96E8-48C9-AB79-885B1276266F}|DoctorClinicAPI\\DoctorClinicAPI.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day24\\doctorclinicapisolution\\doctorclinicapi\\doctorclinicapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1B0F92D7-96E8-48C9-AB79-885B1276266F}|DoctorClinicAPI\\DoctorClinicAPI.csproj|solutionrelative:doctorclinicapi\\doctorclinicapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IDoctorService.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day24\\DoctorClinicAPISolution\\DoctorClinicAPI\\Interfaces\\IDoctorService.cs",
+              "RelativeDocumentMoniker": "DoctorClinicAPI\\Interfaces\\IDoctorService.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day24\\DoctorClinicAPISolution\\DoctorClinicAPI\\Interfaces\\IDoctorService.cs",
+              "RelativeToolTip": "DoctorClinicAPI\\Interfaces\\IDoctorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T02:50:11.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day24\\DoctorClinicAPISolution\\DoctorClinicAPI\\Program.cs",
+              "RelativeDocumentMoniker": "DoctorClinicAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day24\\DoctorClinicAPISolution\\DoctorClinicAPI\\Program.cs",
+              "RelativeToolTip": "DoctorClinicAPI\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAwBkAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T02:30:28.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DoctorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day24\\DoctorClinicAPISolution\\DoctorClinicAPI\\Repositories\\DoctorRepository.cs",
+              "RelativeDocumentMoniker": "DoctorClinicAPI\\Repositories\\DoctorRepository.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day24\\DoctorClinicAPISolution\\DoctorClinicAPI\\Repositories\\DoctorRepository.cs",
+              "RelativeToolTip": "DoctorClinicAPI\\Repositories\\DoctorRepository.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAgwDMAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T02:13:46.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day24\\DoctorClinicAPISolution\\DoctorClinicAPI\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "DoctorClinicAPI\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day24\\DoctorClinicAPISolution\\DoctorClinicAPI\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "DoctorClinicAPI\\Interfaces\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T02:10:30.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day24\\DoctorClinicAPISolution\\DoctorClinicAPI\\Models\\Doctor.cs",
+              "RelativeDocumentMoniker": "DoctorClinicAPI\\Models\\Doctor.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day24\\DoctorClinicAPISolution\\DoctorClinicAPI\\Models\\Doctor.cs",
+              "RelativeToolTip": "DoctorClinicAPI\\Models\\Doctor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T02:03:14.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DoctorClinicContext.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day24\\DoctorClinicAPISolution\\DoctorClinicAPI\\Context\\DoctorClinicContext.cs",
+              "RelativeDocumentMoniker": "DoctorClinicAPI\\Context\\DoctorClinicContext.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day24\\DoctorClinicAPISolution\\DoctorClinicAPI\\Context\\DoctorClinicContext.cs",
+              "RelativeToolTip": "DoctorClinicAPI\\Context\\DoctorClinicContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T01:53:47.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DoctorService.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day24\\DoctorClinicAPISolution\\DoctorClinicAPI\\Services\\DoctorService.cs",
+              "RelativeDocumentMoniker": "DoctorClinicAPI\\Services\\DoctorService.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day24\\DoctorClinicAPISolution\\DoctorClinicAPI\\Services\\DoctorService.cs",
+              "RelativeToolTip": "DoctorClinicAPI\\Services\\DoctorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T02:04:21.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day24\\DoctorClinicAPISolution\\DoctorClinicAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "DoctorClinicAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day24\\DoctorClinicAPISolution\\DoctorClinicAPI\\appsettings.json",
+              "RelativeToolTip": "DoctorClinicAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-15T02:05:55.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DoctorClinicAPI",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day24\\DoctorClinicAPISolution\\DoctorClinicAPI\\DoctorClinicAPI.csproj",
+              "RelativeDocumentMoniker": "DoctorClinicAPI\\DoctorClinicAPI.csproj",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day24\\DoctorClinicAPISolution\\DoctorClinicAPI\\DoctorClinicAPI.csproj",
+              "RelativeToolTip": "DoctorClinicAPI\\DoctorClinicAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-15T02:09:46.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DoctorController.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day24\\DoctorClinicAPISolution\\DoctorClinicAPI\\Controllers\\DoctorController.cs",
+              "RelativeDocumentMoniker": "DoctorClinicAPI\\Controllers\\DoctorController.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day24\\DoctorClinicAPISolution\\DoctorClinicAPI\\Controllers\\DoctorController.cs",
+              "RelativeToolTip": "DoctorClinicAPI\\Controllers\\DoctorController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T02:02:32.521Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

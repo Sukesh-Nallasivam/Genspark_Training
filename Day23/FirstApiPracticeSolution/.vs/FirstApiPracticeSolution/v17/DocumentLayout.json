@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day23\\FirstApiPracticeSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8336F38D-71CD-482C-B047-0BD50A659E6E}|FirstApiPractice\\FirstApiPractice.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day23\\firstapipracticesolution\\firstapipractice\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8336F38D-71CD-482C-B047-0BD50A659E6E}|FirstApiPractice\\FirstApiPractice.csproj|solutionrelative:firstapipractice\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8336F38D-71CD-482C-B047-0BD50A659E6E}|FirstApiPractice\\FirstApiPractice.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day23\\firstapipracticesolution\\firstapipractice\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8336F38D-71CD-482C-B047-0BD50A659E6E}|FirstApiPractice\\FirstApiPractice.csproj|solutionrelative:firstapipractice\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8336F38D-71CD-482C-B047-0BD50A659E6E}|FirstApiPractice\\FirstApiPractice.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day23\\firstapipracticesolution\\firstapipractice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8336F38D-71CD-482C-B047-0BD50A659E6E}|FirstApiPractice\\FirstApiPractice.csproj|solutionrelative:firstapipractice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8336F38D-71CD-482C-B047-0BD50A659E6E}|FirstApiPractice\\FirstApiPractice.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day23\\firstapipracticesolution\\firstapipractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8336F38D-71CD-482C-B047-0BD50A659E6E}|FirstApiPractice\\FirstApiPractice.csproj|solutionrelative:firstapipractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day23\\FirstApiPracticeSolution\\FirstApiPractice\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "FirstApiPractice\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day23\\FirstApiPracticeSolution\\FirstApiPractice\\WeatherForecast.cs",
+              "RelativeToolTip": "FirstApiPractice\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T06:56:10.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day23\\FirstApiPracticeSolution\\FirstApiPractice\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "FirstApiPractice\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day23\\FirstApiPracticeSolution\\FirstApiPractice\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "FirstApiPractice\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T06:56:06.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day23\\FirstApiPracticeSolution\\FirstApiPractice\\appsettings.json",
+              "RelativeDocumentMoniker": "FirstApiPractice\\appsettings.json",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day23\\FirstApiPracticeSolution\\FirstApiPractice\\appsettings.json",
+              "RelativeToolTip": "FirstApiPractice\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-13T06:56:03.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day23\\FirstApiPracticeSolution\\FirstApiPractice\\Program.cs",
+              "RelativeDocumentMoniker": "FirstApiPractice\\Program.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day23\\FirstApiPracticeSolution\\FirstApiPractice\\Program.cs",
+              "RelativeToolTip": "FirstApiPractice\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T06:56:01.045Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
