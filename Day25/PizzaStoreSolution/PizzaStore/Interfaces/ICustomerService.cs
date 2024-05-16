@@ -4,8 +4,8 @@ namespace PizzaStore.Interfaces
 {
     public interface ICustomerService
     {
-        public Task<IEnumerable<Pizza>> GetAll();
-        public Task<IEnumerable<Pizza>> GetAvailablePizzas();
+        public Task<IEnumerable<Pizza>> GetAllAsync();
+        public Task<IEnumerable<Pizza>> GetAvailablePizzasAsync();
         public Task<Customer> GetCustomerDetails(string customerId);
     }
 }

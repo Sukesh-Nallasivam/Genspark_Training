@@ -2,7 +2,7 @@
 {
     public class UserLoginDTO
     {
-        public Customer? CustomerEmail { get; set; }
-        public UserAccount? Password { get; set; }
+        public int CustomerId { get; set; }
+        public string? CustomerPassword { get; set; }
     }
 }

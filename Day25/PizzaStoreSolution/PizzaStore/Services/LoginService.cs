@@ -1,6 +1,10 @@
-﻿using PizzaStore.Interfaces;
+﻿using PizzaStore.Exceptions;
+using PizzaStore.Interfaces;
 using PizzaStore.Models;
 using PizzaStore.Models.DTO;
+using PizzaStore.Repositories;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace PizzaStore.Services
 {
@@ -17,19 +21,84 @@ namespace PizzaStore.Services
             _adminRepository = adminRepository;
         }
 
-        public Task<Admin> AdminLogin(AdminLoginDTO adminLoginDTO)
+        public async Task<Admin> AdminLogin(AdminLoginDTO adminLoginDTO)
         {
-            throw new NotImplementedException();
+            var adminDb = await _adminRepository.Get(adminLoginDTO.AdminId);
+            if(adminDb == null)
+            {
+                throw new UnauthorizedUserException("Invalid username or password");
+            }
+            HMACSHA512 hMACSHA = new HMACSHA512(adminDb.AdminPasswrd);
+            var encrypterPass = hMACSHA.ComputeHash(Encoding.UTF8.GetBytes(adminLoginDTO.AdminPassword));
+            bool isPasswordSame = ComparePassword(encrypterPass, adminDb.AdminPasswrd);
+            if (isPasswordSame)
+            {
+                var employee = await _adminRepository.Get(adminLoginDTO.AdminId);
+                return employee;
+            }
+            throw new UnauthorizedUserException("Invalid username or password");
+        }
+        private bool ComparePassword(byte[] encrypterPass, byte[] password)
+        {
+            for (int i = 0; i < encrypterPass.Length; i++)
+            {
+                if (encrypterPass[i] != password[i])
+                {
+                    return false;
+                }
+            }
+            return true;
         }
 
-        public Task<Customer> CustomerLogin(UserLoginDTO userLoginDTO)
+        public async Task<Customer> CustomerLogin(UserLoginDTO userLoginDTO)
         {
-            throw new NotImplementedException();
+            var userAccount = await _userAccountRepository.Get(userLoginDTO.CustomerId);
+            if (userAccount == null)
+            {
+                throw new UnauthorizedUserException("Invalid username or password");
+            }
+
+            HMACSHA512 hMACSHA = new HMACSHA512(userAccount.PasswordSalt);
+            var encryptedPass = hMACSHA.ComputeHash(Encoding.UTF8.GetBytes(userLoginDTO.CustomerPassword));
+            bool isPasswordSame = ComparePassword(encryptedPass, userAccount.PasswordHashKey);
+            if (isPasswordSame)
+            {
+                var customer = await _customerRepository.Get(userLoginDTO.CustomerId);
+                if (customer == null)
+                {
+                    var employee = await _customerRepository.Get(userLoginDTO.CustomerId);
+                    if (userAccount.status == "true")
+                        return employee;
+                    throw new UserNotActiveException("Your account is not activated");
+                }
+                return customer;
+            }
+            throw new UnauthorizedUserException("Invalid username or password");
         }
 
-        public Task<Customer> CustomerRegister(CustomerRegisterDTO customerRegisterDTO)
+        public async Task<Customer> CustomerRegister(CustomerRegisterDTO customerRegisterDTO)
         {
-            throw new NotImplementedException();
+            HMACSHA512 hMACSHA = new HMACSHA512();
+            var userAccount = new UserAccount
+            {
+                UserId = customerRegisterDTO.CustomerId,
+                PasswordHashKey = hMACSHA.ComputeHash(Encoding.UTF8.GetBytes(customerRegisterDTO.Password)),
+                PasswordSalt = hMACSHA.Key
+            };
+
+            await _userAccountRepository.Add(userAccount);
+
+            var customer = new Customer
+            {
+                CustomerId = customerRegisterDTO.CustomerId,
+                CustomerName = customerRegisterDTO.CustomerName,
+                CustomerEmail = customerRegisterDTO.CustomerEmail,
+                
+            };
+
+            await _customerRepository.Add(customer);
+            return customer;
         }
+
     }
 }
