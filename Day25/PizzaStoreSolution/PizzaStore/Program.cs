@@ -22,15 +22,19 @@ namespace PizzaStore
             builder.Services.AddSwaggerGen();
 
             //
-
+            #region Context
             builder.Services.AddDbContext<PizzaStoreDBContext>(
                 options => options.UseSqlServer(builder.Configuration.GetConnectionString("defaultConnection")));
+            #endregion
 
-
+            #region Method
             builder.Services.AddScoped<IRepository<int, Pizza>, PizzaRepository>();
+            builder.Services.AddScoped < IRepository<int, Customer>, CustomerRepository>();
+            #endregion
 
+            #region Service
             builder.Services.AddScoped<ICustomerService, CustomerService>();
-
+            #endregion
             //
             var app = builder.Build();
 
