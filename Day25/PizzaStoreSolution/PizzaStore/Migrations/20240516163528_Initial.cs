@@ -24,7 +24,7 @@ namespace PizzaStore.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Customer",
+                name: "customers",
                 columns: table => new
                 {
                     CustomerId = table.Column<int>(type: "int", nullable: false)
@@ -69,7 +69,7 @@ namespace PizzaStore.Migrations
                 {
                     table.PrimaryKey("PK_userAccounts", x => x.UserId);
                     table.ForeignKey(
-                        name: "FK_userAccounts_Customer_CustomerId",
+                        name: "FK_userAccounts_customers_CustomerId",
                         column: x => x.CustomerId,
                         principalTable: "Customer",
                         principalColumn: "CustomerId",

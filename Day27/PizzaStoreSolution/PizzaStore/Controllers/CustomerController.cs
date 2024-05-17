@@ -31,10 +31,9 @@ namespace PizzaStore.Controllers
             var customer = await _userService.CustomerLogin(userLoginDTO);
             if (customer != null)
             {
-                var token = JwtTokenHelper.GenerateToken(_secretKey, customer.CustomerId.ToString());
-                return Ok(new { Token = token });
+                return Ok(customer); 
             }
-            return Unauthorized();
+            return Unauthorized(); // 401
         }
     }
 }

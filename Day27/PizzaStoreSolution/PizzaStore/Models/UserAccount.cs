@@ -11,9 +11,10 @@ namespace PizzaStore.Models
         public byte[]? Password { get; set; }
         public byte[]? PasswordHashKey { get; set; }
 
-        [ForeignKey("CustomerId")]
+        [ForeignKey("Customer")]
+        public int CustomerId { get; set; }
         public Customer Customer { get; set; }
-        public string status { get; set; } = "true";
+        public string status { get; set; } = "false";
         internal byte[] PasswordSalt;
     }
 }

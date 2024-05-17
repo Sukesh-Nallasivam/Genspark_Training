@@ -1,13 +1,22 @@
-﻿using PizzaStore.Interfaces;
+﻿using PizzaStore.Contexts;
+using PizzaStore.Interfaces;
 using PizzaStore.Models;
 
 namespace PizzaStore.Repositories
 {
     public class UserRepository : IRepository<int, UserAccount>
     {
-        public Task<UserAccount> Add(UserAccount entity)
+        private readonly PizzaStoreDBContext _dbContext;
+
+        public UserRepository(PizzaStoreDBContext dbContext)
         {
-            throw new NotImplementedException();
+            _dbContext = dbContext ?? throw new ArgumentNullException(nameof(dbContext));
+        }
+        public async Task<UserAccount> Add(UserAccount entity)
+        {
+            var result=await _dbContext.userAccounts.AddAsync(entity);
+            await _dbContext.SaveChangesAsync();
+            return result.Entity;
         }
 
         public Task<UserAccount> Delete(int key)
@@ -15,9 +24,14 @@ namespace PizzaStore.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<UserAccount> Get(int key)
+        public async Task<UserAccount> Get(int key)
         {
-            throw new NotImplementedException();
+            var GetUserById = await _dbContext.userAccounts.FindAsync(key);
+            if(GetUserById == null)
+            {
+                throw new NotImplementedException();
+            }
+            return GetUserById;
         }
 
         public Task<IEnumerable<UserAccount>> GetAll()
@@ -25,9 +39,21 @@ namespace PizzaStore.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<UserAccount> Update(UserAccount entity)
+        public async Task<UserAccount> Update(UserAccount entity)
         {
-            throw new NotImplementedException();
+            var existingUser = await _dbContext.userAccounts.FindAsync(entity.UserId);
+            if (existingUser == null)
+            {
+                throw new Exception("User not found");
+            }
+
+            existingUser.status = entity.status;
+
+            _dbContext.userAccounts.Update(existingUser);
+            await _dbContext.SaveChangesAsync();
+
+            return existingUser;
+
         }
     }
 }

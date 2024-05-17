@@ -79,14 +79,7 @@ namespace PizzaStore.Services
         public async Task<Customer> CustomerRegister(CustomerRegisterDTO customerRegisterDTO)
         {
             HMACSHA512 hMACSHA = new HMACSHA512();
-            var userAccount = new UserAccount
-            {
-                UserId = customerRegisterDTO.CustomerId,
-                PasswordHashKey = hMACSHA.ComputeHash(Encoding.UTF8.GetBytes(customerRegisterDTO.Password)),
-                PasswordSalt = hMACSHA.Key
-            };
 
-            await _userAccountRepository.Add(userAccount);
 
             var customer = new Customer
             {
@@ -96,7 +89,16 @@ namespace PizzaStore.Services
                 
             };
 
-            await _customerRepository.Add(customer);
+            var CustomerResult= await _customerRepository.Add(customer);
+            var userAccount = new UserAccount
+            {
+                CustomerId=CustomerResult.CustomerId,
+                //Password=customerRegisterDTO.Password,
+                PasswordHashKey = hMACSHA.ComputeHash(Encoding.UTF8.GetBytes(customerRegisterDTO.Password)),
+                PasswordSalt = hMACSHA.Key
+            };
+
+            await _userAccountRepository.Add(userAccount);
             return customer;
         }
 

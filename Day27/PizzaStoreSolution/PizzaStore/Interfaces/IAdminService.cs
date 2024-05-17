@@ -6,6 +6,6 @@ namespace PizzaStore.Interfaces
     {
         public Task<Pizza> UpdatePizza(bool Availability);
         public Task<Pizza> AddPizza(Pizza pizza);
-        public Task<bool> UpdateCustomerStatud(bool status);
+        public Task<bool> UpdateCustomerStatud(int userId);
     }
 }

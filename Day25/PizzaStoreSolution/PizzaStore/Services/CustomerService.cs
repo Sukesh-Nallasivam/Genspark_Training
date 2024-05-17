@@ -11,28 +11,45 @@ namespace PizzaStore.Services
         {
             _pizzaRepository = pizzaRepository ?? throw new ArgumentNullException(nameof(pizzaRepository));
         }
-        public Task<IEnumerable<Pizza>> GetAllAsync()
+        public async Task<IEnumerable<Pizza>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            try
+            {
+                var allPizzas = await _pizzaRepository.GetAll();
+                if (allPizzas == null)
+                {
+                    throw new EmptyDataBaseException("No pizza");
+                }
+                else
+                {
+                    return allPizzas;
+                }
+            }
+            catch (Exception ex)
+            {
+                return Enumerable.Empty<Pizza>();
+            }
+            
+
         }
 
         public async Task<IEnumerable<Pizza>> GetAvailablePizzasAsync()
         {
             try
             {
-                // Retrieve all pizzas from the repository
+                
                 var allPizzas = await _pizzaRepository.GetAll();
 
-                // Filter only the pizzas that are available (AvailabilityStatus == true)
+                
                 var availablePizzas = allPizzas.Where(pizza => pizza.AvailabilityStatus);
 
                 return availablePizzas;
             }
             catch (Exception ex)
             {
-                // Log the exception or handle it accordingly
+                
                 Console.WriteLine($"An error occurred while retrieving available pizzas: {ex.Message}");
-                throw; // Rethrow the exception or return an empty enumerable based on your error handling strategy
+                throw;
             }
         }
 

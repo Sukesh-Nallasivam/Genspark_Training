@@ -64,7 +64,7 @@ namespace PizzaStore.Migrations
 
                     b.HasKey("CustomerId");
 
-                    b.ToTable("Customer");
+                    b.ToTable("customers");
                 });
 
             modelBuilder.Entity("PizzaStore.Models.Pizza", b =>

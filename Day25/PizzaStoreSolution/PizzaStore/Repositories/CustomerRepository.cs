@@ -1,13 +1,22 @@
-﻿using PizzaStore.Interfaces;
+﻿using PizzaStore.Contexts;
+using PizzaStore.Interfaces;
 using PizzaStore.Models;
 
 namespace PizzaStore.Repositories
 {
     public class CustomerRepository : IRepository<int, Customer>
     {
-        public Task<Customer> Add(Customer entity)
+        private readonly PizzaStoreDBContext _dbContext;
+
+        public CustomerRepository(PizzaStoreDBContext dbContext)
         {
-            throw new NotImplementedException();
+            _dbContext = dbContext ?? throw new ArgumentNullException(nameof(dbContext));
+        }
+        public async Task<Customer> Add(Customer entity)
+        {
+            var addedEntity = await _dbContext.customers.AddAsync(entity);
+            await _dbContext.SaveChangesAsync();
+            return addedEntity.Entity;
         }
 
         public Task<Customer> Delete(int key)
