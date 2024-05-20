@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day28\\LINQUnderstandingSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FA8CCB1C-B29E-4437-AEF9-CAEFB97B5E5F}|LINQUnderstanding\\LINQUnderstanding.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day28\\linqunderstandingsolution\\linqunderstanding\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA8CCB1C-B29E-4437-AEF9-CAEFB97B5E5F}|LINQUnderstanding\\LINQUnderstanding.csproj|solutionrelative:linqunderstanding\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA8CCB1C-B29E-4437-AEF9-CAEFB97B5E5F}|LINQUnderstanding\\LINQUnderstanding.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day28\\linqunderstandingsolution\\linqunderstanding\\model\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA8CCB1C-B29E-4437-AEF9-CAEFB97B5E5F}|LINQUnderstanding\\LINQUnderstanding.csproj|solutionrelative:linqunderstanding\\model\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA8CCB1C-B29E-4437-AEF9-CAEFB97B5E5F}|LINQUnderstanding\\LINQUnderstanding.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day28\\linqunderstandingsolution\\linqunderstanding\\model\\title.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA8CCB1C-B29E-4437-AEF9-CAEFB97B5E5F}|LINQUnderstanding\\LINQUnderstanding.csproj|solutionrelative:linqunderstanding\\model\\title.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA8CCB1C-B29E-4437-AEF9-CAEFB97B5E5F}|LINQUnderstanding\\LINQUnderstanding.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day28\\linqunderstandingsolution\\linqunderstanding\\model\\pubscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA8CCB1C-B29E-4437-AEF9-CAEFB97B5E5F}|LINQUnderstanding\\LINQUnderstanding.csproj|solutionrelative:linqunderstanding\\model\\pubscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA8CCB1C-B29E-4437-AEF9-CAEFB97B5E5F}|LINQUnderstanding\\LINQUnderstanding.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day28\\linqunderstandingsolution\\linqunderstanding\\model\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA8CCB1C-B29E-4437-AEF9-CAEFB97B5E5F}|LINQUnderstanding\\LINQUnderstanding.csproj|solutionrelative:linqunderstanding\\model\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA8CCB1C-B29E-4437-AEF9-CAEFB97B5E5F}|LINQUnderstanding\\LINQUnderstanding.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day28\\linqunderstandingsolution\\linqunderstanding\\model\\titleauthor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA8CCB1C-B29E-4437-AEF9-CAEFB97B5E5F}|LINQUnderstanding\\LINQUnderstanding.csproj|solutionrelative:linqunderstanding\\model\\titleauthor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sale.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day28\\LINQUnderstandingSolution\\LINQUnderstanding\\Model\\Sale.cs",
+              "RelativeDocumentMoniker": "LINQUnderstanding\\Model\\Sale.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day28\\LINQUnderstandingSolution\\LINQUnderstanding\\Model\\Sale.cs",
+              "RelativeToolTip": "LINQUnderstanding\\Model\\Sale.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T06:08:52.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day28\\LINQUnderstandingSolution\\LINQUnderstanding\\Model\\Author.cs",
+              "RelativeDocumentMoniker": "LINQUnderstanding\\Model\\Author.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day28\\LINQUnderstandingSolution\\LINQUnderstanding\\Model\\Author.cs",
+              "RelativeToolTip": "LINQUnderstanding\\Model\\Author.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T04:43:27.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Title.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day28\\LINQUnderstandingSolution\\LINQUnderstanding\\Model\\Title.cs",
+              "RelativeDocumentMoniker": "LINQUnderstanding\\Model\\Title.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day28\\LINQUnderstandingSolution\\LINQUnderstanding\\Model\\Title.cs",
+              "RelativeToolTip": "LINQUnderstanding\\Model\\Title.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAiwAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T04:42:47.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Titleauthor.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day28\\LINQUnderstandingSolution\\LINQUnderstanding\\Model\\Titleauthor.cs",
+              "RelativeDocumentMoniker": "LINQUnderstanding\\Model\\Titleauthor.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day28\\LINQUnderstandingSolution\\LINQUnderstanding\\Model\\Titleauthor.cs",
+              "RelativeToolTip": "LINQUnderstanding\\Model\\Titleauthor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T04:42:42.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "pubsContext.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day28\\LINQUnderstandingSolution\\LINQUnderstanding\\Model\\pubsContext.cs",
+              "RelativeDocumentMoniker": "LINQUnderstanding\\Model\\pubsContext.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day28\\LINQUnderstandingSolution\\LINQUnderstanding\\Model\\pubsContext.cs",
+              "RelativeToolTip": "LINQUnderstanding\\Model\\pubsContext.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAA5wCYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T04:25:21.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day28\\LINQUnderstandingSolution\\LINQUnderstanding\\Program.cs",
+              "RelativeDocumentMoniker": "LINQUnderstanding\\Program.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day28\\LINQUnderstandingSolution\\LINQUnderstanding\\Program.cs",
+              "RelativeToolTip": "LINQUnderstanding\\Program.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAAwGEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T04:22:14.428Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
