@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using RequestTracker.Models.DTO;
 using UserLoginTraining1705.Exceptions;
 using UserLoginTraining1705.Interfaces;
 using UserLoginTraining1705.Models;
@@ -33,7 +34,7 @@ namespace UserLoginTraining1705.Controllers
         }
 
         [HttpGet("LoginUser")]
-        public async Task<ActionResult<SecurityDTO>> LoginUser(string Email,String Password)
+        public async Task<ActionResult<LoginReturnDTO>> LoginUser(string Email,String Password)
         {
             try
             {

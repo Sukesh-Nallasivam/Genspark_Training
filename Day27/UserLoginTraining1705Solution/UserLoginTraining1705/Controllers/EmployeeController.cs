@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using RequestTracker.Interfaces;
 using RequestTracker.Models;
 using UserLoginTraining1705.Exceptions;
 
 namespace RequestTracker.Controllers
 {
+    [Authorize(Roles = "User")]
     [Route("api/[controller]")]
     [ApiController]
     public class EmployeeController:ControllerBase
@@ -15,7 +17,7 @@ namespace RequestTracker.Controllers
         {
             _employee=employee;
         }
-        [HttpPut]
+        [HttpPut("MakeRequest")]
         public async Task<ActionResult<Request>> AddRequest(string RequestDescription)
         {
             try

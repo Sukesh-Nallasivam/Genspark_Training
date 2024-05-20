@@ -1,4 +1,6 @@
-﻿using System.Linq.Expressions;
+﻿using RequestTracker.Interfaces;
+using RequestTracker.Models.DTO;
+using System.Linq.Expressions;
 using System.Security.Cryptography;
 using System.Text;
 using UserLoginTraining1705.Exceptions;
@@ -13,11 +15,13 @@ namespace UserLoginTraining1705.Services
     {
         private IRepository<int, User> _userRepository;
         private IRepository<int, Security> _securityRepository;
+        private ITokenService _tokenService;
 
-        public UserService(IRepository<int, User> userRepository, IRepository<int, Security> securityRepository)
+        public UserService(IRepository<int, User> userRepository, IRepository<int, Security> securityRepository,ITokenService tokenService)
         {
             _userRepository = userRepository;
             _securityRepository = securityRepository;
+            _tokenService = tokenService;
         }
 
         public async Task<User> AddUser(UserDTO userDto)
@@ -81,7 +85,7 @@ namespace UserLoginTraining1705.Services
         }
 
 
-        public async Task<UserDTO> LoginUser(string Email,string Password)
+        public async Task<LoginReturnDTO> LoginUser(string Email,string Password)
         {
             try
             {           
@@ -100,12 +104,9 @@ namespace UserLoginTraining1705.Services
                             }
                             else
                             {
-                                return new UserDTO
-                                {
-                                    UserName = getUser.UserName,
-                                    UserId = getUser.UserId,
-                                    Role = getUser.Role
-                                };
+                                
+                                LoginReturnDTO loginReturnDTO = LoginReturn(getUser);
+                                return loginReturnDTO;
                             }
                             
                         }
@@ -120,6 +121,19 @@ namespace UserLoginTraining1705.Services
             }
             
         }
+
+        public LoginReturnDTO LoginReturn(User user)
+        {
+            LoginReturnDTO loginReturnDTO=new LoginReturnDTO()
+            {
+                UserEmail = user.UserEmail,
+                UserID = user.UserId,
+                Role = user.Role,
+                Token = _tokenService.GenerateToken(user)
+            } ; return loginReturnDTO;
+        }
+           
+        
         private bool ComparePassword(string password, byte[] storedPassword, byte[] key)
         {
             using (var hmac = new HMACSHA512(key))

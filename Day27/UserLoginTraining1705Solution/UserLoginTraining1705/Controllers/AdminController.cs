@@ -6,9 +6,10 @@ using UserLoginTraining1705.Exceptions;
 
 namespace RequestTracker.Controllers
 {
+    [Authorize(Roles = "admin")]
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(Roles = "Admin")]
+    
     public class AdminController : ControllerBase
     {
         private readonly IAdmin _admin;
