@@ -1,0 +1,14 @@
+2024-05-21 09:31:19,020 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5027
+2024-05-21 09:31:19,047 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-05-21 09:31:19,051 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-05-21 09:31:19,052 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day28\PizzaStoreSolution\PizzaStore\
+2024-05-21 09:32:07,968 [6] INFO  Microsoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.30 initialized 'PizzaStoreDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.30' with options: None
+2024-05-21 09:32:09,154 [26] INFO  Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (110ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CustomerId], [u].[Password], [u].[PasswordHashKey], [u].[status]
+FROM [userAccounts] AS [u]
+WHERE [u].[UserId] = @__p_0
+2024-05-21 09:32:09,396 [26] ERROR PizzaStore.Controllers.CustomerController - Error occurred while logging in customer
+System.NotImplementedException: The method or operation is not implemented.
+   at PizzaStore.Repositories.UserRepository.Get(Int32 key) in C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day28\PizzaStoreSolution\PizzaStore\Repositories\UserRepository.cs:line 32
+   at PizzaStore.Services.LoginService.CustomerLogin(UserLoginDTO userLoginDTO) in C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day28\PizzaStoreSolution\PizzaStore\Services\LoginService.cs:line 55
+   at PizzaStore.Controllers.CustomerController.Login(UserLoginDTO userLoginDTO) in C:\Users\vc\Desktop\Git\git_push\Genspark_Training\Day28\PizzaStoreSolution\PizzaStore\Controllers\CustomerController.cs:line 43
