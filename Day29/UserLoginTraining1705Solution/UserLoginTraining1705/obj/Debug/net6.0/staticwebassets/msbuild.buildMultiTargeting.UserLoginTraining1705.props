@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\UserLoginTraining1705.props" />
+</Project>
