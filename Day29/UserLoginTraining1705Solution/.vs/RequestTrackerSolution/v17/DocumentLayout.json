@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day29\\UserLoginTraining1705Solution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AB11425F-4AC8-45A6-98D9-58FA8017514A}|RequestTrackerTest\\RequestTrackerTest.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day29\\userlogintraining1705solution\\requesttrackertest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB11425F-4AC8-45A6-98D9-58FA8017514A}|RequestTrackerTest\\RequestTrackerTest.csproj|solutionrelative:requesttrackertest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB11425F-4AC8-45A6-98D9-58FA8017514A}|RequestTrackerTest\\RequestTrackerTest.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day29\\userlogintraining1705solution\\requesttrackertest\\tokenservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB11425F-4AC8-45A6-98D9-58FA8017514A}|RequestTrackerTest\\RequestTrackerTest.csproj|solutionrelative:requesttrackertest\\tokenservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBA3BA7-D432-454B-881B-E4FB30C269FB}|UserLoginTraining1705\\RequestTracker.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day29\\userlogintraining1705solution\\userlogintraining1705\\interfaces\\iadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BBA3BA7-D432-454B-881B-E4FB30C269FB}|UserLoginTraining1705\\RequestTracker.csproj|solutionrelative:userlogintraining1705\\interfaces\\iadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBA3BA7-D432-454B-881B-E4FB30C269FB}|UserLoginTraining1705\\RequestTracker.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day29\\userlogintraining1705solution\\userlogintraining1705\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BBA3BA7-D432-454B-881B-E4FB30C269FB}|UserLoginTraining1705\\RequestTracker.csproj|solutionrelative:userlogintraining1705\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBA3BA7-D432-454B-881B-E4FB30C269FB}|UserLoginTraining1705\\RequestTracker.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day29\\userlogintraining1705solution\\userlogintraining1705\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1BBA3BA7-D432-454B-881B-E4FB30C269FB}|UserLoginTraining1705\\RequestTracker.csproj|solutionrelative:userlogintraining1705\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1BBA3BA7-D432-454B-881B-E4FB30C269FB}|UserLoginTraining1705\\RequestTracker.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day29\\userlogintraining1705solution\\userlogintraining1705\\controllers\\userlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,10 +43,6 @@
       "RelativeMoniker": "D:0:0:{1BBA3BA7-D432-454B-881B-E4FB30C269FB}|UserLoginTraining1705\\RequestTracker.csproj|solutionrelative:userlogintraining1705\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BBA3BA7-D432-454B-881B-E4FB30C269FB}|UserLoginTraining1705\\RequestTracker.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day29\\userlogintraining1705solution\\userlogintraining1705\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1BBA3BA7-D432-454B-881B-E4FB30C269FB}|UserLoginTraining1705\\RequestTracker.csproj|solutionrelative:userlogintraining1705\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1BBA3BA7-D432-454B-881B-E4FB30C269FB}|UserLoginTraining1705\\RequestTracker.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day29\\userlogintraining1705solution\\userlogintraining1705\\models\\dto\\loginreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BBA3BA7-D432-454B-881B-E4FB30C269FB}|UserLoginTraining1705\\RequestTracker.csproj|solutionrelative:userlogintraining1705\\models\\dto\\loginreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -59,16 +67,8 @@
       "RelativeMoniker": "D:0:0:{1BBA3BA7-D432-454B-881B-E4FB30C269FB}|UserLoginTraining1705\\RequestTracker.csproj|solutionrelative:userlogintraining1705\\interfaces\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BBA3BA7-D432-454B-881B-E4FB30C269FB}|UserLoginTraining1705\\RequestTracker.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day29\\userlogintraining1705solution\\userlogintraining1705\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BBA3BA7-D432-454B-881B-E4FB30C269FB}|UserLoginTraining1705\\RequestTracker.csproj|solutionrelative:userlogintraining1705\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1BBA3BA7-D432-454B-881B-E4FB30C269FB}|UserLoginTraining1705\\RequestTracker.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day29\\userlogintraining1705solution\\userlogintraining1705\\interfaces\\iemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BBA3BA7-D432-454B-881B-E4FB30C269FB}|UserLoginTraining1705\\RequestTracker.csproj|solutionrelative:userlogintraining1705\\interfaces\\iemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BBA3BA7-D432-454B-881B-E4FB30C269FB}|UserLoginTraining1705\\RequestTracker.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day29\\userlogintraining1705solution\\userlogintraining1705\\interfaces\\iadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BBA3BA7-D432-454B-881B-E4FB30C269FB}|UserLoginTraining1705\\RequestTracker.csproj|solutionrelative:userlogintraining1705\\interfaces\\iadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1BBA3BA7-D432-454B-881B-E4FB30C269FB}|UserLoginTraining1705\\RequestTracker.csproj|c:\\users\\vc\\desktop\\git\\git_push\\genspark_training\\day29\\userlogintraining1705solution\\userlogintraining1705\\models\\dto\\solutiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -187,84 +187,67 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day29\\UserLoginTraining1705Solution\\RequestTrackerTest\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "RequestTrackerTest\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day29\\UserLoginTraining1705Solution\\RequestTrackerTest\\UnitTest1.cs",
-              "RelativeToolTip": "RequestTrackerTest\\UnitTest1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "TokenServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day29\\UserLoginTraining1705Solution\\RequestTrackerTest\\TokenServiceTest.cs",
+              "RelativeDocumentMoniker": "RequestTrackerTest\\TokenServiceTest.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day29\\UserLoginTraining1705Solution\\RequestTrackerTest\\TokenServiceTest.cs",
+              "RelativeToolTip": "RequestTrackerTest\\TokenServiceTest.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAABsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-21T04:16:02.825Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day29\\UserLoginTraining1705Solution\\UserLoginTraining1705\\appsettings.json",
               "RelativeDocumentMoniker": "UserLoginTraining1705\\appsettings.json",
               "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day29\\UserLoginTraining1705Solution\\UserLoginTraining1705\\appsettings.json",
               "RelativeToolTip": "UserLoginTraining1705\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAxAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-17T14:44:33.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T14:44:33.809Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day29\\UserLoginTraining1705Solution\\UserLoginTraining1705\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "UserLoginTraining1705\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day29\\UserLoginTraining1705Solution\\UserLoginTraining1705\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "UserLoginTraining1705\\Controllers\\AdminController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAgAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T02:27:24.738Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day29\\UserLoginTraining1705Solution\\UserLoginTraining1705\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "UserLoginTraining1705\\Controllers\\EmployeeController.cs",
               "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day29\\UserLoginTraining1705Solution\\UserLoginTraining1705\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "UserLoginTraining1705\\Controllers\\EmployeeController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAIBQwBUAAAAIAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAuwBUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T02:52:25.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T02:52:25.705Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day29\\UserLoginTraining1705Solution\\UserLoginTraining1705\\Program.cs",
               "RelativeDocumentMoniker": "UserLoginTraining1705\\Program.cs",
               "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day29\\UserLoginTraining1705Solution\\UserLoginTraining1705\\Program.cs",
               "RelativeToolTip": "UserLoginTraining1705\\Program.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAIBJwDQAAAANAAAA",
+              "ViewState": "AQIAAEIAAAAAAAAAAIBZwDQAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T16:49:21.241Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T16:49:21.241Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "TokenService.cs",
               "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day29\\UserLoginTraining1705Solution\\UserLoginTraining1705\\Services\\TokenService.cs",
               "RelativeDocumentMoniker": "UserLoginTraining1705\\Services\\TokenService.cs",
               "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day29\\UserLoginTraining1705Solution\\UserLoginTraining1705\\Services\\TokenService.cs",
               "RelativeToolTip": "UserLoginTraining1705\\Services\\TokenService.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAA+wB8AAAAMAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAqwB8AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T09:49:15.425Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T09:49:15.425Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "UserLoginContext.cs",
               "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day29\\UserLoginTraining1705Solution\\UserLoginTraining1705\\Context\\UserLoginContext.cs",
               "RelativeDocumentMoniker": "UserLoginTraining1705\\Context\\UserLoginContext.cs",
@@ -272,12 +255,47 @@
               "RelativeToolTip": "UserLoginTraining1705\\Context\\UserLoginContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T16:50:25.527Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T16:50:25.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day29\\UserLoginTraining1705Solution\\UserLoginTraining1705\\Models\\User.cs",
+              "RelativeDocumentMoniker": "UserLoginTraining1705\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day29\\UserLoginTraining1705Solution\\UserLoginTraining1705\\Models\\User.cs",
+              "RelativeToolTip": "UserLoginTraining1705\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T14:50:40.072Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "IAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day29\\UserLoginTraining1705Solution\\UserLoginTraining1705\\Interfaces\\IAdmin.cs",
+              "RelativeDocumentMoniker": "UserLoginTraining1705\\Interfaces\\IAdmin.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day29\\UserLoginTraining1705Solution\\UserLoginTraining1705\\Interfaces\\IAdmin.cs",
+              "RelativeToolTip": "UserLoginTraining1705\\Interfaces\\IAdmin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T02:48:40.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day29\\UserLoginTraining1705Solution\\UserLoginTraining1705\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "UserLoginTraining1705\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day29\\UserLoginTraining1705Solution\\UserLoginTraining1705\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "UserLoginTraining1705\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T02:27:24.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "UserLoginController.cs",
               "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day29\\UserLoginTraining1705Solution\\UserLoginTraining1705\\Controllers\\UserLoginController.cs",
               "RelativeDocumentMoniker": "UserLoginTraining1705\\Controllers\\UserLoginController.cs",
@@ -290,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "LoginReturnDTO.cs",
               "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day29\\UserLoginTraining1705Solution\\UserLoginTraining1705\\Models\\DTO\\LoginReturnDTO.cs",
               "RelativeDocumentMoniker": "UserLoginTraining1705\\Models\\DTO\\LoginReturnDTO.cs",
@@ -298,12 +316,11 @@
               "RelativeToolTip": "UserLoginTraining1705\\Models\\DTO\\LoginReturnDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T15:42:52.124Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T15:42:52.124Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day29\\UserLoginTraining1705Solution\\UserLoginTraining1705\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "UserLoginTraining1705\\Services\\UserService.cs",
@@ -311,12 +328,11 @@
               "RelativeToolTip": "UserLoginTraining1705\\Services\\UserService.cs",
               "ViewState": "AQIAAGIAAAAAAAAAAADwv2sAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T13:16:39.203Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T13:16:39.203Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day29\\UserLoginTraining1705Solution\\UserLoginTraining1705\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "UserLoginTraining1705\\Repositories\\UserRepository.cs",
@@ -324,12 +340,11 @@
               "RelativeToolTip": "UserLoginTraining1705\\Repositories\\UserRepository.cs",
               "ViewState": "AQIAADcAAAAAAAAAAADwv0AAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T13:06:57.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T13:06:57.294Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "SecurityRepository.cs",
               "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day29\\UserLoginTraining1705Solution\\UserLoginTraining1705\\Repositories\\SecurityRepository.cs",
               "RelativeDocumentMoniker": "UserLoginTraining1705\\Repositories\\SecurityRepository.cs",
@@ -337,12 +352,11 @@
               "RelativeToolTip": "UserLoginTraining1705\\Repositories\\SecurityRepository.cs",
               "ViewState": "AQIAACsAAAAAAAAAAADwvzQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T13:14:51.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T13:14:51.767Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "ITokenService.cs",
               "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day29\\UserLoginTraining1705Solution\\UserLoginTraining1705\\Interfaces\\ITokenService.cs",
               "RelativeDocumentMoniker": "UserLoginTraining1705\\Interfaces\\ITokenService.cs",
@@ -350,25 +364,11 @@
               "RelativeToolTip": "UserLoginTraining1705\\Interfaces\\ITokenService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T15:29:07.703Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T15:29:07.703Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "IAdmin.cs",
-              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day29\\UserLoginTraining1705Solution\\UserLoginTraining1705\\Interfaces\\IAdmin.cs",
-              "RelativeDocumentMoniker": "UserLoginTraining1705\\Interfaces\\IAdmin.cs",
-              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day29\\UserLoginTraining1705Solution\\UserLoginTraining1705\\Interfaces\\IAdmin.cs",
-              "RelativeToolTip": "UserLoginTraining1705\\Interfaces\\IAdmin.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T02:48:40.257Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "IEmployee.cs",
               "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day29\\UserLoginTraining1705Solution\\UserLoginTraining1705\\Interfaces\\IEmployee.cs",
               "RelativeDocumentMoniker": "UserLoginTraining1705\\Interfaces\\IEmployee.cs",
@@ -376,12 +376,11 @@
               "RelativeToolTip": "UserLoginTraining1705\\Interfaces\\IEmployee.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T02:46:09.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T02:46:09.591Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "IUser.cs",
               "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day29\\UserLoginTraining1705Solution\\UserLoginTraining1705\\Interfaces\\IUser.cs",
               "RelativeDocumentMoniker": "UserLoginTraining1705\\Interfaces\\IUser.cs",
@@ -389,21 +388,7 @@
               "RelativeToolTip": "UserLoginTraining1705\\Interfaces\\IUser.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T13:16:51.232Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day29\\UserLoginTraining1705Solution\\UserLoginTraining1705\\Models\\User.cs",
-              "RelativeDocumentMoniker": "UserLoginTraining1705\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\vc\\Desktop\\Git\\git_push\\Genspark_Training\\Day29\\UserLoginTraining1705Solution\\UserLoginTraining1705\\Models\\User.cs",
-              "RelativeToolTip": "UserLoginTraining1705\\Models\\User.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAmwAsAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T14:50:40.072Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T13:16:51.232Z"
             },
             {
               "$type": "Document",
@@ -415,8 +400,7 @@
               "RelativeToolTip": "UserLoginTraining1705\\Models\\DTO\\SolutionDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T02:41:56.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T02:41:56.883Z"
             },
             {
               "$type": "Document",
@@ -428,8 +412,7 @@
               "RelativeToolTip": "UserLoginTraining1705\\Models\\DTO\\SecurityDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T15:42:14.527Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T15:42:14.527Z"
             },
             {
               "$type": "Document",
@@ -441,8 +424,7 @@
               "RelativeToolTip": "UserLoginTraining1705\\Models\\Security.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAIBJwAwAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T14:53:19.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T14:53:19.895Z"
             },
             {
               "$type": "Document",
@@ -454,8 +436,7 @@
               "RelativeToolTip": "UserLoginTraining1705\\Migrations\\20240520030102_KeyUpdate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T03:01:02.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T03:01:02.426Z"
             },
             {
               "$type": "Document",
@@ -467,8 +448,7 @@
               "RelativeToolTip": "UserLoginTraining1705\\Models\\Request.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T02:27:45.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T02:27:45.549Z"
             },
             {
               "$type": "Document",
@@ -480,8 +460,7 @@
               "RelativeToolTip": "UserLoginTraining1705\\Migrations\\20240520025928_RequestAndSolutionUpdateKEY.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T02:59:28.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T02:59:28.583Z"
             },
             {
               "$type": "Document",
@@ -493,8 +472,7 @@
               "RelativeToolTip": "UserLoginTraining1705\\Migrations\\20240520025756_RequestAndSolutionUpdate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T02:57:56.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T02:57:56.641Z"
             },
             {
               "$type": "Document",
@@ -506,8 +484,7 @@
               "RelativeToolTip": "UserLoginTraining1705\\Migrations\\20240520025326_RequestAndSolution.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T02:53:26.244Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T02:53:26.244Z"
             },
             {
               "$type": "Document",
@@ -519,8 +496,7 @@
               "RelativeToolTip": "UserLoginTraining1705\\Models\\Solution.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T02:38:12.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T02:38:12.824Z"
             },
             {
               "$type": "Document",
@@ -532,8 +508,7 @@
               "RelativeToolTip": "UserLoginTraining1705\\Models\\DTO\\RequestDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T02:36:27.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T02:36:27.161Z"
             },
             {
               "$type": "Document",
@@ -545,8 +520,7 @@
               "RelativeToolTip": "UserLoginTraining1705\\Repositories\\SolutionRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T02:45:06.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T02:45:06.181Z"
             },
             {
               "$type": "Document",
@@ -558,8 +532,7 @@
               "RelativeToolTip": "UserLoginTraining1705\\Services\\SolutionService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T02:45:50.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T02:45:50.176Z"
             },
             {
               "$type": "Document",
@@ -571,8 +544,7 @@
               "RelativeToolTip": "UserLoginTraining1705\\Services\\RequestService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T02:45:40.127Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T02:45:40.127Z"
             },
             {
               "$type": "Document",
@@ -584,8 +556,7 @@
               "RelativeToolTip": "UserLoginTraining1705\\Interfaces\\ISecurity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T13:20:45.522Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T13:20:45.522Z"
             },
             {
               "$type": "Document",
@@ -597,8 +568,7 @@
               "RelativeToolTip": "UserLoginTraining1705\\Repositories\\RequestRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T02:43:36.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T02:43:36.949Z"
             },
             {
               "$type": "Document",
@@ -610,8 +580,7 @@
               "RelativeToolTip": "UserLoginTraining1705\\Interfaces\\IRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T13:08:50.545Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T13:08:50.545Z"
             },
             {
               "$type": "Document",
@@ -623,8 +592,7 @@
               "RelativeToolTip": "UserLoginTraining1705\\Services\\SecurityService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T13:54:08.894Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T13:54:08.894Z"
             },
             {
               "$type": "Document",
@@ -636,8 +604,7 @@
               "RelativeToolTip": "UserLoginTraining1705\\Exceptions\\UnableToPerformWithDBException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T13:23:47.708Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T13:23:47.708Z"
             },
             {
               "$type": "Document",
@@ -649,8 +616,7 @@
               "RelativeToolTip": "UserLoginTraining1705\\Exceptions\\UnableToAddException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T13:23:42.846Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T13:23:42.846Z"
             },
             {
               "$type": "Document",
@@ -662,8 +628,7 @@
               "RelativeToolTip": "UserLoginTraining1705\\Models\\DTO\\UserDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T15:42:00.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T15:42:00.266Z"
             },
             {
               "$type": "Document",
@@ -675,8 +640,7 @@
               "RelativeToolTip": "UserLoginTraining1705\\Exceptions\\WrongCredentialsException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T13:23:52.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T13:23:52.657Z"
             },
             {
               "$type": "Document",
@@ -688,8 +652,7 @@
               "RelativeToolTip": "UserLoginTraining1705\\Exceptions\\NotActiveException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T13:23:38.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T13:23:38.448Z"
             },
             {
               "$type": "Document",
@@ -701,8 +664,7 @@
               "RelativeToolTip": "UserLoginTraining1705\\Exceptions\\ErrorAddingUserException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T17:15:02.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T17:15:02.286Z"
             },
             {
               "$type": "Document",
@@ -714,8 +676,7 @@
               "RelativeToolTip": "UserLoginTraining1705\\Migrations\\20240519093525_Initial.cs",
               "ViewState": "AQIAABwAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T09:35:25.548Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T09:35:25.548Z"
             },
             {
               "$type": "Document",
@@ -727,8 +688,7 @@
               "RelativeToolTip": "UserLoginTraining1705\\Migrations\\UserLoginContextModelSnapshot.cs",
               "ViewState": "AQIAADcAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T10:23:57.193Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T10:23:57.193Z"
             },
             {
               "$type": "Document",
@@ -740,8 +700,7 @@
               "RelativeToolTip": "UserLoginTraining1705\\RequestTracker.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-18T16:50:03.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T16:50:03.399Z"
             }
           ]
         }
