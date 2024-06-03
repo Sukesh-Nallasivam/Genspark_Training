@@ -1,0 +1,73 @@
+body{
+    background-color: lightcyan;
+
+}
+table,tr,td,th{
+    border: 1px solid black;
+    
+}
+.resume-table{
+    border: 10px solid black;
+    width: 100%;
+}
+.outline-border{
+    border: none;
+}
+.name-card{
+    width: 75rem;  
+    border: none;  
+}
+.name-card table{
+    width: 25rem;  
+    border: none;  
+}
+.name-card tr{
+    border: none;
+}
+.name-card td{
+    border: none;
+}
+.profile-image{
+
+    height: 10rem;
+    width: 10rem;
+    object-fit: fill;
+    border: 5px solid black;
+    vertical-align: top;
+}
+img{
+    object-fit: cover;
+}
+.main-content{
+    width: 100%;
+}
+.qualification-table{
+    padding-left: 5rem;
+    border: none;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 800px) {
+    body {
+        padding: 10%;
+    }
+    .name-card table{
+        width: 45rem;  
+        border: none;  
+    }
+    .qualification-table{
+        padding-left: 25rem;
+    }
+    
+}
