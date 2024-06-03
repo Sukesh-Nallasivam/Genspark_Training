@@ -42,7 +42,6 @@ img{
     width: 100%;
 }
 .qualification-table{
-    padding-left: 5rem;
     border: none;  
 }
 
@@ -67,7 +66,8 @@ img{
         border: none;  
     }
     .qualification-table{
-        padding-left: 25rem;
+        padding-left: 15rem;
+        padding-right: 15rem;
     }
     
 }

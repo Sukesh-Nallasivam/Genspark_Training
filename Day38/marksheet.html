@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Marksheet</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .watermark {
+            position: absolute;
+            font-size: 45px;
+            top: 25rem;
+            left: 30%;
+            color: rgba(0, 0, 0, 0.1);
+            white-space: wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="watermark">COLLEGE OF ENGINEERING</div>
+    <div class="outline">
+        <div class="header">
+            <h1>College of Engineering</h1>
+            <p>India - 000000</p>
+        </div>
+        
+        <div class="details">
+            <table>
+                <tr>
+                    <th>Student Name:</th>
+                    <td>SUKESH</td>
+                    <td rowspan="5" width="15%"><img src="./Resume/profile.png"/></td>
+                </tr>
+                <tr>
+                    <th>Roll Number:</th>
+                    <td>123456</td>
+                </tr>
+                <tr>
+                    <th>Course:</th>
+                    <td>Bachelor of Science</td>
+                </tr>
+                <tr>
+                    <th>Semester:</th>
+                    <td>I</td>
+                </tr>
+                <tr>
+                    <th>Academic Year:</th>
+                    <td>2023-2024</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div class="grades">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Subject Code</th>
+                        <th>Subject Name</th>
+                        <th>Credits</th>
+                        <th>Grade</th>
+                        <th>Grade Points</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>ME101</td>
+                        <td>Physics</td>
+                        <td>4</td>
+                        <td>A</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>ME102</td>
+                        <td>Chemistry</td>
+                        <td>4</td>
+                        <td>B</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>CS103</td>
+                        <td>Data Structures</td>
+                        <td>4</td>
+                        <td>A</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>ME104</td>
+                        <td>Machine Design</td>
+                        <td>4</td>
+                        <td>B</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>ME105</td>
+                        <td>Manufacturing Processes</td>
+                        <td>4</td>
+                        <td>A</td>
+                        <td>8</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2" class="total">Total</td>
+                        <td class="total">20</td>
+                        <td></td>
+                        <td class="total">40</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="total">GPA</td>
+                        <td colspan="3" class="total">7.9</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+        <div class="footer">
+            <p>_</p>
+            <p>Authorized Signatory</p>
+            <p>Date: June 3, 2024</p>
+        </div>
+    </div>
+</body>
+</html>
