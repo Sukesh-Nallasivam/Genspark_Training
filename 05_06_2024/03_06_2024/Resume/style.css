@@ -1,0 +1,103 @@
+body{
+    background-color: lightcyan;
+
+}
+table,tr,td,th{
+    border: 1px solid black;
+    
+}
+.resume-table{
+    border: 10px solid black;
+    width: 100%;
+}
+.outline-border{
+    border: none;
+}
+.name-card{
+    width: 75rem;  
+    border: none;  
+}
+.name-card table{
+    width: 25rem;  
+    border: none;  
+}
+.name-card tr{
+    border: none;
+}
+.name-card td{
+    border: none;
+}
+.profile-image{
+
+    height: 10rem;
+    width: 10rem;
+    object-fit: fill;
+    border: 5px solid black;
+    vertical-align: top;
+}
+img{
+    object-fit: cover;
+}
+.main-content{
+    width: 100%;
+}
+.qualification-table{
+    border: none;  
+}
+
+@media screen and (max-width: 768px) {
+    .name-card-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .name-card-content td {
+      padding: 5px;
+    }
+  
+    .profile-image {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .main-content {
+      padding: 0;
+    }
+  
+    .qualification-table {
+      display: inline-table;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    h1, h2, h3, h4, h5, h6 {
+      font-size: 16px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  
+    .name-card-content td {
+      padding: 2px;
+    }
+  
+    .qualification-table {
+      display: block;
+    }
+  }
+@media screen and (min-width: 800px) {
+    body {
+        padding: 10%;
+    }
+    .name-card table{
+        width: 45rem;  
+        border: none;  
+    }
+    .qualification-table{
+        padding-left: 15rem;
+        padding-right: 15rem;
+    }
+    
+}
