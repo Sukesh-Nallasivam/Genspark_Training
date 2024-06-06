@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    --font-montserrat: Montserrat;
+  
+    --font-size-base: 16px;
+    --font-size-sm: 14px;
+  
+
+    --color-royalblue: #2148c0;
+    --color-white: #fff;
+
+    --gap-lgi: 19px;
+  
+    --padding-xl: 20px;
+    --padding-xs: 12px;
+    --padding-2xs: 11px;
+    --padding-3xs: 10px;
+
+    --br-9xs: 4px;
+  }
