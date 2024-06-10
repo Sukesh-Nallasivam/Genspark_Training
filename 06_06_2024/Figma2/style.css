@@ -1,0 +1,75 @@
+.Frame1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Vector1 img {
+  max-width: 100%;
+  max-height:100%;
+}
+
+.FreeGmailUiIphoneAndoidMockup2024DesignTemplate {
+  width: 60%;
+  left: 5%;
+  top: 5%; 
+  position: absolute;
+}
+
+.FreeGmailUiIphoneAndoidMockup2024DesignTemplate span {
+  color: #2F80ED;
+  font-size: 3rem; 
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.FreeGmailUiIphoneAndoidMockup2024DesignTemplate span:nth-child(2) {
+  color: black;
+}
+
+.FreeGmailUiIphoneAndoidMockup2024DesignTemplate span:nth-child(4) {
+  color: #000000;
+}
+
+.FreeGmailUiIphoneAndoidMockup2024DesignTemplate span:nth-child(5) {
+  color: black;
+  font-weight: 600;
+}
+
+.AndroidOpenMail {
+  width: 20%; 
+  height: 70%; 
+  left: 55%;
+  top: 25%;
+  position: absolute;
+  
+}
+
+.Iphone11ProOpenMail {
+  width: 20%;
+  height: 70%; 
+  left: 80%; 
+  top: 25%; 
+  position: absolute;
+}
+
+.AndroidGmailInbox {
+  width: 20%; 
+  height: 70%; 
+  left: 50%; 
+  top: 35%; 
+  position: absolute;
+  
+}
+
+.Iphone11ProGmailInbox {
+  width: 20%; 
+  height: 70%; 
+  left: 75%; 
+  top: 35%; 
+  position: absolute;
+  
+}
