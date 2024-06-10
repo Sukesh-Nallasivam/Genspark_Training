@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Data Table</h2>
+        </div>
+        <div class="search-bar" style="display: flex; justify-content: space-between; align-items: center;">
+            <div class="search-bar-left" style="display: flex; align-items: center">
+                <button class="filter-button"><img src="./assets/FilterIcon.png"></button>
+                <div class="Input" style="width: 320px; height: 32px;  background: white; box-shadow: 0px 0px 0px 1px rgba(104, 112.67, 130, 0.16); border-radius: 6px; overflow: hidden; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex">
+                  <div class="Search" style="width: 16px; height: 16px; padding: 1px; justify-content: center">
+                    <div class="Icon" style="width: 14px; height: 14px"><img src="./assets/icon.png"></div>
+                  </div>
+                  <div class="Search" style="flex: 1 1 0; color: #A1A9B8; font-size: 14px; font-family: Inter; font-weight: 400; line-height: 20px; word-wrap: break-word">Search...</div>
+                </div>
+            </div>
+            <button class="add-customer">+ Add customer</button>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th><input type="checkbox" style="outline: none;"></th>
+                    <th>#<img src="./assets/SortIcon.png"></th>
+                    <th>Name<img src="./assets/SortIcon.png"></th>
+                    <th>Description</th>
+                    <th>Status<img src="./assets/SortIcon.png"></th>
+                    <th>Rate</th>
+                    <th>Balance</th>
+                    <th>Deposit</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="checkbox" checked></td>
+                    <td>1</td>
+                    <td>Ann Culhane <br><span class="sub-text">5684236526</span></td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla...</td>
+                    <td><span class="status open">Open</span></td>
+                    <td>$70.00 CAD</td>
+                    <td class="negative-balance">-$270.00 CAD</td>
+                    <td>$500.00 CAD</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" checked></td>
+                  <td>2</td>
+                  <td>Ahmad Rosar <br><span class="sub-text">5684236578</span></td>
+                  <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla...</td>
+                  <td><span class="status close">Paid</span></td>
+                  <td>$70.00 CAD</td>
+                  <td class="positive-balance">$987.00 CAD</td>
+                  <td>$500.00 CAD</td>
+              </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
