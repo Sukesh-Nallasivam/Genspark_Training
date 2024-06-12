@@ -35,4 +35,9 @@ function SumOfAllNumbers(StartingNumber,EndingNumber,SumOfOddNumbers,SumOfEvenNu
     return(sum1+sum2)
 }
 
-let sum=SumOfAllNumbers(StartingNumber,EndingNumber,SumOfOddNumbers,SumOfEvenNumbers)
+function calculateSums() {
+    let start = parseInt(document.getElementById('start').value);
+    let end = parseInt(document.getElementById('end').value);
+    let sum = SumOfAllNumbers(start, end, SumOfOddNumbers, SumOfEvenNumbers);
+    document.getElementById('output').innerHTML = "Sum: " + sum;
+}
