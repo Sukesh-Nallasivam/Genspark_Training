@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ProductData</title>
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"] {
+            width: 25%;
+            padding: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .product-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .table-head th {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .table-list td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .table-list td:first-child {
+            width: 10%;
+        }
+        h1 {
+            text-align: center;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"] {
+            width: 50%;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .product-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .table-head th {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .table-list td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .table-list td:first-child {
+            width: 10%;
+        }
+        </style>
+        <script>
+            let id = 1;
+            let IdArray = [];
+            let NameArray = [];
+            let PriceArray = [];
+            let QuantityArray = [];
+
+            function updateProduct(){
+                var id = document.getElementById("id").value;
+                var name = document.getElementById("UpdateName").value;
+                var price = document.getElementById("UpdatePrice").value;
+                var quantity = document.getElementById("UpdateQuantity").value;
+                if(id !== ""){
+                    if(IdArray.includes(parseInt(id))){
+                        var index = IdArray.indexOf(parseInt(id));
+                        if(name !== ""){
+                            NameArray[index] = name;
+                        }
+                        if(price !== ""){
+                            PriceArray[index] = price;
+                        }
+                        if(quantity !== ""){
+                            QuantityArray[index] = quantity;
+                        }
+                        const tableRow = document.createElement("tr");
+                        tableRow.innerHTML = `
+                            <td>${id}</td>
+                            <td>${name}</td>
+                            <td>₹ ${price}/-</td>
+                            <td>${quantity} (kilograms)</td>
+                        `;
+                        document.querySelector(".table-list").appendChild(tableRow);
+                    }else{
+                        alert("ID not found");
+                }
+                document.querySelector(".table-list").innerHTML = "";
+                printTable();
+            }
+            }
+            function submitData(){
+                var name = document.getElementById("name").value;
+                var price = document.getElementById("price").value;
+                var quantity = document.getElementById("quantity").value;
+
+                if (name === "" || price === "" || quantity === "") {
+                alert("Please fill out all fields.");
+                return;
+                }
+                if(NameArray.includes(name)){
+                    alert("Product already exists");
+                    return;
+                }
+                if(price < 0 || quantity < 0){
+                    alert("Price and Quantity should be greater than 0");
+                    return;
+                }
+                IdArray.push(id);
+                NameArray.push(name);
+                PriceArray.push(price);
+                QuantityArray.push(quantity);
+                // const tableRow = document.createElement("tr");
+                // tableRow.innerHTML = `
+                //     <td>${id}</td>
+                //     <td>${name}</td>
+                //     <td>₹ ${price}/-</td>
+                //     <td>${quantity} (kilograms)</td>
+                // `;
+                // document.querySelector(".table-list").appendChild(tableRow);
+                id++;
+                document.getElementById("name").value = "";
+                document.getElementById("price").value = "";
+                document.getElementById("quantity").value = "";
+                document.querySelector(".table-list").innerHTML = "";
+                printTable();
+            }
+            function printTable(){
+                for(var i = 0; i < IdArray.length; i++){
+                    const tableRow = document.createElement("tr");
+                    tableRow.innerHTML = `
+                        <td>${IdArray[i]}</td>
+                        <td>${NameArray[i]}</td>
+                        <td>₹ ${PriceArray[i]}/-</td>
+                        <td>${QuantityArray[i]} (kilograms)</td>
+                    `;
+                    document.querySelector(".table-list").appendChild(tableRow);
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Product Data</h1>
+        <div>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="price">Price:</label>
+                <input type="text" id="price" name="price" required>
+                <br>
+                <label for="quantity">Quantity:</label>
+                <input type="text" id="quantity" name="quantity" required>
+                <br>
+                <button type="button" onclick="submitData()">Add Product</button>
+            </form>
+            <form class="updateProduct">
+                <label for="id">ID:</label>
+                <input type="text" id="id" name="id">
+                <br>
+                <label for="UpdateName">Name:</label>
+                <input type="text" id="UpdateName" name="name">
+                <br>
+                <label for="UpdatePrice">Price:</label>
+                <input type="text" id="UpdatePrice" name="price">
+                <br>
+                <label for="UpdateQuantity">Quantity:</label>
+                <input type="text" id="UpdateQuantity" name="quantity">
+                <br>
+                <button type="button" onclick="updateProduct()">Update Product</button>
+            </form>
+        </div>
+        <div>
+            <table class="product-table">
+                <tr class="table-head">
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                </tr>
+                <tbody class="table-list">
+
+                </tbody>
+            </table>
+        </div>
+            </body>
+        </div>
+    </body>
+</html>
