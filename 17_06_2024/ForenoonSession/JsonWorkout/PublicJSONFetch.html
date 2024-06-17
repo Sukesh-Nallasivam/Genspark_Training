@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Public JSON Fetch</title>
+        <style>
+            table{
+                width: 100%;
+                border-collapse: collapse;
+                background-color: #f2f2f2;
+
+            }
+            th, td{
+                border: 1px solid black;
+                padding: 5px;
+                text-align: center;
+            }
+            th{
+                background-color: #f2f2f2;
+
+            }
+            button{
+                padding: 10px;
+                margin: 10px;
+                width: 100px;
+                font-size: 20px;
+                background-color: #07705a;
+                color: white;
+                border: none;
+                cursor: pointer;
+                border-radius: 50px;
+            }
+
+        </style>
+        <script>
+            var FetchData=()=>{
+                fetch("https://dummyjson.com/posts",{
+                    method: "GET",
+                })
+                .then(async response => {
+                    var data = await response.json();
+                    console.log(data.posts[0]);
+                    var tbody = document.querySelector("tbody");
+                    tbody.innerHTML = "";
+                    data.posts.forEach(post => {
+                        var tr = document.createElement("tr");
+                        var td1 = document.createElement("td");
+                        td1.innerText = post.userId;
+                        tr.appendChild(td1);
+                        var td2 = document.createElement("td");
+                        td2.innerText = post.title;
+                        tr.appendChild(td2);
+                        var td3 = document.createElement("td");
+                        td3.innerText = post.body;
+                        tr.appendChild(td3);
+                        var td4 = document.createElement("td");
+                        td4.innerText = post.tags;
+                        tr.appendChild(td4);
+                        tbody.appendChild(tr);
+                    });
+                    
+                })
+                .catch(error => {
+                    console.log(error);
+                });
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Public JSON Fetch</h1>
+        <button onclick="FetchData()">Fetch</button>
+        <table>
+            <thead>
+                <tr>
+                    <th>UserId</th>
+                    <th>Title</th>
+                    <th>Body</th>
+                    <th>Tags</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </body>
+</html>

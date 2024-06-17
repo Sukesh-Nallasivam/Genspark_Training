@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forenoon Session</title>
+    <script>
+        var PromiseLearn = new Promise((resolve,reject)=>{
+            var a =20;
+            var b = 10;
+            if(a==b){
+                resolve(a+" equals to "+b);
+            }else{
+                reject(a+" not equal to "+b);
+            }
+        })
+        function clickResult() {
+            PromiseLearn.then((message)=>{
+                alert("Success: "+message);
+            }).catch((message)=>{
+                alert("Failure: "+message);
+            })
+        }
+    </script>
+</head>
+<body>
+    <h1>Promise JavaScript</h1>
+    <button onclick="clickResult()">click</button>
+</body>
+</html>
