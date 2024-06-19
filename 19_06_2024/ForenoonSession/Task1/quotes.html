@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quotes</title>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+    }
+
+    .nav-bar {
+      background-color: #333;
+      color: #fff;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 1rem;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 100;
+    }
+    .toggle-menu {
+      display: none;
+    }
+    .nav-bar .logo {
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    .nav-bar ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-bar ul li {
+      margin-left: 2rem;
+    }
+
+    .nav-bar ul li a {
+      text-decoration: none;
+      color: #fff;
+      transition: color 0.3s ease;
+    }
+
+    .nav-bar ul li a:hover {
+      color: #fc0000;
+    }
+
+    .quotes-content {
+      padding: 2rem;
+      margin-top: 6rem;
+      
+    }
+
+    .quotes-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .quotes-table th,
+    .quotes-table td {
+      border: 1px solid #ddd;
+      padding: 1rem;
+      text-align: left;
+      transition: background-color 0.3s ease;
+    }
+
+    .quotes-table th {
+      background-color: #72a031;
+      font-weight: bold;
+    }
+
+    .quotes-table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    .quotes-table tr:hover {
+      background-color: #e9e9e9;
+    }
+
+    #pagination {
+      display: flex;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+
+    #pagination button {
+      margin: 0 0.5rem;
+      padding: 0.5rem 1rem;
+      border: none;
+      background-color: #72a031;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    #pagination button:hover {
+      background-color: #588329;
+    }
+    .search {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+    }
+    .search input {
+      padding: 0.5rem;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      width: 40%;
+      background-color: lightgray;
+    }
+    .search input:focus {
+      outline: orangered;
+      background-color: white;
+    }
+    .search button {
+      padding: 0.5rem 1rem;
+      border: none;
+      background-color: #3629c4;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    @media only screen and (max-width: 768px) {
+      .nav-bar ul {
+        display: none;
+      }
+
+      .nav-bar .toggle-menu {
+        display: block;
+        cursor: pointer;
+      }
+
+      .nav-bar ul.show {
+        display: flex;
+        flex-direction: column;
+        margin-right: 25px;
+        position: absolute;
+        margin: 0;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        padding: 1rem;
+        border-radius: 10px;
+      }
+
+      .nav-bar ul.show li {
+        margin-bottom: 1rem;
+      }
+      .search {
+        display: flex;
+        flex-direction: column;
+      }
+      .search input{
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+      .search button{
+        width: 50%;
+    }
+}
+  </style>
+  <link rel="stylesheet" href="./global.css" />
+  <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+    <header class="nav-bar">
+        <div class="logo">
+            <img src="./assets/New-Q-street-logo-footer.png">
+            <h2>Quotes ...</h2>
+        </div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="quotes.html">Quotes</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="toggle-menu" onmouseup="toggleMenu()">
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="54"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-menu"
+            >
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+        </div>
+      </header>
+
+  <div class="quotes-content">
+    <div class="search">
+      <input type="text" id="search" placeholder="Search Quotes" onkeyup="searchQuotes()" />
+      <button onclick="searchQuotes()">Get By Quotes</button>
+      <input type="text" id="AuthorSearch" placeholder="Search Author" onkeyup="searchQuotesByAuthor()" />
+      <button onclick="searchQuotesByAuthor()">Get By Author</button>
+    </div>
+
+    <table class="quotes-table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Quote</th>
+          <th>Author</th>
+        </tr>
+      </thead>
+      <tbody id="quoteBody"></tbody>
+    </table>
+    <div id="pagination"></div>
+  </div>
+
+  <script>
+let currentPage = 1;
+    let quotesPerPage = 5; 
+    let totalQuotes;
+    let allQuotes=[];
+    function getQuotes(page = 1) {
+      fetch('https://dummyjson.com/quotes', {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      })
+        .then((response) => response.json())
+        .then((data) => {
+          allQuotes = data.quotes;
+          totalQuotes = allQuotes.length; 
+          displayQuotes(allQuotes, page); 
+          createPagination(); 
+        })
+        .catch((error) => {
+          console.error('Error fetching quotes:', error);
+        });
+    }
+
+    function displayQuotes(quotes, page) {
+      let tableBody = document.getElementById('quoteBody');
+      tableBody.innerHTML = ''; 
+
+      const startIndex = (page - 1) * quotesPerPage;
+      const endIndex = startIndex + quotesPerPage;
+      const displayedQuotes = quotes.slice(startIndex, endIndex);
+
+      displayedQuotes.forEach((quote) => {
+        let row = tableBody.insertRow();
+        let idCell = row.insertCell();
+        let quoteCell = row.insertCell();
+        let authorCell = row.insertCell();
+        idCell.textContent = quote.id;
+        quoteCell.textContent = quote.quote;
+        authorCell.textContent = quote.author;
+      });
+    }
+
+
+    function createPagination(totalQuotes=allQuotes.length) { 
+      let paginationContainer = document.getElementById('pagination');
+      paginationContainer.innerHTML = '';
+
+      let totalPages = Math.ceil(totalQuotes / quotesPerPage);
+
+      if (currentPage > 1) {
+        let prevButton = document.createElement('button');
+        prevButton.textContent = 'Previous';
+        prevButton.onclick = () => {
+          currentPage--;
+          displayQuotes(allQuotes, currentPage);
+        };
+        paginationContainer.appendChild(prevButton);
+      }
+
+      for (let i = 1; i <= totalPages; i++) {
+        let pageButton = document.createElement('button');
+        pageButton.textContent = i;
+        pageButton.onclick = () => {
+          currentPage = i;
+          displayQuotes(allQuotes, currentPage);
+        };
+        paginationContainer.appendChild(pageButton);
+      }
+
+      if (currentPage < totalPages) {
+        let nextButton = document.createElement('button');
+        nextButton.textContent = 'Next';
+        nextButton.onclick = () => {
+          currentPage++;
+          displayQuotes(allQuotes, currentPage);
+        };
+        paginationContainer.appendChild(nextButton);
+      }
+    }
+
+    function searchQuotes() {
+      let search = document.getElementById('search').value.toLowerCase();
+      let filteredQuotes = allQuotes.filter(quote => quote.quote.toLowerCase().includes(search));
+      displayQuotes(filteredQuotes, 1); 
+      createPagination(filteredQuotes.length); 
+    }
+
+    function searchQuotesByAuthor() {
+      let search = document.getElementById('AuthorSearch').value.toLowerCase();
+      let filteredQuotes = allQuotes.filter(quote => quote.author.toLowerCase().includes(search));
+      displayQuotes(filteredQuotes, 1);
+      createPagination(filteredQuotes.length);
+    }
+
+    function toggleMenu() {
+      let menu = document.querySelector('.nav-bar ul');
+      menu.classList.toggle('show');
+    }
+    function toggleOff() {
+      let menu = document.querySelector('.nav-bar ul');
+      menu.classList.remove('show');
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      getQuotes();
+    });
+  </script>
+</body>
+</html>

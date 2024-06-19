@@ -1,0 +1,13 @@
+body{
+    background-color: lightsalmon;
+    background: rgb(79,99,230);
+background: -moz-radial-gradient(circle, rgba(79,99,230,1) 0%, rgba(196,21,21,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(79,99,230,1) 0%, rgba(196,21,21,1) 100%);
+background: radial-gradient(circle, rgba(79,99,230,1) 0%, rgba(196,21,21,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4f63e6",endColorstr="#c41515",GradientType=1);
+    background-size: cover;
+    background-size: cover;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    height: 100vh;
+}

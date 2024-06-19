@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="global.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header class="nav-bar">
+            <div class="logo">Quotes App</div>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="quotes.html">Quotes</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="toggle-menu" onmouseup="toggleMenu()">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="54"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-menu"
+                >
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </div>
+          </header>
+    
+        <div class="intro">
+            
+        </div>
+        <script>
+            function toggleMenu() {
+                let menu = document.querySelector('.nav-bar ul');
+                menu.classList.toggle('show');
+              }
+            function toggleOff() {
+                let menu = document.querySelector('.nav-bar ul');
+                menu.classList.remove('show');
+              }
+          
+        </script>
+    </body>
+</html>
