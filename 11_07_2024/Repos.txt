@@ -1,0 +1,4 @@
+Frontend: 
+	https://github.com/Kavin-kumar10/ATM_proj.git
+Backend:
+	https://github.com/sugan0tech-presidio/ReadyMadeATMBackend.git
