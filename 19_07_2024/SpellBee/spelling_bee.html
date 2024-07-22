@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Word Hive</title>
+    <link rel="stylesheet" href="spelling_bee.css" />
+    <link rel="icon" href="cute_bee.png" type="image/icon type" />
+  </head>
+  <body onload="initGame()" onkeydown="handleKeyboardInput(event)">
+    <h1>Word Hive</h1>
+
+    <!-- NOTIFICATIONS -->
+    <div class="container notification-container">
+      <p id="too-short" class="notification">Too Short</p>
+      <p id="good" class="notification">Good! <span class="points"></span></p>
+      <p id="great" class="notification">Great! <span class="points"></span></p>
+      <p id="amazing" class="notification">Amazing! <span class="points"></span></p>
+      <p id="pangram" class="notification">Pangram! <span class="points"></span></p>
+      <p id="already-found" class="notification">Already Found</p>
+      <p id="invalid-word" class="notification">Invalid Word</p>
+      <p id="miss-center" class="notification">Missing Center Letter</p>
+    </div>
+
+    <!-- INPUT WORD -->
+    <div class="container input-container">
+      <p id="input-word"><span id="current-word"></span><span id="cursor">|</span></p>
+    </div>
+
+    <!-- HEXAGON GRID -->
+    <div class="container game-area">
+      <ul id="hex-grid"></ul>
+
+      <div class="button-container">
+        <button id="submit-button" class="button" onclick="submitWord()">Enter</button>
+        <button id="shuffle-button" class="button" onclick="shuffleLetters()">
+          <img src="shuffle_icon.png" alt="Shuffle" height="20px" />
+        </button>
+        <button id="delete-button" class="button" onclick="deleteLetter()">Delete</button>
+      </div>
+    </div>
+
+    <!-- SCOREBOARD -->
+    <div class="container scoreboard">
+      <div class="score-text">You have found <span id="num-found">0</span> word(s).</div>
+      <div class="score-text">Score: <span id="score">0</span>/<span id="max-score">0</span></div>
+      <div class="words-discovered-header">Words Discovered</div>
+      <div id="discovered-words"></div>
+    </div>
+
+    <script type="text/javascript" src="spelling_bee.js"></script>
+  </body>
+</html>
